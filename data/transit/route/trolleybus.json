@@ -4,7 +4,8 @@
     "exclude": {
       "generic": ["^trolleybus$"],
       "named": [
-        "^(city|international|local|mtb|municipal|national|rail|regional|urban)$"
+        "^(city|international|local|mtb|municipal|national|rail|regional|urban)$",
+        "^ru:municipal$"
       ]
     }
   },
@@ -91,6 +92,23 @@
         "network": "БГ Превоз",
         "operator": "ГСП Београд",
         "operator:wikidata": "Q8227578",
+        "route": "trolleybus"
+      }
+    },
+    {
+      "displayName": "IDPK",
+      "id": "integrovanadopravaplzenskehokraje-ab87e1",
+      "locationSet": {
+        "include": ["cz-32.geojson"]
+      },
+      "matchNames": ["mhd plzeň"],
+      "tags": {
+        "network": "Integrovaná doprava Plzeňského kraje",
+        "network:short": "IDPK",
+        "network:wikidata": "Q12021682",
+        "operator": "Plzeňské městské dopravní podniky",
+        "operator:short": "PMDP",
+        "operator:wikidata": "Q2099900",
         "route": "trolleybus"
       }
     },
@@ -235,20 +253,6 @@
       }
     },
     {
-      "displayName": "MHD Plzeň",
-      "id": "mhdplzen-ab87e1",
-      "locationSet": {
-        "include": ["cz-32.geojson"]
-      },
-      "tags": {
-        "network": "MHD Plzeň",
-        "network:wikidata": "Q12021682",
-        "operator": "PMDP",
-        "operator:wikidata": "Q2099900",
-        "route": "trolleybus"
-      }
-    },
-    {
       "displayName": "MHD Prešov",
       "id": "mhdpresov-acc88b",
       "locationSet": {"include": ["sk"]},
@@ -354,7 +358,8 @@
       "tags": {
         "network": "ODIS",
         "network:wikidata": "Q12043044",
-        "operator": "DPO",
+        "operator": "Dopravní podnik Ostrava",
+        "operator:short": "DPO",
         "operator:wikidata": "Q11323689",
         "route": "trolleybus"
       }
@@ -417,15 +422,6 @@
       "locationSet": {"include": ["md"]},
       "tags": {
         "network": "Regia Transport Electric Chișinău",
-        "route": "trolleybus"
-      }
-    },
-    {
-      "displayName": "RU:municipal",
-      "id": "rumunicipal-ea4a14",
-      "locationSet": {"include": ["ru"]},
-      "tags": {
-        "network": "RU:municipal",
         "route": "trolleybus"
       }
     },
@@ -538,6 +534,7 @@
         "network": "Szeged",
         "network:wikidata": "Q720449",
         "operator": "Szegedi Közlekedési Társaság",
+        "operator:short": "SZKT",
         "operator:wikidata": "Q1295391",
         "route": "trolleybus"
       }
@@ -704,10 +701,15 @@
     },
     {
       "displayName": "ΟΑΣΑ",
-      "id": "550140-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "oasa-1b380e",
+      "locationSet": {
+        "include": ["gr-i.geojson"]
+      },
       "tags": {
         "network": "ΟΑΣΑ",
+        "network:el": "ΟΑΣΑ",
+        "network:en": "OASA",
+        "network:wikidata": "Q1814382",
         "route": "trolleybus"
       }
     },
@@ -862,10 +864,11 @@
     },
     {
       "displayName": "Омский троллейбус",
-      "id": "21a30c-97f884",
-      "locationSet": {"include": ["001"]},
+      "id": "21a30c-ea4a14",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Омский троллейбус",
+        "network:wikidata": "Q4334741",
         "route": "trolleybus"
       }
     },

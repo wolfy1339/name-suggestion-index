@@ -13,6 +13,7 @@
       "displayName": "Ahmedabad Metro",
       "id": "ahmedabadmetro-8f0e69",
       "locationSet": {"include": ["in"]},
+      "note": "ISO 3166-2 IN-GJ",
       "tags": {
         "network": "Ahmedabad Metro",
         "network:wikidata": "Q1895288",
@@ -88,8 +89,10 @@
     },
     {
       "displayName": "Chennai Metro",
-      "id": "chennaimetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "chennaimetro-928922",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
       "tags": {
         "network": "Chennai Metro",
         "network:wikidata": "Q1639576",
@@ -154,8 +157,10 @@
     },
     {
       "displayName": "Hyderabad Metro",
-      "id": "hyderabadmetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "hyderabadmetro-a5aea8",
+      "locationSet": {
+        "include": ["in-ts.geojson"]
+      },
       "tags": {
         "network": "Hyderabad Metro",
         "network:wikidata": "Q646209",
@@ -164,8 +169,13 @@
     },
     {
       "displayName": "IBXL",
-      "id": "ibxl-11a0d0",
-      "locationSet": {"include": ["be"]},
+      "id": "ibxl-3b11d5",
+      "locationSet": {
+        "include": [
+          "be-bru.geojson",
+          "be-vbr.geojson"
+        ]
+      },
       "tags": {
         "network": "IBXL",
         "network:wikidata": "Q506298",
@@ -208,8 +218,10 @@
     },
     {
       "displayName": "Kochi Metro",
-      "id": "kochimetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "kochimetro-717656",
+      "locationSet": {
+        "include": ["in-kl.geojson"]
+      },
       "tags": {
         "network": "Kochi Metro",
         "network:wikidata": "Q3522910",
@@ -218,8 +230,10 @@
     },
     {
       "displayName": "Kolkata Metro",
-      "id": "kolkatametro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "kolkatametro-b40020",
+      "locationSet": {
+        "include": ["in-wb.geojson"]
+      },
       "tags": {
         "network": "Kolkata Metro",
         "network:wikidata": "Q1048849",
@@ -416,8 +430,10 @@
     },
     {
       "displayName": "Metrovalencia",
-      "id": "metrovalencia-f4ef66",
-      "locationSet": {"include": ["es"]},
+      "id": "metrovalencia-87c695",
+      "locationSet": {
+        "include": ["es-v.geojson"]
+      },
       "tags": {
         "network": "Metrovalencia",
         "network:wikidata": "Q511171",
@@ -441,8 +457,10 @@
     },
     {
       "displayName": "Mumbai Metro",
-      "id": "mumbaimetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "mumbaimetro-245888",
+      "locationSet": {
+        "include": ["in-mh.geojson"]
+      },
       "tags": {
         "network": "Mumbai Metro",
         "network:wikidata": "Q646414",
@@ -468,8 +486,10 @@
     },
     {
       "displayName": "Nagpur Metro",
-      "id": "nagpurmetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "nagpurmetro-245888",
+      "locationSet": {
+        "include": ["in-mh.geojson"]
+      },
       "tags": {
         "network": "Nagpur Metro",
         "network:wikidata": "Q6959014",
@@ -478,8 +498,10 @@
     },
     {
       "displayName": "Namma Metro",
-      "id": "nammametro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "nammametro-6da61d",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "tags": {
         "network": "Namma Metro",
         "network:wikidata": "Q279343",
@@ -488,8 +510,10 @@
     },
     {
       "displayName": "Navi Mumbai Metro",
-      "id": "navimumbaimetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "navimumbaimetro-245888",
+      "locationSet": {
+        "include": ["in-mh.geojson"]
+      },
       "tags": {
         "network": "Navi Mumbai Metro",
         "network:wikidata": "Q4503146",
@@ -568,8 +592,10 @@
     },
     {
       "displayName": "Pune Metro",
-      "id": "punemetro-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "punemetro-245888",
+      "locationSet": {
+        "include": ["in-mh.geojson"]
+      },
       "tags": {
         "network": "Pune Metro",
         "network:wikidata": "Q3595697",
@@ -602,8 +628,10 @@
     },
     {
       "displayName": "Rapid Metro Gurgaon",
-      "id": "rapidmetrogurgaon-8f0e69",
-      "locationSet": {"include": ["in"]},
+      "id": "rapidmetrogurgaon-6076fe",
+      "locationSet": {
+        "include": ["in-hr.geojson"]
+      },
       "tags": {
         "network": "Rapid Metro Gurgaon",
         "network:wikidata": "Q7294170",
@@ -649,10 +677,11 @@
     },
     {
       "displayName": "Riyadh Metro",
-      "id": "riyadhmetro-907487",
-      "locationSet": {"include": ["001"]},
+      "id": "riyadhmetro-1c9b91",
+      "locationSet": {"include": ["sa"]},
       "tags": {
         "network": "Riyadh Metro",
+        "network:wikidata": "Q3855748",
         "route": "subway"
       }
     },
@@ -697,9 +726,13 @@
     },
     {
       "displayName": "SL",
-      "id": "sl-907487",
-      "locationSet": {"include": ["001"]},
-      "tags": {"network": "SL", "route": "subway"}
+      "id": "sl-a6b04e",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "network": "SL",
+        "network:wikidata": "Q970452",
+        "route": "subway"
+      }
     },
     {
       "displayName": "Stadsvervoer Amsterdam",

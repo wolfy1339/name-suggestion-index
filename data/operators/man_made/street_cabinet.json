@@ -1,40 +1,39 @@
 {
   "properties": {
     "path": "operators/man_made/street_cabinet",
-    "exclude": {"generic": ["^(street cabinet)$"]}
+    "exclude": {
+      "generic": [
+        "^stadtwerke$",
+        "^street cabinet$"
+      ],
+      "named": [
+        "^eks\\/nok$",
+        "^skynet, ооо \"домашние компьютерные сети\"$"
+      ]
+    }
   },
   "items": [
     {
-      "displayName": "A1",
-      "id": "a1-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "A1"
-      }
-    },
-    {
-      "displayName": "A1 Telekom",
-      "id": "a1telekom-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "A1 Telekom"
-      }
-    },
-    {
       "displayName": "A1 Telekom Austria",
-      "id": "a1telekomaustria-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "a1telekomaustria-4935d6",
+      "locationSet": {"include": ["at"]},
+      "matchNames": [
+        "a1",
+        "a1 telekom",
+        "telekom austria"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "A1 Telekom Austria"
+        "operator": "A1 Telekom Austria",
+        "operator:wikidata": "Q279847"
       }
     },
     {
       "displayName": "ACT City Services",
-      "id": "actcityservices-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "actcityservices-2b8cbf",
+      "locationSet": {
+        "include": ["au-act.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "ACT City Services"
@@ -42,62 +41,69 @@
     },
     {
       "displayName": "Agentschap Wegen en Verkeer",
-      "id": "agentschapwegenenverkeer-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "agentschapwegenenverkeer-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Agentschap Wegen en Verkeer"
+        "operator": "Agentschap Wegen en Verkeer",
+        "operator:wikidata": "Q2743535"
       }
     },
     {
-      "displayName": "Aktiengesellschaft für Versorgungsunternehmen",
-      "id": "aktiengesellschaftfurversorgungsunternehmen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Albtal-Verkehrs-Gesellschaft",
+      "id": "albtalverkehrsgesellschaft-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "albtal-verkehrs-gesellschaft mbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Aktiengesellschaft für Versorgungsunternehmen"
-      }
-    },
-    {
-      "displayName": "Albtal-Verkehrs-Gesellschaft mbH",
-      "id": "albtalverkehrsgesellschaftmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Albtal-Verkehrs-Gesellschaft mbH"
+        "operator": "Albtal-Verkehrs-Gesellschaft",
+        "operator:short": "AVG",
+        "operator:wikidata": "Q896547"
       }
     },
     {
       "displayName": "Altitude",
-      "id": "altitude-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "altitude-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Altitude"
       }
     },
     {
-      "displayName": "Altitude Infra",
-      "id": "altitudeinfra-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Altitude Infra"
-      }
-    },
-    {
       "displayName": "Altitude Infra Haute-Savoie",
-      "id": "altitudeinfrahautesavoie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "altitudeinfrahautesavoie-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Altitude Infra Haute-Savoie"
       }
     },
     {
+      "displayName": "Altitude Infrastructure",
+      "id": "altitudeinfrastructure-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
+      "matchNames": ["altitude infra"],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Altitude Infrastructure",
+        "operator:wikidata": "Q116980936"
+      }
+    },
+    {
       "displayName": "Amt für Straßenbau und Verkehrsinfrastruktur",
-      "id": "amtfurstrassenbauundverkehrsinfrastruktur-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "amtfurstrassenbauundverkehrsinfrastruktur-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Amt für Straßenbau und Verkehrsinfrastruktur"
@@ -105,116 +111,129 @@
     },
     {
       "displayName": "An Post",
-      "id": "anpost-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "anpost-c65848",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "An Post"
+        "operator": "An Post",
+        "operator:wikidata": "Q482490"
       }
     },
     {
       "displayName": "Area Nett",
-      "id": "areanett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "areanett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Area Nett"
+        "operator": "Area Nett",
+        "operator:wikidata": "Q129206713"
       }
     },
     {
       "displayName": "Arva",
-      "id": "arva-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "arva-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Arva"
+        "operator": "Arva",
+        "operator:wikidata": "Q116294389"
       }
     },
     {
       "displayName": "AT&T",
-      "id": "atandt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "atandt-61c31b",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "AT&T"
+        "operator": "AT&T",
+        "operator:wikidata": "Q35476"
       }
     },
     {
       "displayName": "Ausgrid",
-      "id": "ausgrid-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ausgrid-8d0f7b",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Ausgrid"
+        "operator": "Ausgrid",
+        "operator:wikidata": "Q4822750"
       }
     },
     {
       "displayName": "Australia Post",
-      "id": "australiapost-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "australiapost-bf0b59",
+      "locationSet": {"include": ["au"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Australia Post"
+        "operator": "Australia Post",
+        "operator:wikidata": "Q1142936"
       }
     },
     {
       "displayName": "Auvergne Numérique",
-      "id": "auvergnenumerique-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "auvergnenumerique-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Auvergne Numérique"
-      }
-    },
-    {
-      "displayName": "Avacon",
-      "id": "avacon-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Avacon"
+        "operator": "Auvergne Numérique",
+        "operator:wikidata": "Q115579419"
       }
     },
     {
       "displayName": "Avacon Netz",
-      "id": "avaconnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "avaconnetz-a0bf00",
+      "locationSet": {
+        "include": [
+          "de-he.geojson",
+          "de-ni.geojson",
+          "de-nw.geojson",
+          "de-st.geojson"
+        ]
+      },
+      "matchNames": ["avacon", "e.on avacon"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Avacon Netz"
+        "operator": "Avacon Netz",
+        "operator:wikidata": "Q124369334"
       }
     },
     {
-      "displayName": "AVU",
-      "id": "avu-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "AVU Netz",
+      "id": "avunetz-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": [
+        "aktiengesellschaft für versorgungsunternehmen",
+        "avu",
+        "avu ag"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "AVU"
-      }
-    },
-    {
-      "displayName": "AVU AG",
-      "id": "avuag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "AVU AG"
+        "operator": "AVU Netz",
+        "operator:wikidata": "Q124369250"
       }
     },
     {
       "displayName": "Axione",
-      "id": "axione-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "axione-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Axione"
+        "operator": "Axione",
+        "operator:wikidata": "Q97187730"
       }
     },
     {
       "displayName": "Baden.Net",
-      "id": "badennet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "badennet-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Baden.Net"
@@ -222,80 +241,73 @@
     },
     {
       "displayName": "Barents Nett",
-      "id": "barentsnett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "barentsnett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Barents Nett"
-      }
-    },
-    {
-      "displayName": "Bayernwerk",
-      "id": "bayernwerk-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Bayernwerk"
-      }
-    },
-    {
-      "displayName": "Bayernwerk AG",
-      "id": "bayernwerkag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Bayernwerk AG"
+        "operator": "Barents Nett",
+        "operator:wikidata": "Q129177069"
       }
     },
     {
       "displayName": "Bayernwerk Netz",
-      "id": "bayernwerknetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bayernwerknetz-d5f5e8",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "matchNames": [
+        "bayernwerk",
+        "bayernwerk ag",
+        "isar-amperwerke",
+        "isar-amperwerke a.g."
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Bayernwerk Netz"
+        "operator": "Bayernwerk Netz",
+        "operator:wikidata": "Q107477739"
       }
     },
     {
       "displayName": "BC Hydro",
-      "id": "bchydro-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bchydro-59927c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "BC Hydro"
-      }
-    },
-    {
-      "displayName": "bcc",
-      "id": "bcc-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "bcc"
+        "operator": "BC Hydro",
+        "operator:wikidata": "Q795720"
       }
     },
     {
       "displayName": "Bell Canada",
-      "id": "bellcanada-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bellcanada-3c1076",
+      "locationSet": {"include": ["ca"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Bell Canada"
+        "operator": "Bell Canada",
+        "operator:wikidata": "Q815694"
       }
     },
     {
       "displayName": "Berliner Verkehrsbetriebe",
-      "id": "berlinerverkehrsbetriebe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "berlinerverkehrsbetriebe-a8f367",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Berliner Verkehrsbetriebe"
+        "operator": "Berliner Verkehrsbetriebe",
+        "operator:short": "BVG",
+        "operator:wikidata": "Q99633"
       }
     },
     {
       "displayName": "Berry Fibre Optique",
-      "id": "berryfibreoptique-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "berryfibreoptique-976432",
+      "locationSet": {
+        "include": ["fr-cvl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Berry Fibre Optique"
@@ -303,44 +315,83 @@
     },
     {
       "displayName": "BESCOM",
-      "id": "bescom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bescom-7c8bd1",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "BESCOM"
       }
     },
     {
+      "displayName": "BEW Berliner Energie und Wärme",
+      "id": "bewberlinerenergieundwarme-a8f367",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
+      "matchNames": [
+        "vattenfall",
+        "vattenfall europe",
+        "vattenfall europe berlin"
+      ],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "BEW Berliner Energie und Wärme",
+        "operator:short": "BEW",
+        "operator:wikidata": "Q42975492"
+      }
+    },
+    {
       "displayName": "BFC Fibre",
-      "id": "bfcfibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bfcfibre-6564a2",
+      "locationSet": {
+        "include": ["fr-bfc.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "BFC Fibre"
       }
     },
     {
-      "displayName": "BKK",
-      "id": "bkk-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Birmingham City Council",
+      "id": "birminghamcitycouncil-dd1c9b",
+      "locationSet": {
+        "include": ["gb-bir.geojson"]
+      },
+      "matchNames": ["bcc"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "BKK"
+        "operator": "Birmingham City Council",
+        "operator:wikidata": "Q4916650"
+      }
+    },
+    {
+      "displayName": "BKK",
+      "id": "bkk-96e3a8",
+      "locationSet": {"include": ["no"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "BKK",
+        "operator:wikidata": "Q11959918"
       }
     },
     {
       "displayName": "BKW",
-      "id": "bkw-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bkw-10ee58",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "BKW"
+        "operator": "BKW",
+        "operator:wikidata": "Q670895"
       }
     },
     {
       "displayName": "bn:t Blatzheim Networks Telecom GmbH",
-      "id": "bntblatzheimnetworkstelecomgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bntblatzheimnetworkstelecomgmbh-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "bn:t Blatzheim Networks Telecom GmbH"
@@ -348,56 +399,34 @@
     },
     {
       "displayName": "Boston Transportation Department",
-      "id": "bostontransportationdepartment-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "bostontransportationdepartment-e93605",
+      "locationSet": {
+        "include": ["us-ma.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Boston Transportation Department"
       }
     },
     {
-      "displayName": "BT plc",
-      "id": "btplc-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "BT",
+      "id": "bt-5e7225",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": ["bt plc"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "BT plc"
-      }
-    },
-    {
-      "displayName": "Bundespost",
-      "id": "bundespost-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Bundespost"
-      }
-    },
-    {
-      "displayName": "BVG",
-      "id": "bvg-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "BVG"
-      }
-    },
-    {
-      "displayName": "Cablecom",
-      "id": "cablecom-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Cablecom"
+        "operator": "BT",
+        "operator:wikidata": "Q593786"
       }
     },
     {
       "displayName": "Cadent",
-      "id": "cadent-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cadent-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Cadent"
+        "operator": "Cadent",
+        "operator:wikidata": "Q30688985"
       }
     },
     {
@@ -416,17 +445,20 @@
     },
     {
       "displayName": "CenturyLink",
-      "id": "centurylink-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "centurylink-61c31b",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "CenturyLink"
+        "operator": "CenturyLink",
+        "operator:wikidata": "Q110391616"
       }
     },
     {
       "displayName": "Cerius",
-      "id": "cerius-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cerius-8283ca",
+      "locationSet": {
+        "include": ["dk-85.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Cerius"
@@ -434,44 +466,40 @@
     },
     {
       "displayName": "CETIN a.s.",
-      "id": "cetinas-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cetinas-b00889",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "CETIN a.s."
+        "operator": "CETIN a.s.",
+        "operator:wikidata": "Q20088582"
       }
     },
     {
       "displayName": "ČEZ Distribuce",
-      "id": "cezdistribuce-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cezdistribuce-b00889",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ČEZ Distribuce"
-      }
-    },
-    {
-      "displayName": "CFE",
-      "id": "cfe-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "CFE"
+        "operator": "ČEZ Distribuce",
+        "operator:wikidata": "Q11089971"
       }
     },
     {
       "displayName": "Chorus",
-      "id": "chorus-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "chorus-1317ce",
+      "locationSet": {"include": ["nz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Chorus"
+        "operator": "Chorus",
+        "operator:wikidata": "Q5105276"
       }
     },
     {
       "displayName": "Citelum Denmark",
-      "id": "citelumdenmark-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "citelumdenmark-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Citelum Denmark"
@@ -479,20 +507,25 @@
     },
     {
       "displayName": "City Water, Light & Power",
-      "id": "citywaterlightandpower-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "citywaterlightandpower-835fc4",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "City Water, Light & Power"
+        "operator": "City Water, Light & Power",
+        "operator:short": "CWLP",
+        "operator:wikidata": "Q5123504"
       }
     },
     {
       "displayName": "CityFibre",
-      "id": "cityfibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cityfibre-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "CityFibre"
+        "operator": "CityFibre",
+        "operator:wikidata": "Q113509733"
       }
     },
     {
@@ -509,251 +542,260 @@
     },
     {
       "displayName": "CMTHD",
-      "id": "cmthd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "cmthd-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "CMTHD"
       }
     },
     {
+      "displayName": "Comisión Federal de Electricidad",
+      "id": "comisionfederaldeelectricidad-949464",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Comisión Federal de Electricidad",
+        "operator:short": "CFE",
+        "operator:wikidata": "Q1114680"
+      }
+    },
+    {
       "displayName": "Conseil National de l'Eau et de l'Electricité",
-      "id": "conseilnationaldeleauetdelelectricite-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "conseilnationaldeleauetdelelectricite-b14903",
+      "locationSet": {"include": ["ga"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Conseil National de l'Eau et de l'Electricité"
       }
     },
     {
-      "displayName": "Converge ICT Solutions Inc.",
-      "id": "convergeictsolutionsinc-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Converge ICT Solutions",
+      "id": "convergeictsolutions-2005fe",
+      "locationSet": {
+        "include": [
+          "ph-bul.geojson",
+          "ph-pam.geojson"
+        ]
+      },
+      "matchNames": [
+        "converge ict solutions inc."
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Converge ICT Solutions Inc."
+        "operator": "Converge ICT Solutions",
+        "operator:wikidata": "Q39058397"
       }
     },
     {
-      "displayName": "Cottbusverkehr GmbH",
-      "id": "cottbusverkehrgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Cottbusverkehr",
+      "id": "cottbusverkehr-72145d",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
+      "matchNames": ["cottbusverkehr gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Cottbusverkehr GmbH"
+        "operator": "Cottbusverkehr",
+        "operator:wikidata": "Q1136706"
       }
     },
     {
       "displayName": "Covage",
-      "id": "covage-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "covage-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Covage"
+        "operator": "Covage",
+        "operator:wikidata": "Q3001818"
       }
     },
     {
       "displayName": "Cox Communications",
-      "id": "coxcommunications-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "coxcommunications-61c31b",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Cox Communications"
+        "operator": "Cox Communications",
+        "operator:wikidata": "Q5179879"
       }
     },
     {
-      "displayName": "Creos",
-      "id": "creos-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Creos Deutschland",
+      "id": "creosdeutschland-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
+      "matchNames": ["creos"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Creos"
+        "operator": "Creos Deutschland",
+        "operator:wikidata": "Q19900544"
       }
     },
     {
       "displayName": "DAV",
-      "id": "dav-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "dav-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "DAV"
       }
     },
     {
-      "displayName": "DB Energie GmbH",
-      "id": "dbenergiegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "DB Energie",
+      "id": "dbenergie-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["db energie gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "DB Energie GmbH"
+        "operator": "DB Energie",
+        "operator:wikidata": "Q1152043"
       }
     },
     {
-      "displayName": "DB InfraGO AG",
-      "id": "dbinfragoag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "DB InfraGO",
+      "id": "dbinfrago-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "db infrago ag",
+        "db netz",
+        "db netz ag",
+        "db station&service ag"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "DB InfraGO AG"
-      }
-    },
-    {
-      "displayName": "DB Netz",
-      "id": "dbnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "DB Netz"
-      }
-    },
-    {
-      "displayName": "DB Netz AG",
-      "id": "dbnetzag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "DB Netz AG"
-      }
-    },
-    {
-      "displayName": "DB Station&Service AG",
-      "id": "dbstationandserviceag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "DB Station&Service AG"
+        "operator": "DB InfraGO",
+        "operator:wikidata": "Q122870674"
       }
     },
     {
       "displayName": "Delft",
-      "id": "delft-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "delft-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Delft"
+        "operator": "Delft",
+        "operator:wikidata": "Q690"
       }
     },
     {
       "displayName": "Department of Transport and Main Roads",
-      "id": "departmentoftransportandmainroads-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "departmentoftransportandmainroads-bf0b59",
+      "locationSet": {"include": ["au"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Department of Transport and Main Roads"
+        "operator": "Department of Transport and Main Roads",
+        "operator:wikidata": "Q1191482"
       }
     },
     {
-      "displayName": "Dessauer Versorgungs- und Verkehrsgesellschaft mbH",
-      "id": "dessauerversorgungsundverkehrsgesellschaftmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Dessauer Versorgungs- und Verkehrsgesellschaft",
+      "id": "dessauerversorgungsundverkehrsgesellschaft-d7b75a",
+      "locationSet": {
+        "include": ["de-st.geojson"]
+      },
+      "matchNames": [
+        "dessauer versorgungs- und verkehrsgesellschaft mbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Dessauer Versorgungs- und Verkehrsgesellschaft mbH"
+        "operator": "Dessauer Versorgungs- und Verkehrsgesellschaft",
+        "operator:short": "DVV",
+        "operator:wikidata": "Q1200909"
       }
     },
     {
       "displayName": "Deutsche Glasfaser",
-      "id": "deutscheglasfaser-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "deutscheglasfaser-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "deutsche glasfaser holding gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Deutsche Glasfaser"
-      }
-    },
-    {
-      "displayName": "Deutsche Glasfaser Holding GmbH",
-      "id": "deutscheglasfaserholdinggmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Deutsche Glasfaser Holding GmbH"
+        "operator": "Deutsche Glasfaser",
+        "operator:wikidata": "Q28842207"
       }
     },
     {
       "displayName": "Deutsche Post",
-      "id": "deutschepost-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "deutschepost-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "bundespost",
+        "deutsche post ag",
+        "post"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Deutsche Post"
-      }
-    },
-    {
-      "displayName": "Deutsche Post AG",
-      "id": "deutschepostag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Deutsche Post AG"
+        "operator": "Deutsche Post",
+        "operator:wikidata": "Q157645"
       }
     },
     {
       "displayName": "Deutsche Telekom",
-      "id": "deutschetelekom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "deutschetelekom-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "deutsche telekom ag",
+        "dtag",
+        "t-com",
+        "telekom",
+        "telekom deutschland",
+        "telekom deutschland ag",
+        "telekom deutschland gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Deutsche Telekom"
-      }
-    },
-    {
-      "displayName": "Deutsche Telekom AG",
-      "id": "deutschetelekomag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Deutsche Telekom AG"
+        "operator": "Deutsche Telekom",
+        "operator:wikidata": "Q9396"
       }
     },
     {
       "displayName": "Die Autobahn GmbH des Bundes",
-      "id": "dieautobahngmbhdesbundes-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "dieautobahngmbhdesbundes-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Die Autobahn GmbH des Bundes"
+        "operator": "Die Autobahn GmbH des Bundes",
+        "operator:wikidata": "Q31840061"
       }
     },
     {
       "displayName": "Drewag",
-      "id": "drewag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "drewag-a90494",
+      "locationSet": {
+        "include": ["de-sn.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Drewag"
+        "operator": "Drewag",
+        "operator:wikidata": "Q1258776"
       }
     },
     {
       "displayName": "Drewag Netz",
-      "id": "drewagnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "drewagnetz-a90494",
+      "locationSet": {
+        "include": ["de-sn.geojson"]
+      },
+      "matchNames": ["drewag netz gmbh"],
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Drewag Netz"
       }
     },
     {
-      "displayName": "Drewag Netz GmbH",
-      "id": "drewagnetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Drewag Netz GmbH"
-      }
-    },
-    {
-      "displayName": "DTAG",
-      "id": "dtag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "DTAG"
-      }
-    },
-    {
       "displayName": "Dublin Canvas",
-      "id": "dublincanvas-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "dublincanvas-b27563",
+      "locationSet": {
+        "include": ["ie-l.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Dublin Canvas"
@@ -761,125 +803,93 @@
     },
     {
       "displayName": "Dublin City Council",
-      "id": "dublincitycouncil-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "dublincitycouncil-b47636",
+      "locationSet": {
+        "include": ["ie-d.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Dublin City Council"
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:wikidata": "Q4810766"
       }
     },
     {
       "displayName": "E-REDES",
-      "id": "eredes-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "eredes-46b000",
+      "locationSet": {"include": ["pt"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "E-REDES"
+        "operator": "E-REDES",
+        "operator:wikidata": "Q111843687"
       }
     },
     {
-      "displayName": "e-regio GmbH & Co. KG",
-      "id": "eregiogmbhandcokg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "e-regio",
+      "id": "eregio-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": ["e-regio gmbh & co. kg"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "e-regio GmbH & Co. KG"
+        "operator": "e-regio",
+        "operator:wikidata": "Q124422502"
       }
     },
     {
-      "displayName": "e-rp",
-      "id": "erp-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "E.DIS Netz",
+      "id": "edisnetz-4b5a53",
+      "locationSet": {
+        "include": [
+          "de-bb.geojson",
+          "de-mv.geojson"
+        ]
+      },
+      "matchNames": [
+        "e.dis",
+        "e.dis ag",
+        "e.dis netz gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "e-rp"
-      }
-    },
-    {
-      "displayName": "e.dis",
-      "id": "edis-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "e.dis"
-      }
-    },
-    {
-      "displayName": "E.DIS AG",
-      "id": "edisag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "E.DIS AG"
-      }
-    },
-    {
-      "displayName": "E.DIS Netz GmbH",
-      "id": "edisnetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "E.DIS Netz GmbH"
+        "operator": "E.DIS Netz",
+        "operator:wikidata": "Q124377743"
       }
     },
     {
       "displayName": "E.ON",
-      "id": "eon-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "eon-5cf69e",
+      "locationSet": {"include": ["150"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "E.ON"
-      }
-    },
-    {
-      "displayName": "e.on Avacon",
-      "id": "eonavacon-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "e.on Avacon"
-      }
-    },
-    {
-      "displayName": "EAM",
-      "id": "eam-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "EAM"
+        "operator": "E.ON",
+        "operator:wikidata": "Q270223"
       }
     },
     {
       "displayName": "EAM Netz",
-      "id": "eamnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "eamnetz-19ef4c",
+      "locationSet": {
+        "include": [
+          "de-he.geojson",
+          "de-ni.geojson"
+        ]
+      },
+      "matchNames": ["eam"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EAM Netz"
-      }
-    },
-    {
-      "displayName": "Eandis",
-      "id": "eandis-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Eandis"
-      }
-    },
-    {
-      "displayName": "EDF",
-      "id": "edf-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "EDF"
+        "operator": "EAM Netz",
+        "operator:wikidata": "Q124377769"
       }
     },
     {
       "displayName": "edp",
-      "id": "edp-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "edp-4e8168",
+      "locationSet": {
+        "include": ["pt-11.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "edp"
@@ -887,71 +897,81 @@
     },
     {
       "displayName": "EE",
-      "id": "ee-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ee-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EE"
+        "operator": "EE",
+        "operator:wikidata": "Q5322942"
       }
     },
     {
       "displayName": "EG.D",
-      "id": "egd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "egd-b00889",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EG.D"
+        "operator": "EG.D",
+        "operator:wikidata": "Q47089156"
       }
     },
     {
       "displayName": "Eir",
-      "id": "eir-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "eir-c65848",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Eir"
-      }
-    },
-    {
-      "displayName": "EKS/NOK",
-      "id": "eksnok-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "EKS/NOK"
+        "operator": "Eir",
+        "operator:wikidata": "Q3049473"
       }
     },
     {
       "displayName": "EKZ",
-      "id": "ekz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ekz-10ee58",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EKZ"
+        "operator": "EKZ",
+        "operator:wikidata": "Q1326642"
       }
     },
     {
       "displayName": "Electrabel",
-      "id": "electrabel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "electrabel-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Electrabel"
+        "operator": "Electrabel",
+        "operator:wikidata": "Q608323"
+      }
+    },
+    {
+      "displayName": "Électricité de France",
+      "id": "electricitedefrance-ed5e6e",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Électricité de France",
+        "operator:short": "EDF",
+        "operator:wikidata": "Q274591"
       }
     },
     {
       "displayName": "Electricity North West",
-      "id": "electricitynorthwest-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "electricitynorthwest-5e7225",
+      "locationSet": {"include": ["gb-eng"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Electricity North West"
+        "operator": "Electricity North West",
+        "operator:wikidata": "Q5357804"
       }
     },
     {
       "displayName": "Elekrizitätswerk Grüningen",
-      "id": "elekrizitatswerkgruningen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elekrizitatswerkgruningen-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Elekrizitätswerk Grüningen"
@@ -959,80 +979,95 @@
     },
     {
       "displayName": "Elektrilevi",
-      "id": "elektrilevi-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elektrilevi-21f28a",
+      "locationSet": {"include": ["ee"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Elektrilevi"
+        "operator": "Elektrilevi",
+        "operator:wikidata": "Q97286256"
       }
     },
     {
       "displayName": "Elia",
-      "id": "elia-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elia-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Elia"
+        "operator": "Elia",
+        "operator:wikidata": "Q1131131"
       }
     },
     {
       "displayName": "Elisa Oyj",
-      "id": "elisaoyj-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elisaoyj-ecabf8",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Elisa Oyj"
+        "operator": "Elisa Oyj",
+        "operator:wikidata": "Q965268"
       }
     },
     {
       "displayName": "Elmea",
-      "id": "elmea-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elmea-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Elmea"
+        "operator": "Elmea",
+        "operator:wikidata": "Q129177328"
       }
     },
     {
       "displayName": "ELMŰ",
-      "id": "elmu-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elmu-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ELMŰ"
+        "operator": "ELMŰ",
+        "operator:wikidata": "Q851145"
       }
     },
     {
       "displayName": "Elvia",
-      "id": "elvia-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "elvia-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Elvia"
+        "operator": "Elvia",
+        "operator:wikidata": "Q83983999"
       }
     },
     {
       "displayName": "Emerald People's Utility District",
-      "id": "emeraldpeoplesutilitydistrict-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "emeraldpeoplesutilitydistrict-078b78",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Emerald People's Utility District"
+        "operator": "Emerald People's Utility District",
+        "operator:short": "EPUD",
+        "operator:wikidata": "Q117217780"
       }
     },
     {
       "displayName": "EnBW",
-      "id": "enbw-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enbw-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EnBW"
+        "operator": "EnBW",
+        "operator:wikidata": "Q644304"
       }
     },
     {
       "displayName": "EnBW Regional AG",
-      "id": "enbwregionalag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enbwregionalag-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "EnBW Regional AG"
@@ -1040,65 +1075,74 @@
     },
     {
       "displayName": "Endeavour Energy",
-      "id": "endeavourenergy-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "endeavourenergy-8d0f7b",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Endeavour Energy"
+        "operator": "Endeavour Energy",
+        "operator:wikidata": "Q5375986"
       }
     },
     {
       "displayName": "Endesa",
-      "id": "endesa-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "endesa-4403af",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Endesa"
+        "operator": "Endesa",
+        "operator:wikidata": "Q1275336"
       }
     },
     {
       "displayName": "Enea",
-      "id": "enea-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enea-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enea"
+        "operator": "Enea",
+        "operator:wikidata": "Q1341068"
       }
     },
     {
       "displayName": "Enedis",
-      "id": "enedis-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enedis-eaa4de",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enedis"
+        "operator": "Enedis",
+        "operator:wikidata": "Q3587594"
       }
     },
     {
       "displayName": "Enel",
-      "id": "enel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enel-7878e2",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enel"
+        "operator": "Enel",
+        "operator:wikidata": "Q651222"
       }
     },
     {
       "displayName": "Enel Distribuzione",
-      "id": "eneldistribuzione-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "eneldistribuzione-7878e2",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enel Distribuzione"
+        "operator": "Enel Distribuzione",
+        "operator:wikidata": "Q3725215"
       }
     },
     {
       "displayName": "Enemalta",
-      "id": "enemalta-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enemalta-4122b0",
+      "locationSet": {"include": ["mt"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enemalta"
+        "operator": "Enemalta",
+        "operator:wikidata": "Q1341101"
       }
     },
     {
@@ -1107,7 +1151,10 @@
       "locationSet": {
         "include": ["de-ni.geojson"]
       },
-      "matchNames": ["enercity"],
+      "matchNames": [
+        "enercity",
+        "enercity netz gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
         "operator": "enercity Netz",
@@ -1116,36 +1163,33 @@
       }
     },
     {
-      "displayName": "enercity Netz GmbH",
-      "id": "enercitynetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "enercity Netz GmbH"
-      }
-    },
-    {
       "displayName": "Energa",
-      "id": "energa-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energa-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energa"
+        "operator": "Energa",
+        "operator:wikidata": "Q9253957"
       }
     },
     {
       "displayName": "Energex",
-      "id": "energex-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energex-4b5b26",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energex"
+        "operator": "Energex",
+        "operator:wikidata": "Q5376841"
       }
     },
     {
       "displayName": "Energía de Misiones",
-      "id": "energiademisiones-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energiademisiones-bd043f",
+      "locationSet": {
+        "include": ["ar-n.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Energía de Misiones"
@@ -1153,20 +1197,27 @@
     },
     {
       "displayName": "Energie AG",
-      "id": "energieag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energieag-4935d6",
+      "locationSet": {"include": ["at"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energie AG"
+        "operator": "Energie AG",
+        "operator:wikidata": "Q1231542"
       }
     },
     {
       "displayName": "Energie Steiermark",
-      "id": "energiesteiermark-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energiesteiermark-310eee",
+      "locationSet": {
+        "include": [
+          "at-1.geojson",
+          "at-6.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energie Steiermark"
+        "operator": "Energie Steiermark",
+        "operator:wikidata": "Q1341214"
       }
     },
     {
@@ -1185,98 +1236,138 @@
     },
     {
       "displayName": "Energie Waldeck-Frankenberg",
-      "id": "energiewaldeckfrankenberg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energiewaldeckfrankenberg-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energie Waldeck-Frankenberg"
+        "operator": "Energie Waldeck-Frankenberg",
+        "operator:short": "EWF",
+        "operator:wikidata": "Q29017339"
       }
     },
     {
       "displayName": "Energienetze Berlin",
-      "id": "energienetzeberlin-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "energienetzeberlin-a8f367",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energienetze Berlin"
+        "operator": "Energienetze Berlin",
+        "operator:wikidata": "Q124377857"
       }
     },
     {
-      "displayName": "Energieversorgung Filstal GmbH & Co. KG",
-      "id": "energieversorgungfilstalgmbhandcokg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Energieversorgung Filstal",
+      "id": "energieversorgungfilstal-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "energieversorgung filstal gmbh & co. kg"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energieversorgung Filstal GmbH & Co. KG"
+        "operator": "Energieversorgung Filstal",
+        "operator:short": "EVF",
+        "operator:wikidata": "Q130556538"
       }
     },
     {
-      "displayName": "Energy Australia",
-      "id": "energyaustralia-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "EnergyAustralia",
+      "id": "energyaustralia-8d0f7b",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Energy Australia"
+        "operator": "EnergyAustralia",
+        "operator:wikidata": "Q5376876"
       }
     },
     {
       "displayName": "Enexis",
-      "id": "enexis-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enexis-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enexis"
+        "operator": "Enexis",
+        "operator:wikidata": "Q2036673"
       }
     },
     {
       "displayName": "Enida",
-      "id": "enida-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enida-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Enida"
+        "operator": "Enida",
+        "operator:wikidata": "Q129350588"
       }
     },
     {
       "displayName": "ENMAX",
-      "id": "enmax-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enmax-5eba5f",
+      "locationSet": {
+        "include": ["ca-ab.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ENMAX"
+        "operator": "ENMAX",
+        "operator:wikidata": "Q5323708"
+      }
+    },
+    {
+      "displayName": "Entega",
+      "id": "entega-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": ["hse"],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Entega",
+        "operator:wikidata": "Q1563486"
       }
     },
     {
       "displayName": "enviaM",
-      "id": "enviam-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "enviam-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "enviaM"
+        "operator": "enviaM",
+        "operator:wikidata": "Q1345871"
       }
     },
     {
       "displayName": "ESB",
-      "id": "esb-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "esb-c65848",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ESB"
+        "operator": "ESB",
+        "operator:wikidata": "Q3050566"
       }
     },
     {
       "displayName": "ESB Networks",
-      "id": "esbnetworks-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "esbnetworks-c65848",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ESB Networks"
+        "operator": "ESB Networks",
+        "operator:wikidata": "Q115224013"
       }
     },
     {
       "displayName": "ESSeyssel",
-      "id": "esseyssel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "esseyssel-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "ESSeyssel"
@@ -1284,89 +1375,103 @@
     },
     {
       "displayName": "European Energy",
-      "id": "europeanenergy-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "europeanenergy-f14c27",
+      "locationSet": {"include": ["dk", "se"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "European Energy"
+        "operator": "European Energy",
+        "operator:wikidata": "Q66325802"
       }
     },
     {
-      "displayName": "EVN",
-      "id": "evn-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "EVN (Österreich)",
+      "id": "evn-4935d6",
+      "locationSet": {"include": ["at"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EVN"
+        "operator": "EVN",
+        "operator:wikidata": "Q872140"
       }
     },
     {
       "displayName": "EVO",
-      "id": "evo-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "evo-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EVO"
+        "operator": "EVO",
+        "operator:wikidata": "Q1341469"
       }
     },
     {
-      "displayName": "EWE",
-      "id": "ewe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Ewa",
+      "id": "ewa-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EWE"
+        "operator": "Ewa"
       }
     },
     {
       "displayName": "EWE Netz",
-      "id": "ewenetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ewenetz-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": ["ewe"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EWE Netz"
+        "operator": "EWE Netz",
+        "operator:wikidata": "Q42825991"
       }
     },
     {
       "displayName": "EWF",
-      "id": "ewf-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ewf-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "EWF"
       }
     },
     {
-      "displayName": "EWR",
-      "id": "ewr-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "EWR Netz",
+      "id": "ewrnetz-107f30",
+      "locationSet": {
+        "include": [
+          "de-he.geojson",
+          "de-rp.geojson"
+        ]
+      },
+      "matchNames": [
+        "e-rp",
+        "ewr",
+        "ewr netz gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EWR"
-      }
-    },
-    {
-      "displayName": "EWR Netz GmbH",
-      "id": "ewrnetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "EWR Netz GmbH"
+        "operator": "EWR Netz",
+        "operator:wikidata": "Q133566833"
       }
     },
     {
       "displayName": "EWZ",
-      "id": "ewz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ewz-10ee58",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "EWZ"
+        "operator": "EWZ",
+        "operator:wikidata": "Q1326645"
       }
     },
     {
       "displayName": "Fenaka Corporation Limited Vaikaradhoo",
-      "id": "fenakacorporationlimitedvaikaradhoo-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fenakacorporationlimitedvaikaradhoo-5ed5e5",
+      "locationSet": {"include": ["mv"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Fenaka Corporation Limited Vaikaradhoo"
@@ -1374,35 +1479,42 @@
     },
     {
       "displayName": "FiberCop",
-      "id": "fibercop-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fibercop-7878e2",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "FiberCop"
+        "operator": "FiberCop",
+        "operator:wikidata": "Q107214638"
       }
     },
     {
       "displayName": "Fingal County Council",
-      "id": "fingalcountycouncil-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fingalcountycouncil-b27563",
+      "locationSet": {
+        "include": ["ie-l.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Fingal County Council"
+        "operator": "Fingal County Council",
+        "operator:wikidata": "Q5450180"
       }
     },
     {
       "displayName": "Fjellnett",
-      "id": "fjellnett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fjellnett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Fjellnett"
+        "operator": "Fjellnett",
+        "operator:wikidata": "Q117836195"
       }
     },
     {
       "displayName": "Flow Elnet",
-      "id": "flowelnet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "flowelnet-8cf1e1",
+      "locationSet": {
+        "include": ["dk-83.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Flow Elnet"
@@ -1410,71 +1522,89 @@
     },
     {
       "displayName": "Fluvius",
-      "id": "fluvius-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fluvius-d4d0f4",
+      "locationSet": {"include": ["be"]},
+      "matchNames": ["eandis", "infrax"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Fluvius"
+        "operator": "Fluvius",
+        "operator:wikidata": "Q56110569"
       }
     },
     {
       "displayName": "Fluxys",
-      "id": "fluxys-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fluxys-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Fluxys"
+        "operator": "Fluxys",
+        "operator:wikidata": "Q1336773"
       }
     },
     {
       "displayName": "FortisAlberta",
-      "id": "fortisalberta-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "fortisalberta-5eba5f",
+      "locationSet": {
+        "include": ["ca-ab.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "FortisAlberta"
+        "operator": "FortisAlberta",
+        "operator:wikidata": "Q133096015"
       }
     },
     {
       "displayName": "Free",
-      "id": "free-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "free-eaa4de",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Free"
+        "operator": "Free",
+        "operator:wikidata": "Q2467627"
       }
     },
     {
-      "displayName": "FSG",
-      "id": "fsg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Freitaler Stadtwerke",
+      "id": "freitalerstadtwerke-a90494",
+      "locationSet": {
+        "include": ["de-sn.geojson"]
+      },
+      "matchNames": ["fsg"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "FSG"
+        "operator": "Freitaler Stadtwerke",
+        "operator:short": "FSW",
+        "operator:wikidata": "Q130392101"
       }
     },
     {
       "displayName": "Gaz de France",
-      "id": "gazdefrance-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gazdefrance-ed5e6e",
+      "locationSet": {"include": ["fx"]},
+      "matchNames": ["gdf"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Gaz de France"
+        "operator": "Gaz de France",
+        "operator:wikidata": "Q168311"
       }
     },
     {
-      "displayName": "gdf",
-      "id": "gdf-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Gaz Réseau Distribution France",
+      "id": "gazreseaudistributionfrance-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "gdf"
+        "operator": "Gaz Réseau Distribution France",
+        "operator:short": "GRDF",
+        "operator:wikidata": "Q3099682"
       }
     },
     {
       "displayName": "GE I",
-      "id": "gei-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gei-500353",
+      "locationSet": {
+        "include": ["ch-be.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "GE I"
@@ -1482,26 +1612,34 @@
     },
     {
       "displayName": "Gemeindewerke Bovenden",
-      "id": "gemeindewerkebovenden-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gemeindewerkebovenden-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Gemeindewerke Bovenden"
+        "operator": "Gemeindewerke Bovenden",
+        "operator:wikidata": "Q130392121"
       }
     },
     {
       "displayName": "Gemeindewerke Herxheim",
-      "id": "gemeindewerkeherxheim-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gemeindewerkeherxheim-beca4f",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Gemeindewerke Herxheim"
+        "operator": "Gemeindewerke Herxheim",
+        "operator:wikidata": "Q133567093"
       }
     },
     {
       "displayName": "Gentofte Gladsaxe Fjernvarme",
-      "id": "gentoftegladsaxefjernvarme-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gentoftegladsaxefjernvarme-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Gentofte Gladsaxe Fjernvarme"
@@ -1509,35 +1647,48 @@
     },
     {
       "displayName": "Gérédis",
-      "id": "geredis-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "geredis-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Gérédis"
+        "operator": "Gérédis",
+        "operator:wikidata": "Q112115590"
       }
     },
     {
-      "displayName": "GEW Wilhelmshaven GmbH",
-      "id": "gewwilhelmshavengmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "GEW Wilhelmshaven",
+      "id": "gewwilhelmshaven-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": ["gew wilhelmshaven gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "GEW Wilhelmshaven GmbH"
+        "operator": "GEW Wilhelmshaven",
+        "operator:short": "GEW",
+        "operator:wikidata": "Q124462847"
       }
     },
     {
       "displayName": "Gironde Numérique",
-      "id": "girondenumerique-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "girondenumerique-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Gironde Numérique"
+        "operator": "Gironde Numérique",
+        "operator:wikidata": "Q56648212"
       }
     },
     {
       "displayName": "Gironde Très Haut Débit",
-      "id": "girondetreshautdebit-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "girondetreshautdebit-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Gironde Très Haut Débit"
@@ -1545,107 +1696,90 @@
     },
     {
       "displayName": "Glitre Nett",
-      "id": "glitrenett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "glitrenett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Glitre Nett"
+        "operator": "Glitre Nett",
+        "operator:wikidata": "Q117833205"
       }
     },
     {
       "displayName": "GlobalConnect",
-      "id": "globalconnect-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "globalconnect-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "GlobalConnect"
+        "operator": "GlobalConnect",
+        "operator:wikidata": "Q99543806"
       }
     },
     {
       "displayName": "Globe",
-      "id": "globe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "globe-27846b",
+      "locationSet": {"include": ["ph"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Globe"
+        "operator": "Globe",
+        "operator:wikidata": "Q3543983"
       }
     },
     {
       "displayName": "GLS",
-      "id": "gls-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "gls-c39496",
+      "locationSet": {"include": ["si"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "GLS"
       }
     },
     {
-      "displayName": "Grand Toulouse",
-      "id": "grandtoulouse-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Grand Toulouse"
-      }
-    },
-    {
-      "displayName": "GRDF",
-      "id": "grdf-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "GRDF"
-      }
-    },
-    {
       "displayName": "Griug",
-      "id": "griug-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "griug-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Griug"
+        "operator": "Griug",
+        "operator:wikidata": "Q129177187"
       }
     },
     {
       "displayName": "Groupe E",
-      "id": "groupee-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "groupee-10ee58",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Groupe E"
+        "operator": "Groupe E",
+        "operator:wikidata": "Q1547733"
       }
     },
     {
-      "displayName": "Harz Energie",
-      "id": "harzenergie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Harz Energie Netz",
+      "id": "harzenergienetz-1aee73",
+      "locationSet": {
+        "include": [
+          "de-ni.geojson",
+          "de-st.geojson"
+        ]
+      },
+      "matchNames": [
+        "harz energie",
+        "harz energie gmbh",
+        "harz energie gmbh & co. kg",
+        "stadtwerke bad lauterberg"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Harz Energie"
-      }
-    },
-    {
-      "displayName": "Harz Energie GmbH",
-      "id": "harzenergiegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Harz Energie GmbH"
-      }
-    },
-    {
-      "displayName": "Harz Energie GmbH & Co. KG",
-      "id": "harzenergiegmbhandcokg-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Harz Energie GmbH & Co. KG"
+        "operator": "Harz Energie Netz",
+        "operator:wikidata": "Q124370202"
       }
     },
     {
       "displayName": "Havnett",
-      "id": "havnett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "havnett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Havnett"
@@ -1653,89 +1787,87 @@
     },
     {
       "displayName": "HMN Naturgas",
-      "id": "hmnnaturgas-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "hmnnaturgas-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "HMN Naturgas"
+        "operator": "HMN Naturgas",
+        "operator:wikidata": "Q12314910"
       }
     },
     {
       "displayName": "HOFOR",
-      "id": "hofor-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "hofor-5cdd6d",
+      "locationSet": {"include": ["dk"]},
+      "note": "Q6454066, Q113466089 and Q113466090 all discuss the company in some form - likely some conflation in play",
       "tags": {
         "man_made": "street_cabinet",
         "operator": "HOFOR"
       }
     },
     {
-      "displayName": "HSE",
-      "id": "hse-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "HSE"
-      }
-    },
-    {
       "displayName": "Indre Hordaland KraftNett",
-      "id": "indrehordalandkraftnett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "indrehordalandkraftnett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Indre Hordaland KraftNett"
+        "operator": "Indre Hordaland KraftNett",
+        "operator:wikidata": "Q117833116"
       }
     },
     {
       "displayName": "Inexio",
-      "id": "inexio-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "inexio-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Inexio"
       }
     },
     {
+      "displayName": "Infrabel",
+      "id": "infrabel-d4d0f4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Infrabel",
+        "operator:wikidata": "Q536120"
+      }
+    },
+    {
       "displayName": "Infrastruktur Zürichsee AG",
-      "id": "infrastrukturzurichseeag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "infrastrukturzurichseeag-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Infrastruktur Zürichsee AG"
       }
     },
     {
-      "displayName": "Infrawest",
-      "id": "infrawest-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Infrawest"
-      }
-    },
-    {
-      "displayName": "Infrax",
-      "id": "infrax-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Infrax"
-      }
-    },
-    {
       "displayName": "Integan",
-      "id": "integan-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "integan-b2ba36",
+      "locationSet": {
+        "include": ["be-van.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Integan"
+        "operator": "Integan",
+        "operator:wikidata": "Q14632138"
       }
     },
     {
       "displayName": "Interelectra",
-      "id": "interelectra-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "interelectra-600dc3",
+      "locationSet": {
+        "include": [
+          "be-van.geojson",
+          "be-vli.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Interelectra"
@@ -1743,44 +1875,45 @@
     },
     {
       "displayName": "Ionity",
-      "id": "ionity-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ionity-5cf69e",
+      "locationSet": {"include": ["150"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Ionity"
+        "operator": "Ionity",
+        "operator:wikidata": "Q42717773"
       }
     },
     {
-      "displayName": "ISalten Nett",
-      "id": "isaltennett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Irish Water",
+      "id": "irishwater-c65848",
+      "locationSet": {"include": ["ie"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ISalten Nett"
+        "operator": "Irish Water",
+        "operator:en": "Irish Water",
+        "operator:ga": "Uisce Éireann",
+        "operator:wikidata": "Q18352148"
       }
     },
     {
-      "displayName": "Isar-Amperwerke",
-      "id": "isaramperwerke-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "iSalten Nett",
+      "id": "isaltennett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Isar-Amperwerke"
-      }
-    },
-    {
-      "displayName": "Isar-Amperwerke A.G.",
-      "id": "isaramperwerkeag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Isar-Amperwerke A.G."
+        "operator": "iSalten Nett",
+        "operator:wikidata": "Q129177558"
       }
     },
     {
       "displayName": "Iverlek",
-      "id": "iverlek-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "iverlek-7e6eef",
+      "locationSet": {
+        "include": [
+          "be-van.geojson",
+          "be-vbr.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Iverlek"
@@ -1788,35 +1921,30 @@
     },
     {
       "displayName": "Jersey Electricity Company",
-      "id": "jerseyelectricitycompany-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "jerseyelectricitycompany-507aa2",
+      "locationSet": {"include": ["je"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Jersey Electricity Company"
-      }
-    },
-    {
-      "displayName": "Kabel Deutschland",
-      "id": "kabeldeutschland-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Kabel Deutschland"
+        "operator": "Jersey Electricity Company",
+        "operator:wikidata": "Q6184843"
       }
     },
     {
       "displayName": "Kabelplus",
-      "id": "kabelplus-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kabelplus-5d0dd0",
+      "locationSet": {
+        "include": ["at-3.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Kabelplus"
+        "operator": "Kabelplus",
+        "operator:wikidata": "Q51711011"
       }
     },
     {
       "displayName": "Kamp Lili",
-      "id": "kamplili-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kamplili-735b3a",
+      "locationSet": {"include": ["hr"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Kamp Lili"
@@ -1824,8 +1952,10 @@
     },
     {
       "displayName": "Kanton Zürich, Baudirektion, Tiefbauamt",
-      "id": "kantonzurichbaudirektiontiefbauamt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kantonzurichbaudirektiontiefbauamt-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Kanton Zürich, Baudirektion, Tiefbauamt"
@@ -1833,17 +1963,18 @@
     },
     {
       "displayName": "KPN",
-      "id": "kpn-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kpn-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "KPN"
+        "operator": "KPN",
+        "operator:wikidata": "Q338633"
       }
     },
     {
       "displayName": "Kungälv Energi",
-      "id": "kungalvenergi-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kungalvenergi-a5b86d",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Kungälv Energi"
@@ -1851,26 +1982,30 @@
     },
     {
       "displayName": "La Poste",
-      "id": "laposte-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "laposte-eaa4de",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "La Poste"
+        "operator": "La Poste",
+        "operator:wikidata": "Q373724"
       }
     },
     {
       "displayName": "Lede",
-      "id": "lede-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "lede-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Lede"
+        "operator": "Lede",
+        "operator:wikidata": "Q110603581"
       }
     },
     {
       "displayName": "Liain01",
-      "id": "liain01-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "liain01-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Liain01"
@@ -1878,116 +2013,144 @@
     },
     {
       "displayName": "Liander",
-      "id": "liander-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "liander-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Liander"
+        "operator": "Liander",
+        "operator:wikidata": "Q2578819"
       }
     },
     {
       "displayName": "Linea",
-      "id": "linea-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "linea-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Linea"
+        "operator": "Linea",
+        "operator:wikidata": "Q129839705"
       }
     },
     {
       "displayName": "Linja",
-      "id": "linja-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "linja-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Linja"
+        "operator": "Linja",
+        "operator:wikidata": "Q25424841"
       }
     },
     {
-      "displayName": "LSW",
-      "id": "lsw-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "LSW Netz",
+      "id": "lswnetz-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": [
+        "lsw",
+        "lsw netz gmbh & co. kg"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "LSW"
-      }
-    },
-    {
-      "displayName": "LSW-Netz",
-      "id": "lswnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "LSW-Netz"
+        "operator": "LSW Netz",
+        "operator:wikidata": "Q124422864"
       }
     },
     {
       "displayName": "Lucerna",
-      "id": "lucerna-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "lucerna-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Lucerna"
+        "operator": "Lucerna",
+        "operator:wikidata": "Q129207130"
       }
     },
     {
       "displayName": "Magenta Telekom",
-      "id": "magentatelekom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "magentatelekom-a490f7",
+      "locationSet": {
+        "include": ["at-4.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Magenta Telekom"
+        "operator": "Magenta Telekom",
+        "operator:wikidata": "Q1666806"
       }
     },
     {
       "displayName": "Magyar Posta",
-      "id": "magyarposta-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "magyarposta-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Magyar Posta"
+        "operator": "Magyar Posta",
+        "operator:wikidata": "Q145614"
       }
     },
     {
       "displayName": "Magyar Telekom",
-      "id": "magyartelekom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "magyartelekom-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Magyar Telekom"
+        "operator": "Magyar Telekom",
+        "operator:wikidata": "Q458944"
       }
     },
     {
       "displayName": "Mainnetz",
-      "id": "mainnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mainnetz-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Mainnetz"
+        "operator": "Mainnetz",
+        "operator:wikidata": "Q133567110"
+      }
+    },
+    {
+      "displayName": "Mainova",
+      "id": "mainova-195e1e",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Mainova",
+        "operator:wikidata": "Q1885661"
       }
     },
     {
       "displayName": "Mairie d'Orange",
-      "id": "mairiedorange-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mairiedorange-f4055b",
+      "locationSet": {
+        "include": ["fr-pac.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Mairie d'Orange"
+        "operator": "Mairie d'Orange",
+        "operator:wikidata": "Q113961953"
       }
     },
     {
       "displayName": "Mairie de L'Aigle",
-      "id": "mairiedelaigle-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mairiedelaigle-906bd5",
+      "locationSet": {
+        "include": ["fr-nor.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Mairie de L'Aigle"
+        "operator": "Mairie de L'Aigle",
+        "operator:wikidata": "Q118827555"
       }
     },
     {
       "displayName": "Manche Fibre",
-      "id": "manchefibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "manchefibre-906bd5",
+      "locationSet": {
+        "include": ["fr-nor.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Manche Fibre"
@@ -1995,17 +2158,20 @@
     },
     {
       "displayName": "Marshall Municipal Utilities",
-      "id": "marshallmunicipalutilities-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "marshallmunicipalutilities-e17273",
+      "locationSet": {
+        "include": ["us-mn.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Marshall Municipal Utilities"
+        "operator": "Marshall Municipal Utilities",
+        "operator:wikidata": "Q115691708"
       }
     },
     {
       "displayName": "MÁV",
-      "id": "mav-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mav-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "MÁV"
@@ -2013,26 +2179,39 @@
     },
     {
       "displayName": "Meralco",
-      "id": "meralco-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "meralco-27846b",
+      "locationSet": {"include": ["ph"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Meralco"
+        "operator": "Meralco",
+        "operator:wikidata": "Q6817918"
+      }
+    },
+    {
+      "displayName": "Midstate Electric Cooperative",
+      "id": "midstateelectriccooperative-078b78",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Midstate Electric Cooperative"
       }
     },
     {
       "displayName": "Midtnett",
-      "id": "midtnett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "midtnett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Midtnett"
+        "operator": "Midtnett",
+        "operator:wikidata": "Q117840038"
       }
     },
     {
       "displayName": "MVM Főgáz Földgázelosztási Kft.",
-      "id": "mvmfogazfoldgazelosztasikft-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mvmfogazfoldgazelosztasikft-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "MVM Főgáz Földgázelosztási Kft."
@@ -2040,8 +2219,8 @@
     },
     {
       "displayName": "MVM Főgáz Földgázhálózati Kft.",
-      "id": "mvmfogazfoldgazhalozatikft-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mvmfogazfoldgazhalozatikft-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "MVM Főgáz Földgázhálózati Kft."
@@ -2049,26 +2228,37 @@
     },
     {
       "displayName": "MVV Energie",
-      "id": "mvvenergie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "mvvenergie-d0c4e4",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-rp.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "MVV Energie"
+        "operator": "MVV Energie",
+        "operator:wikidata": "Q1882061"
       }
     },
     {
       "displayName": "Nantes Métropole",
-      "id": "nantesmetropole-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nantesmetropole-5c0b53",
+      "locationSet": {
+        "include": ["fr-pdl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Nantes Métropole"
+        "operator": "Nantes Métropole",
+        "operator:wikidata": "Q3335802"
       }
     },
     {
       "displayName": "NATHD",
-      "id": "nathd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nathd-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "NATHD"
@@ -2076,38 +2266,37 @@
     },
     {
       "displayName": "National Broadband Network",
-      "id": "nationalbroadbandnetwork-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nationalbroadbandnetwork-8d0f7b",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "National Broadband Network"
+        "operator": "National Broadband Network",
+        "operator:wikidata": "Q2822918"
       }
     },
     {
       "displayName": "National Grid",
-      "id": "nationalgrid-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nationalgrid-5e7225",
+      "locationSet": {"include": ["gb-eng"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "National Grid"
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461"
       }
     },
     {
       "displayName": "National Grid Electricity Distribution",
-      "id": "nationalgridelectricitydistribution-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nationalgridelectricitydistribution-9ac957",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": [
+        "national grid electricity distribution plc"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "National Grid Electricity Distribution"
-      }
-    },
-    {
-      "displayName": "National Grid Electricity Distribution Plc",
-      "id": "nationalgridelectricitydistributionplc-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "National Grid Electricity Distribution Plc"
+        "operator": "National Grid Electricity Distribution",
+        "operator:wikidata": "Q7988183"
       }
     },
     {
@@ -2124,17 +2313,20 @@
     },
     {
       "displayName": "NetCologne",
-      "id": "netcologne-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "netcologne-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "NetCologne"
+        "operator": "NetCologne",
+        "operator:wikidata": "Q1360246"
       }
     },
     {
       "displayName": "Netera",
-      "id": "netera-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "netera-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Netera"
@@ -2142,173 +2334,182 @@
     },
     {
       "displayName": "Nettselskapet",
-      "id": "nettselskapet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nettselskapet-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Nettselskapet"
+        "operator": "Nettselskapet",
+        "operator:wikidata": "Q129177507"
       }
     },
     {
       "displayName": "Network Rail",
-      "id": "networkrail-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "networkrail-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Network Rail"
-      }
-    },
-    {
-      "displayName": "Netz Niederösterreich",
-      "id": "netzniederosterreich-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Netz Niederösterreich"
-      }
-    },
-    {
-      "displayName": "Netz Niederösterreich GmbH",
-      "id": "netzniederosterreichgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Netz Niederösterreich GmbH"
+        "operator": "Network Rail",
+        "operator:wikidata": "Q1501071"
       }
     },
     {
       "displayName": "Netz NÖ",
-      "id": "netzno-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "netzno-4935d6",
+      "locationSet": {"include": ["at"]},
+      "matchNames": [
+        "netz niederösterreich",
+        "netz niederösterreich gmbh",
+        "nö netz"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Netz NÖ"
+        "operator": "Netz NÖ",
+        "operator:wikidata": "Q109512632"
       }
     },
     {
-      "displayName": "Netz Oberösterreich GmbH",
-      "id": "netzoberosterreichgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Netz Oberösterreich",
+      "id": "netzoberosterreich-4935d6",
+      "locationSet": {"include": ["at"]},
+      "matchNames": [
+        "netz oberösterreich gmbh",
+        "netz oö",
+        "oö netz ag"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Netz Oberösterreich GmbH"
+        "operator": "Netz Oberösterreich",
+        "operator:wikidata": "Q67883059"
       }
     },
     {
-      "displayName": "Netze BW GmbH",
-      "id": "netzebwgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Netze BW",
+      "id": "netzebw-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": ["netze bw gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Netze BW GmbH"
-      }
-    },
-    {
-      "displayName": "NetzeBW",
-      "id": "netzebw-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "NetzeBW"
+        "operator": "Netze BW",
+        "operator:wikidata": "Q16854888"
       }
     },
     {
       "displayName": "Netzgesellschaft Potsdam",
-      "id": "netzgesellschaftpotsdam-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "netzgesellschaftpotsdam-72145d",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Netzgesellschaft Potsdam"
+        "operator": "Netzgesellschaft Potsdam",
+        "operator:short": "NGP",
+        "operator:wikidata": "Q124463008"
       }
     },
     {
       "displayName": "Nexel",
-      "id": "nexel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nexel-cadd5e",
+      "locationSet": {
+        "include": [
+          "dk-84.geojson",
+          "dk-85.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Nexel"
+        "operator": "Nexel",
+        "operator:wikidata": "Q131350338"
       }
     },
     {
       "displayName": "NKM Földgázhálózati Kft.",
-      "id": "nkmfoldgazhalozatikft-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "nkmfoldgazhalozatikft-5790ee",
+      "locationSet": {"include": ["hu"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "NKM Földgázhálózati Kft."
       }
     },
     {
-      "displayName": "NÖ Netz",
-      "id": "nonetz-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "NÖ Netz"
-      }
-    },
-    {
       "displayName": "Noranett",
-      "id": "noranett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "noranett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Noranett"
+        "operator": "Noranett",
+        "operator:wikidata": "Q117454648"
       }
     },
     {
-      "displayName": "Northwestern Energy",
-      "id": "northwesternenergy-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "NorthWestern Energy",
+      "id": "northwesternenergy-baff11",
+      "locationSet": {
+        "include": [
+          "us-mt.geojson",
+          "us-sd.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Northwestern Energy"
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620"
       }
     },
     {
-      "displayName": "O2",
-      "id": "o2-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "O2 (Europe)",
+      "id": "o2-37e37d",
+      "locationSet": {
+        "include": ["150"],
+        "exclude": ["gb"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "O2"
+        "operator": "O2",
+        "operator:wikidata": "Q1759255"
+      }
+    },
+    {
+      "displayName": "O2 (UK)",
+      "id": "o2-9ac957",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "O2",
+        "operator:wikidata": "Q7072245"
       }
     },
     {
       "displayName": "Oncor",
-      "id": "oncor-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "oncor-83ca9d",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Oncor"
-      }
-    },
-    {
-      "displayName": "OÖ Netz AG",
-      "id": "oonetzag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "OÖ Netz AG"
+        "operator": "Oncor",
+        "operator:wikidata": "Q7092125"
       }
     },
     {
       "displayName": "Open Fiber",
-      "id": "openfiber-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "openfiber-7878e2",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Open Fiber"
+        "operator": "Open Fiber",
+        "operator:wikidata": "Q24939514"
       }
     },
     {
       "displayName": "Open Grid Europe",
-      "id": "opengrideurope-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "opengrideurope-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Open Grid Europe"
+        "operator": "Open Grid Europe",
+        "operator:wikidata": "Q2025693"
       }
     },
     {
@@ -2330,134 +2531,135 @@
     },
     {
       "displayName": "Orange",
-      "id": "orange-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "orange-eaa4de",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Orange"
+        "operator": "Orange",
+        "operator:wikidata": "Q1431486"
       }
     },
     {
-      "displayName": "Ores",
-      "id": "ores-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "ORES",
+      "id": "ores-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Ores"
+        "operator": "ORES",
+        "operator:wikidata": "Q3347693"
       }
     },
     {
-      "displayName": "Orplid Frankfurt e.V.",
-      "id": "orplidfrankfurtev-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Orplid Frankfurt",
+      "id": "orplidfrankfurt-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": ["orplid frankfurt e.v."],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Orplid Frankfurt e.V."
+        "operator": "Orplid Frankfurt",
+        "operator:wikidata": "Q108894644"
       }
     },
     {
       "displayName": "Osterholzer Stadtwerke",
-      "id": "osterholzerstadtwerke-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "osterholzerstadtwerke-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Osterholzer Stadtwerke"
+        "operator": "Osterholzer Stadtwerke",
+        "operator:wikidata": "Q124463159"
       }
     },
     {
-      "displayName": "OsthessenNETZ",
-      "id": "osthessennetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "OsthessenNetz",
+      "id": "osthessennetz-d5f5e8",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "OsthessenNETZ"
+        "operator": "OsthessenNetz",
+        "operator:wikidata": "Q124463176"
       }
     },
     {
       "displayName": "Oulun kaupunki",
-      "id": "oulunkaupunki-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "oulunkaupunki-ecabf8",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Oulun kaupunki"
+        "operator": "Oulun kaupunki",
+        "operator:wikidata": "Q47048"
       }
     },
     {
-      "displayName": "ovagNetz",
-      "id": "ovagnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "ovag Netz",
+      "id": "ovagnetz-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": ["ovag", "ovag netz gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ovagNetz"
+        "operator": "ovag Netz",
+        "operator:wikidata": "Q128480682"
       }
     },
     {
       "displayName": "PacifiCorp",
-      "id": "pacificorp-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pacificorp-61c31b",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "PacifiCorp"
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479"
       }
     },
     {
-      "displayName": "Pau",
-      "id": "pau-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Pfalzwerke Netz",
+      "id": "pfalzwerkenetz-beca4f",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "matchNames": [
+        "pfalzwerke",
+        "pfalzwerke netz ag"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Pau"
-      }
-    },
-    {
-      "displayName": "Pfalzwerke",
-      "id": "pfalzwerke-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Pfalzwerke"
-      }
-    },
-    {
-      "displayName": "Pfalzwerke Netz AG",
-      "id": "pfalzwerkenetzag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Pfalzwerke Netz AG"
+        "operator": "Pfalzwerke Netz",
+        "operator:wikidata": "Q124370297"
       }
     },
     {
       "displayName": "PGE Dystrybucja",
-      "id": "pgedystrybucja-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pgedystrybucja-3af24e",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": ["pge dystrybucja s.a."],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "PGE Dystrybucja"
-      }
-    },
-    {
-      "displayName": "PGE Dystrybucja S.A.",
-      "id": "pgedystrybucjasa-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "PGE Dystrybucja S.A."
+        "operator": "PGE Dystrybucja",
+        "operator:wikidata": "Q787714"
       }
     },
     {
       "displayName": "PGNiG",
-      "id": "pgnig-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pgnig-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "PGNiG"
+        "operator": "PGNiG",
+        "operator:wikidata": "Q673670"
       }
     },
     {
       "displayName": "PHP",
-      "id": "php-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "php-ecabf8",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "PHP"
@@ -2465,11 +2667,14 @@
     },
     {
       "displayName": "Pidpa",
-      "id": "pidpa-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pidpa-b2ba36",
+      "locationSet": {
+        "include": ["be-van.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Pidpa"
+        "operator": "Pidpa",
+        "operator:wikidata": "Q1902675"
       }
     },
     {
@@ -2484,8 +2689,8 @@
     },
     {
       "displayName": "Polskie Sieci Gazowe",
-      "id": "polskiesiecigazowe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "polskiesiecigazowe-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Polskie Sieci Gazowe"
@@ -2493,8 +2698,8 @@
     },
     {
       "displayName": "Post",
-      "id": "post-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "post-940518",
+      "locationSet": {"include": ["at", "ch"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Post"
@@ -2502,11 +2707,12 @@
     },
     {
       "displayName": "Poste Italiane",
-      "id": "posteitaliane-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "posteitaliane-7878e2",
+      "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Poste Italiane"
+        "operator": "Poste Italiane",
+        "operator:wikidata": "Q495026"
       }
     },
     {
@@ -2524,38 +2730,44 @@
     },
     {
       "displayName": "Powercor",
-      "id": "powercor-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "powercor-bf0b59",
+      "locationSet": {"include": ["au"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Powercor"
+        "operator": "Powercor",
+        "operator:wikidata": "Q7236677"
       }
     },
     {
       "displayName": "PRE",
-      "id": "pre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pre-b00889",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "PRE"
+        "operator": "PRE",
+        "operator:wikidata": "Q15870812"
       }
     },
     {
       "displayName": "ProRail",
-      "id": "prorail-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "prorail-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ProRail"
+        "operator": "ProRail",
+        "operator:wikidata": "Q2316882"
       }
     },
     {
       "displayName": "Provinciale Brabantse Energiemaatschappij",
-      "id": "provincialebrabantseenergiemaatschappij-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "provincialebrabantseenergiemaatschappij-62e1a9",
+      "locationSet": {
+        "include": ["be-vbr.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Provinciale Brabantse Energiemaatschappij"
+        "operator": "Provinciale Brabantse Energiemaatschappij",
+        "operator:short": "PBE"
       }
     },
     {
@@ -2572,8 +2784,8 @@
     },
     {
       "displayName": "PTT",
-      "id": "ptt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ptt-1647ce",
+      "locationSet": {"include": ["fx", "nl"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "PTT"
@@ -2581,44 +2793,82 @@
     },
     {
       "displayName": "Pÿur",
-      "id": "pyur-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "pyur-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Pÿur"
+        "operator": "Pÿur",
+        "operator:wikidata": "Q41680846"
       }
     },
     {
       "displayName": "Radius Elnet",
-      "id": "radiuselnet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "radiuselnet-cadd5e",
+      "locationSet": {
+        "include": [
+          "dk-84.geojson",
+          "dk-85.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Radius Elnet"
+        "operator": "Radius Elnet",
+        "operator:wikidata": "Q130385961"
       }
     },
     {
       "displayName": "Redding Electric Utility",
-      "id": "reddingelectricutility-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "reddingelectricutility-c9c02f",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Redding Electric Utility"
+        "operator": "Redding Electric Utility",
+        "operator:wikidata": "Q105350841"
+      }
+    },
+    {
+      "displayName": "Regionetz",
+      "id": "regionetz-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": [
+        "enwor netz",
+        "enwor netz gmbh",
+        "infrawest",
+        "infrawest gmbh",
+        "regionetz gmbh",
+        "stawag",
+        "stawag netz",
+        "stawag netz gmbh",
+        "stawag/infrawest"
+      ],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Regionetz",
+        "operator:wikidata": "Q133566977"
       }
     },
     {
       "displayName": "réséda",
-      "id": "reseda-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "reseda-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "réséda"
+        "operator": "réséda",
+        "operator:wikidata": "Q112115721"
       }
     },
     {
       "displayName": "retipiù",
-      "id": "retipiu-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "retipiu-efbf24",
+      "locationSet": {
+        "include": ["it-25.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "retipiù"
@@ -2626,125 +2876,163 @@
     },
     {
       "displayName": "RheinEnergie",
-      "id": "rheinenergie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "rheinenergie-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "RheinEnergie"
+        "operator": "RheinEnergie",
+        "operator:wikidata": "Q2147629"
       }
     },
     {
       "displayName": "Roseville Electric",
-      "id": "rosevilleelectric-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "rosevilleelectric-c9c02f",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Roseville Electric"
+        "operator": "Roseville Electric",
+        "operator:wikidata": "Q130232438"
       }
     },
     {
       "displayName": "Royal Mail",
-      "id": "royalmail-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "royalmail-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Royal Mail"
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098"
       }
     },
     {
       "displayName": "RWE",
-      "id": "rwe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "rwe-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "RWE"
+        "operator": "RWE",
+        "operator:wikidata": "Q138133"
+      }
+    },
+    {
+      "displayName": "SA Power Networks",
+      "id": "sapowernetworks-b4fe4f",
+      "locationSet": {
+        "include": ["au-sa.geojson"]
+      },
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "SA Power Networks",
+        "operator:wikidata": "Q7388891"
       }
     },
     {
       "displayName": "SachsenEnergie",
-      "id": "sachsenenergie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sachsenenergie-a90494",
+      "locationSet": {
+        "include": ["de-sn.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SachsenEnergie"
+        "operator": "SachsenEnergie",
+        "operator:wikidata": "Q104758900"
       }
     },
     {
       "displayName": "Sadales tīkls",
-      "id": "sadalestikls-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sadalestikls-69fb28",
+      "locationSet": {"include": ["lv"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Sadales tīkls"
+        "operator": "Sadales tīkls",
+        "operator:wikidata": "Q21011154"
       }
     },
     {
       "displayName": "SAK",
-      "id": "sak-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sak-10ee58",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SAK"
+        "operator": "SAK",
+        "operator:wikidata": "Q2318302"
       }
     },
     {
       "displayName": "Salzburg AG",
-      "id": "salzburgag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "salzburgag-4f5b5f",
+      "locationSet": {
+        "include": [
+          "at-4.geojson",
+          "at-5.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Salzburg AG"
+        "operator": "Salzburg AG",
+        "operator:wikidata": "Q2215905"
       }
     },
     {
       "displayName": "Salzburg Netz",
-      "id": "salzburgnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "salzburgnetz-ae6f64",
+      "locationSet": {
+        "include": ["at-5.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Salzburg Netz"
+        "operator": "Salzburg Netz",
+        "operator:wikidata": "Q108283678"
       }
     },
     {
       "displayName": "Sarthe Numérique",
-      "id": "sarthenumerique-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sarthenumerique-5c0b53",
+      "locationSet": {
+        "include": ["fr-pdl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Sarthe Numérique"
-      }
-    },
-    {
-      "displayName": "Schleswig-Holstein Netz",
-      "id": "schleswigholsteinnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Schleswig-Holstein Netz"
+        "operator": "Sarthe Numérique",
+        "operator:wikidata": "Q92938088"
       }
     },
     {
       "displayName": "Schleswig-Holstein Netz AG",
-      "id": "schleswigholsteinnetzag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "schleswigholsteinnetzag-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
+      "matchNames": [
+        "schleswig-holstein netz",
+        "sh netz ag"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Schleswig-Holstein Netz AG"
+        "operator": "Schleswig-Holstein Netz AG",
+        "operator:wikidata": "Q2239261"
       }
     },
     {
       "displayName": "Scottish Water",
-      "id": "scottishwater-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "scottishwater-417fdf",
+      "locationSet": {"include": ["gb-sct"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Scottish Water"
+        "operator": "Scottish Water",
+        "operator:wikidata": "Q7438022"
       }
     },
     {
       "displayName": "SERA",
-      "id": "sera-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sera-976432",
+      "locationSet": {
+        "include": ["fr-cvl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "SERA"
@@ -2752,116 +3040,105 @@
     },
     {
       "displayName": "SEV",
-      "id": "sev-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sev-da734d",
+      "locationSet": {"include": ["fo"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SEV"
+        "operator": "SEV",
+        "operator:wikidata": "Q517041"
       }
     },
     {
       "displayName": "SFR",
-      "id": "sfr-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sfr-eaa4de",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SFR"
-      }
-    },
-    {
-      "displayName": "SH Netz AG",
-      "id": "shnetzag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "SH Netz AG"
+        "operator": "SFR",
+        "operator:wikidata": "Q218765"
       }
     },
     {
       "displayName": "SIEA",
-      "id": "siea-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "siea-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SIEA"
-      }
-    },
-    {
-      "displayName": "SkyNet, ООО \"Домашние компьютерные сети\"",
-      "id": "777753-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "SkyNet, ООО \"Домашние компьютерные сети\""
+        "operator": "SIEA",
+        "operator:wikidata": "Q27956313"
       }
     },
     {
       "displayName": "Société wallonne de Financement complémentaire des Infrastructures",
-      "id": "societewallonnedefinancementcomplementairedesinfrastructures-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "societewallonnedefinancementcomplementairedesinfrastructures-d4d0f4",
+      "locationSet": {"include": ["be"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Société wallonne de Financement complémentaire des Infrastructures"
       }
     },
     {
-      "displayName": "Soihull MBC",
-      "id": "soihullmbc-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Solihull Metropolitan Borough Council",
+      "id": "solihullmetropolitanboroughcouncil-5228b6",
+      "locationSet": {
+        "include": ["gb-west-midlands.geojson"]
+      },
+      "matchNames": [
+        "soihull mbc",
+        "solihull mbc"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Soihull MBC"
-      }
-    },
-    {
-      "displayName": "Solihull MBC",
-      "id": "solihullmbc-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Solihull MBC"
+        "operator": "Solihull Metropolitan Borough Council",
+        "operator:wikidata": "Q17021590"
       }
     },
     {
       "displayName": "SP Energy Networks",
-      "id": "spenergynetworks-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "spenergynetworks-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SP Energy Networks"
+        "operator": "SP Energy Networks",
+        "operator:wikidata": "Q116022116"
       }
     },
     {
       "displayName": "SRD",
-      "id": "srd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "srd-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SRD"
+        "operator": "SRD",
+        "operator:wikidata": "Q110319893"
       }
     },
     {
       "displayName": "SSD",
-      "id": "ssd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ssd-ec39e1",
+      "locationSet": {"include": ["sk"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "SSD"
       }
     },
     {
-      "displayName": "SSE",
-      "id": "sse-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "SSE (Slovensko)",
+      "id": "sse-ec39e1",
+      "locationSet": {"include": ["sk"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SSE"
+        "operator": "SSE",
+        "operator:wikidata": "Q16517554"
       }
     },
     {
       "displayName": "SSE Power Distribution",
-      "id": "ssepowerdistribution-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ssepowerdistribution-9ac957",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": ["sse"],
       "tags": {
         "man_made": "street_cabinet",
         "operator": "SSE Power Distribution"
@@ -2869,476 +3146,593 @@
     },
     {
       "displayName": "Stad Roeselare",
-      "id": "stadroeselare-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadroeselare-8d55e5",
+      "locationSet": {
+        "include": ["be-vwv.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stad Roeselare"
+        "operator": "Stad Roeselare",
+        "operator:wikidata": "Q211037"
       }
     },
     {
-      "displayName": "Stadt Roßleben",
-      "id": "stadtrossleben-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadt Karlsruhe",
+      "id": "stadtkarlsruhe-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadt Roßleben"
+        "operator": "Stadt Karlsruhe",
+        "operator:wikidata": "Q1040"
+      }
+    },
+    {
+      "displayName": "Stadt Roßleben-Wiehe",
+      "id": "stadtrosslebenwiehe-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
+      "matchNames": ["stadt roßleben"],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Stadt Roßleben-Wiehe",
+        "operator:wikidata": "Q59773282"
       }
     },
     {
       "displayName": "Stadt Witten",
-      "id": "stadtwitten-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwitten-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadt Witten"
+        "operator": "Stadt Witten",
+        "operator:wikidata": "Q3764"
       }
     },
     {
       "displayName": "Städtische Werke Kassel",
-      "id": "stadtischewerkekassel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtischewerkekassel-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Städtische Werke Kassel"
+        "operator": "Städtische Werke Kassel",
+        "operator:wikidata": "Q1380025"
       }
     },
     {
       "displayName": "Städtische Werke Netz + Service",
-      "id": "stadtischewerkenetzservice-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtischewerkenetzservice-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "matchNames": [
+        "städtische werke netz + service gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Städtische Werke Netz + Service"
-      }
-    },
-    {
-      "displayName": "Städtische Werke Netz + Service GmbH",
-      "id": "stadtischewerkenetzservicegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Städtische Werke Netz + Service GmbH"
+        "operator": "Städtische Werke Netz + Service",
+        "operator:wikidata": "Q133805707"
       }
     },
     {
       "displayName": "Stadtwerk Winterthur",
-      "id": "stadtwerkwinterthur-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkwinterthur-2e7079",
+      "locationSet": {
+        "include": ["ch-zh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerk Winterthur"
+        "operator": "Stadtwerk Winterthur",
+        "operator:wikidata": "Q2328402"
       }
     },
     {
-      "displayName": "Stadtwerke",
-      "id": "stadtwerke-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Barth",
+      "id": "stadtwerkebarth-e066d3",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
+      "matchNames": ["stadtwerke barth gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Bad Lauterberg",
-      "id": "stadtwerkebadlauterberg-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bad Lauterberg"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Barth GmbH",
-      "id": "stadtwerkebarthgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Barth GmbH"
+        "operator": "Stadtwerke Barth",
+        "operator:wikidata": "Q133567151"
       }
     },
     {
       "displayName": "Stadtwerke Bebra",
-      "id": "stadtwerkebebra-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkebebra-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bebra"
+        "operator": "Stadtwerke Bebra",
+        "operator:wikidata": "Q133567138"
       }
     },
     {
-      "displayName": "Stadtwerke Bielefeld GmbH",
-      "id": "stadtwerkebielefeldgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Bielefeld",
+      "id": "stadtwerkebielefeld-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": ["stadtwerke bielefeld gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bielefeld GmbH"
+        "operator": "Stadtwerke Bielefeld",
+        "operator:wikidata": "Q2328433"
       }
     },
     {
       "displayName": "Stadtwerke Bochum",
-      "id": "stadtwerkebochum-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkebochum-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": ["stadtwerke bochum gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bochum"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Bochum GmbH",
-      "id": "stadtwerkebochumgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bochum GmbH"
+        "operator": "Stadtwerke Bochum",
+        "operator:wikidata": "Q2328438"
       }
     },
     {
       "displayName": "Stadtwerke Brunsbüttel",
-      "id": "stadtwerkebrunsbuttel-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkebrunsbuttel-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Brunsbüttel"
+        "operator": "Stadtwerke Brunsbüttel",
+        "operator:wikidata": "Q124472308"
       }
     },
     {
       "displayName": "Stadtwerke Bühl",
-      "id": "stadtwerkebuhl-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkebuhl-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": ["stadtwerke bühl gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bühl"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Bühl GmbH",
-      "id": "stadtwerkebuhlgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Bühl GmbH"
+        "operator": "Stadtwerke Bühl",
+        "operator:wikidata": "Q133567251"
       }
     },
     {
       "displayName": "Stadtwerke Elmshorn",
-      "id": "stadtwerkeelmshorn-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkeelmshorn-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Elmshorn"
+        "operator": "Stadtwerke Elmshorn",
+        "operator:wikidata": "Q124472368"
+      }
+    },
+    {
+      "displayName": "Stadtwerke Erfurt",
+      "id": "stadtwerkeerfurt-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Stadtwerke Erfurt",
+        "operator:short": "SWE",
+        "operator:wikidata": "Q28543328"
       }
     },
     {
       "displayName": "Stadtwerke Essen",
-      "id": "stadtwerkeessen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkeessen-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Essen"
+        "operator": "Stadtwerke Essen",
+        "operator:wikidata": "Q2328475"
       }
     },
     {
       "displayName": "Stadtwerke Fürstenfeldbruck",
-      "id": "stadtwerkefurstenfeldbruck-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkefurstenfeldbruck-d5f5e8",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Fürstenfeldbruck"
+        "operator": "Stadtwerke Fürstenfeldbruck",
+        "operator:wikidata": "Q2328489"
       }
     },
     {
       "displayName": "Stadtwerke Glückstadt",
-      "id": "stadtwerkegluckstadt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkegluckstadt-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Glückstadt"
+        "operator": "Stadtwerke Glückstadt",
+        "operator:wikidata": "Q124472428"
       }
     },
     {
-      "displayName": "Stadtwerke Görlitz AG",
-      "id": "stadtwerkegorlitzag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Görlitz",
+      "id": "stadtwerkegorlitz-a90494",
+      "locationSet": {
+        "include": ["de-sn.geojson"]
+      },
+      "matchNames": ["stadtwerke görlitz ag"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Görlitz AG"
+        "operator": "Stadtwerke Görlitz",
+        "operator:wikidata": "Q113465035"
       }
     },
     {
       "displayName": "Stadtwerke Göttingen",
-      "id": "stadtwerkegottingen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkegottingen-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Göttingen"
+        "operator": "Stadtwerke Göttingen",
+        "operator:wikidata": "Q109385400"
       }
     },
     {
       "displayName": "Stadtwerke Haltern",
-      "id": "stadtwerkehaltern-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkehaltern-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Haltern"
+        "operator": "Stadtwerke Haltern",
+        "operator:wikidata": "Q124472467"
       }
     },
     {
-      "displayName": "Stadtwerke Heiligenstadt",
-      "id": "stadtwerkeheiligenstadt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Heilbad Heiligenstadt",
+      "id": "stadtwerkeheilbadheiligenstadt-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
+      "matchNames": ["stadtwerke heiligenstadt"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Heiligenstadt"
+        "operator": "Stadtwerke Heilbad Heiligenstadt",
+        "operator:wikidata": "Q133567278"
       }
     },
     {
-      "displayName": "Stadtwerke Herne AG",
-      "id": "stadtwerkeherneag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Herne",
+      "id": "stadtwerkeherne-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": ["stadtwerke herne ag"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Herne AG"
+        "operator": "Stadtwerke Herne",
+        "operator:short": "STWH",
+        "operator:wikidata": "Q113465084"
       }
     },
     {
-      "displayName": "Stadtwerke Ilmenau GmbH",
-      "id": "stadtwerkeilmenaugmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Ilmenau",
+      "id": "stadtwerkeilmenau-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
+      "matchNames": ["stadtwerke ilmenau gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Ilmenau GmbH"
+        "operator": "Stadtwerke Ilmenau",
+        "operator:wikidata": "Q113464818"
       }
     },
     {
-      "displayName": "Stadtwerke Ingolstadt",
-      "id": "stadtwerkeingolstadt-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Ingolstadt Netze",
+      "id": "stadtwerkeingolstadtnetze-d5f5e8",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "matchNames": [
+        "stadtwerke ingolstadt",
+        "stadtwerke ingolstadt netze gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Ingolstadt"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Ingolstadt Netze GmbH",
-      "id": "stadtwerkeingolstadtnetzegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Ingolstadt Netze GmbH"
+        "operator": "Stadtwerke Ingolstadt Netze",
+        "operator:wikidata": "Q133805740"
       }
     },
     {
       "displayName": "Stadtwerke Itzehoe",
-      "id": "stadtwerkeitzehoe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkeitzehoe-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Itzehoe"
+        "operator": "Stadtwerke Itzehoe",
+        "operator:wikidata": "Q124475205"
       }
     },
     {
       "displayName": "Stadtwerke Kaltenkirchen",
-      "id": "stadtwerkekaltenkirchen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkekaltenkirchen-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Kaltenkirchen"
+        "operator": "Stadtwerke Kaltenkirchen",
+        "operator:wikidata": "Q124475228"
       }
     },
     {
-      "displayName": "Stadtwerke Karlsruhe",
-      "id": "stadtwerkekarlsruhe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Karlsruhe Netzservice",
+      "id": "stadtwerkekarlsruhenetzservice-d0c4e4",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-rp.geojson"
+        ]
+      },
+      "matchNames": [
+        "stadtwerke karlsruhe",
+        "stadtwerke karlsruhe gmbh",
+        "stadtwerke karlsruhe netzservice gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Karlsruhe"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Karlsruhe GmbH",
-      "id": "stadtwerkekarlsruhegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Karlsruhe GmbH"
-      }
-    },
-    {
-      "displayName": "Stadtwerke Karlsruhe Netzservice GmbH",
-      "id": "stadtwerkekarlsruhenetzservicegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stadtwerke Karlsruhe Netzservice GmbH"
+        "operator": "Stadtwerke Karlsruhe Netzservice",
+        "operator:wikidata": "Q124476041"
       }
     },
     {
       "displayName": "Stadtwerke Konstanz",
-      "id": "stadtwerkekonstanz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkekonstanz-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Konstanz"
+        "operator": "Stadtwerke Konstanz",
+        "operator:wikidata": "Q1266985"
       }
     },
     {
       "displayName": "Stadtwerke Lehrte",
-      "id": "stadtwerkelehrte-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkelehrte-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Lehrte"
+        "operator": "Stadtwerke Lehrte",
+        "operator:wikidata": "Q133567322"
       }
     },
     {
       "displayName": "Stadtwerke München",
-      "id": "stadtwerkemunchen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkemunchen-d5f5e8",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke München"
+        "operator": "Stadtwerke München",
+        "operator:short": "SWM",
+        "operator:wikidata": "Q882871"
       }
     },
     {
-      "displayName": "Stadtwerke Nordfriesland Netz GmbH",
-      "id": "stadtwerkenordfrieslandnetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Nordfriesland Netz",
+      "id": "stadtwerkenordfrieslandnetz-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
+      "matchNames": [
+        "stadtwerke nordfriesland netz gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Nordfriesland Netz GmbH"
+        "operator": "Stadtwerke Nordfriesland Netz",
+        "operator:wikidata": "Q130392259"
       }
     },
     {
       "displayName": "Stadtwerke Northeim",
-      "id": "stadtwerkenortheim-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkenortheim-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Northeim"
+        "operator": "Stadtwerke Northeim",
+        "operator:wikidata": "Q133567418"
       }
     },
     {
       "displayName": "Stadtwerke Oldenburg in Holstein",
-      "id": "stadtwerkeoldenburginholstein-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkeoldenburginholstein-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Oldenburg in Holstein"
+        "operator": "Stadtwerke Oldenburg in Holstein",
+        "operator:wikidata": "Q130224775"
       }
     },
     {
       "displayName": "Stadtwerke Pforzheim",
-      "id": "stadtwerkepforzheim-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkepforzheim-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Pforzheim"
+        "operator": "Stadtwerke Pforzheim",
+        "operator:short": "SWP",
+        "operator:wikidata": "Q1562628"
       }
     },
     {
       "displayName": "Stadtwerke Rostock",
-      "id": "stadtwerkerostock-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkerostock-e066d3",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Rostock"
+        "operator": "Stadtwerke Rostock",
+        "operator:wikidata": "Q39524051"
       }
     },
     {
       "displayName": "Stadtwerke Saarbrücken",
-      "id": "stadtwerkesaarbrucken-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkesaarbrucken-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Saarbrücken"
+        "operator": "Stadtwerke Saarbrücken",
+        "operator:wikidata": "Q1718530"
       }
     },
     {
       "displayName": "Stadtwerke Saarlouis",
-      "id": "stadtwerkesaarlouis-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkesaarlouis-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Saarlouis"
+        "operator": "Stadtwerke Saarlouis",
+        "operator:wikidata": "Q119640802"
       }
     },
     {
       "displayName": "Stadtwerke Tornesch-Netz",
-      "id": "stadtwerketorneschnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerketorneschnetz-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Tornesch-Netz"
+        "operator": "Stadtwerke Tornesch-Netz",
+        "operator:wikidata": "Q124476513"
       }
     },
     {
       "displayName": "Stadtwerke Troisdorf",
-      "id": "stadtwerketroisdorf-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerketroisdorf-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Troisdorf"
+        "operator": "Stadtwerke Troisdorf",
+        "operator:wikidata": "Q113464968"
       }
     },
     {
-      "displayName": "Stadtwerke Tübingen GmbH",
-      "id": "stadtwerketubingengmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stadtwerke Tübingen",
+      "id": "stadtwerketubingen-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": ["stadtwerke tübingen gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Tübingen GmbH"
+        "operator": "Stadtwerke Tübingen",
+        "operator:short": "SWT",
+        "operator:wikidata": "Q1343869"
       }
     },
     {
       "displayName": "Stadtwerke Velbert",
-      "id": "stadtwerkevelbert-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkevelbert-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Velbert"
+        "operator": "Stadtwerke Velbert",
+        "operator:wikidata": "Q26879064"
       }
     },
     {
       "displayName": "Stadtwerke Villingen-Schwenningen",
-      "id": "stadtwerkevillingenschwenningen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkevillingenschwenningen-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Villingen-Schwenningen"
+        "operator": "Stadtwerke Villingen-Schwenningen",
+        "operator:wikidata": "Q113464952"
       }
     },
     {
       "displayName": "Stadtwerke Völklingen",
-      "id": "stadtwerkevolklingen-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkevolklingen-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Völklingen"
+        "operator": "Stadtwerke Völklingen",
+        "operator:wikidata": "Q133567425"
       }
     },
     {
       "displayName": "Stadtwerke Witten",
-      "id": "stadtwerkewitten-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkewitten-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Witten"
+        "operator": "Stadtwerke Witten",
+        "operator:wikidata": "Q2328652"
       }
     },
     {
       "displayName": "Stadtwerke Wörgl",
-      "id": "stadtwerkeworgl-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtwerkeworgl-65bec9",
+      "locationSet": {
+        "include": ["at-7.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stadtwerke Wörgl"
+        "operator": "Stadtwerke Wörgl",
+        "operator:wikidata": "Q108281048"
       }
     },
     {
       "displayName": "Stannum",
-      "id": "stannum-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stannum-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Stannum"
@@ -3346,35 +3740,35 @@
     },
     {
       "displayName": "Stawag",
-      "id": "stawag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stawag-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stawag"
-      }
-    },
-    {
-      "displayName": "Stawag/Infrawest",
-      "id": "stawaginfrawest-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stawag/Infrawest"
+        "operator": "Stawag",
+        "operator:wikidata": "Q2328404"
       }
     },
     {
       "displayName": "Stedin",
-      "id": "stedin-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stedin-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stedin"
+        "operator": "Stedin",
+        "operator:wikidata": "Q1902943"
       }
     },
     {
       "displayName": "Straßenverkehrszentrale Baden-Württemberg",
-      "id": "strassenverkehrszentralebadenwurttemberg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "strassenverkehrszentralebadenwurttemberg-306dbb",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-he.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Straßenverkehrszentrale Baden-Württemberg"
@@ -3382,107 +3776,132 @@
     },
     {
       "displayName": "Stromnetz Berlin",
-      "id": "stromnetzberlin-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stromnetzberlin-a8f367",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
+      "matchNames": ["stromnetz berlin gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stromnetz Berlin"
-      }
-    },
-    {
-      "displayName": "Stromnetz Berlin GmbH",
-      "id": "stromnetzberlingmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Stromnetz Berlin GmbH"
+        "operator": "Stromnetz Berlin",
+        "operator:wikidata": "Q110255475"
       }
     },
     {
       "displayName": "Stromnetz Hamburg",
-      "id": "stromnetzhamburg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "stromnetzhamburg-c70552",
+      "locationSet": {
+        "include": ["de-hh.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stromnetz Hamburg"
+        "operator": "Stromnetz Hamburg",
+        "operator:wikidata": "Q18028215"
       }
     },
     {
-      "displayName": "Stromnetzgesellschaft Herrenberg mbH & Co. KG",
-      "id": "stromnetzgesellschaftherrenbergmbhandcokg-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stromnetzgesellschaft Herrenberg",
+      "id": "stromnetzgesellschaftherrenberg-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "stromnetzgesellschaft herrenberg mbh & co. kg"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stromnetzgesellschaft Herrenberg mbH & Co. KG"
+        "operator": "Stromnetzgesellschaft Herrenberg",
+        "operator:wikidata": "Q124476721"
       }
     },
     {
-      "displayName": "Stromversorgung Angermünde GmbH",
-      "id": "stromversorgungangermundegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stromversorgung Angermünde",
+      "id": "stromversorgungangermunde-72145d",
+      "locationSet": {
+        "include": ["de-bb.geojson"]
+      },
+      "matchNames": [
+        "stromversorgung angermünde gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stromversorgung Angermünde GmbH"
+        "operator": "Stromversorgung Angermünde"
       }
     },
     {
-      "displayName": "Stuttgarter Netze",
-      "id": "stuttgarternetze-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Stuttgart Netze",
+      "id": "stuttgartnetze-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": ["stuttgarter netze"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Stuttgarter Netze"
+        "operator": "Stuttgart Netze",
+        "operator:wikidata": "Q26794479"
       }
     },
     {
-      "displayName": "Sunshine Coast Regional Council",
-      "id": "sunshinecoastregionalcouncil-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Sunrise",
+      "id": "sunrise-10ee58",
+      "locationSet": {"include": ["ch"]},
+      "matchNames": ["cablecom", "upc"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Sunshine Coast Regional Council"
+        "operator": "Sunrise",
+        "operator:wikidata": "Q112573820"
       }
     },
     {
-      "displayName": "SWE",
-      "id": "swe-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Sunshine Coast Council",
+      "id": "sunshinecoastcouncil-4b5b26",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "sunshine coast regional council"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SWE"
+        "operator": "Sunshine Coast Council",
+        "operator:wikidata": "Q56477664"
       }
     },
     {
-      "displayName": "SWK",
-      "id": "swk-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "SWK Stadtwerke Kaiserslautern Versorgungs-AG",
+      "id": "swkstadtwerkekaiserslauternversorgungsag-beca4f",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "matchNames": [
+        "stadtwerke kaiserslautern",
+        "swk"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SWK"
+        "operator": "SWK Stadtwerke Kaiserslautern Versorgungs-AG",
+        "operator:wikidata": "Q113464931"
       }
     },
     {
-      "displayName": "SWKiel Netz GmbH",
-      "id": "swkielnetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "SWKiel Netz",
+      "id": "swkielnetz-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
+      "matchNames": ["swkiel netz gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "SWKiel Netz GmbH"
-      }
-    },
-    {
-      "displayName": "SWM",
-      "id": "swm-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "SWM"
+        "operator": "SWKiel Netz",
+        "operator:wikidata": "Q130385984"
       }
     },
     {
       "displayName": "Syane",
-      "id": "syane-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "syane-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Syane"
@@ -3490,62 +3909,65 @@
     },
     {
       "displayName": "Sydney Water",
-      "id": "sydneywater-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sydneywater-8d0f7b",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Sydney Water"
+        "operator": "Sydney Water",
+        "operator:wikidata": "Q14476248"
       }
     },
     {
       "displayName": "Sygnir",
-      "id": "sygnir-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "sygnir-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Sygnir"
+        "operator": "Sygnir",
+        "operator:wikidata": "Q117831717"
       }
     },
     {
-      "displayName": "Syndicat départemental d'énergie de l'Allier (SDE 03)",
-      "id": "syndicatdepartementaldenergiedelalliersde03-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Syndicat départemental d'énergie de l'Allier",
+      "id": "syndicatdepartementaldenergiedelallier-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
+      "matchNames": [
+        "syndicat départemental d'énergie de l'allier (sde 03)"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Syndicat départemental d'énergie de l'Allier (SDE 03)"
-      }
-    },
-    {
-      "displayName": "T-Com",
-      "id": "tcom-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "T-Com"
+        "operator": "Syndicat départemental d'énergie de l'Allier",
+        "operator:wikidata": "Q92948092"
       }
     },
     {
       "displayName": "T-Mobile",
-      "id": "tmobile-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tmobile-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "T-Mobile"
+        "operator": "T-Mobile",
+        "operator:wikidata": "Q327634"
       }
     },
     {
       "displayName": "Tauron",
-      "id": "tauron-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tauron-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tauron"
+        "operator": "Tauron",
+        "operator:wikidata": "Q2397198"
       }
     },
     {
       "displayName": "Tauron Dystrybucja S.A. Oddział w Częstochowie",
-      "id": "taurondystrybucjasaoddzialwczestochowie-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "taurondystrybucjasaoddzialwczestochowie-3af24e",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Tauron Dystrybucja S.A. Oddział w Częstochowie"
@@ -3553,119 +3975,63 @@
     },
     {
       "displayName": "TDC",
-      "id": "tdc-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tdc-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "TDC"
+        "operator": "TDC",
+        "operator:wikidata": "Q1238842"
       }
     },
     {
       "displayName": "TDC NET",
-      "id": "tdcnet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tdcnet-cadd5e",
+      "locationSet": {
+        "include": [
+          "dk-84.geojson",
+          "dk-85.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "TDC NET"
+        "operator": "TDC NET",
+        "operator:wikidata": "Q110892227"
       }
     },
     {
       "displayName": "TDF Fibre",
-      "id": "tdffibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tdffibre-5c0b53",
+      "locationSet": {
+        "include": ["fr-pdl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "TDF Fibre"
       }
     },
     {
-      "displayName": "Telecom",
-      "id": "telecom-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telecom"
-      }
-    },
-    {
-      "displayName": "Telecom Italia",
-      "id": "telecomitalia-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telecom Italia"
-      }
-    },
-    {
-      "displayName": "Telecom Italia S.p.a.",
-      "id": "telecomitaliaspa-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telecom Italia S.p.a."
-      }
-    },
-    {
       "displayName": "Telefónica",
-      "id": "telefonica-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "telefonica-85bb10",
+      "locationSet": {"include": ["de", "es"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Telefónica"
+        "operator": "Telefónica",
+        "operator:wikidata": "Q160229"
       }
     },
     {
       "displayName": "Telekom",
-      "id": "telekom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "telekom-9aae45",
+      "locationSet": {
+        "include": ["hu", "ro", "si", "sk"]
+      },
+      "matchNames": ["telecom", "telekom ag"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Telekom"
-      }
-    },
-    {
-      "displayName": "Telekom AG",
-      "id": "telekomag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telekom AG"
-      }
-    },
-    {
-      "displayName": "Telekom Austria",
-      "id": "telekomaustria-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telekom Austria"
-      }
-    },
-    {
-      "displayName": "Telekom Deutschland",
-      "id": "telekomdeutschland-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telekom Deutschland"
-      }
-    },
-    {
-      "displayName": "Telekom Deutschland AG",
-      "id": "telekomdeutschlandag-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telekom Deutschland AG"
-      }
-    },
-    {
-      "displayName": "Telekom Deutschland GmbH",
-      "id": "telekomdeutschlandgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Telekom Deutschland GmbH"
+        "operator": "Telekom",
+        "operator:wikidata": "Q9396"
       }
     },
     {
@@ -3680,71 +4046,83 @@
     },
     {
       "displayName": "Telia",
-      "id": "telia-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "telia-ee6cd0",
+      "locationSet": {
+        "include": ["ee", "fi", "se"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Telia"
+        "operator": "Telia",
+        "operator:wikidata": "Q862303"
       }
     },
     {
       "displayName": "Telstra",
-      "id": "telstra-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "telstra-bf0b59",
+      "locationSet": {"include": ["au"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Telstra"
+        "operator": "Telstra",
+        "operator:wikidata": "Q721162"
       }
     },
     {
       "displayName": "Tendranett",
-      "id": "tendranett-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tendranett-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tendranett"
+        "operator": "Tendranett",
+        "operator:wikidata": "Q129353462"
       }
     },
     {
       "displayName": "Tensio TN",
-      "id": "tensiotn-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tensiotn-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tensio TN"
+        "operator": "Tensio TN",
+        "operator:wikidata": "Q111605441"
       }
     },
     {
       "displayName": "Tensio TS",
-      "id": "tensiots-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tensiots-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tensio TS"
+        "operator": "Tensio TS",
+        "operator:wikidata": "Q19393420"
       }
     },
     {
-      "displayName": "terranets bw GmbH",
-      "id": "terranetsbwgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Terranets BW",
+      "id": "terranetsbw-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["terranets bw gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "terranets bw GmbH"
+        "operator": "Terranets BW",
+        "operator:wikidata": "Q2405189"
       }
     },
     {
       "displayName": "Tesla",
-      "id": "tesla-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tesla-36c4af",
+      "locationSet": {"include": ["dk", "pt"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tesla"
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214"
       }
     },
     {
       "displayName": "THD 66",
-      "id": "thd66-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "thd66-f5c013",
+      "locationSet": {
+        "include": ["fr-occ.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "THD 66"
@@ -3752,26 +4130,35 @@
     },
     {
       "displayName": "Thüga AG",
-      "id": "thugaag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "thugaag-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Thüga AG"
+        "operator": "Thüga AG",
+        "operator:wikidata": "Q1727709"
       }
     },
     {
       "displayName": "Thüringer Energienetze",
-      "id": "thuringerenergienetze-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "thuringerenergienetze-dcdb99",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Thüringer Energienetze"
+        "operator": "Thüringer Energienetze",
+        "operator:short": "TEN",
+        "operator:wikidata": "Q124371330"
       }
     },
     {
       "displayName": "Thurplus",
-      "id": "thurplus-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "thurplus-ba1a22",
+      "locationSet": {
+        "include": ["ch-tg.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Thurplus"
@@ -3779,8 +4166,10 @@
     },
     {
       "displayName": "Tiefbauamt Saarbrücken",
-      "id": "tiefbauamtsaarbrucken-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tiefbauamtsaarbrucken-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Tiefbauamt Saarbrücken"
@@ -3788,17 +4177,25 @@
     },
     {
       "displayName": "TIM",
-      "id": "tim-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tim-7878e2",
+      "locationSet": {"include": ["it"]},
+      "matchNames": [
+        "telecom",
+        "telecom italia",
+        "telecom italia s.p.a."
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "TIM"
+        "operator": "TIM",
+        "operator:wikidata": "Q144617"
       }
     },
     {
       "displayName": "TIM Fibra",
-      "id": "timfibra-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "timfibra-3cc00f",
+      "locationSet": {
+        "include": ["it-45.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "TIM Fibra"
@@ -3806,8 +4203,10 @@
     },
     {
       "displayName": "TINETZ",
-      "id": "tinetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tinetz-65bec9",
+      "locationSet": {
+        "include": ["at-7.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "TINETZ"
@@ -3815,20 +4214,40 @@
     },
     {
       "displayName": "TINETZ-Stromnetz Tirol AG",
-      "id": "tinetzstromnetztirolag-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tinetzstromnetztirolag-65bec9",
+      "locationSet": {
+        "include": ["at-7.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "TINETZ-Stromnetz Tirol AG"
       }
     },
     {
-      "displayName": "TINETZ-Tiroler Netze GmbH",
-      "id": "tinetztirolernetzegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Tiroler Netze",
+      "id": "tirolernetze-65bec9",
+      "locationSet": {
+        "include": ["at-7.geojson"]
+      },
+      "matchNames": ["tinetz-tiroler netze gmbh"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "TINETZ-Tiroler Netze GmbH"
+        "operator": "Tiroler Netze",
+        "operator:short": "TINETZ",
+        "operator:wikidata": "Q2384377"
+      }
+    },
+    {
+      "displayName": "Toulouse Métropole",
+      "id": "toulousemetropole-f5c013",
+      "locationSet": {
+        "include": ["fr-occ.geojson"]
+      },
+      "matchNames": ["grand toulouse"],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Toulouse Métropole",
+        "operator:wikidata": "Q1120291"
       }
     },
     {
@@ -3846,98 +4265,104 @@
     },
     {
       "displayName": "TREDAŞ",
-      "id": "tredas-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tredas-deaf83",
+      "locationSet": {"include": ["tr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "TREDAŞ"
+        "operator": "TREDAŞ",
+        "operator:wikidata": "Q130382441"
       }
     },
     {
       "displayName": "Tucson Electric Power",
-      "id": "tucsonelectricpower-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tucsonelectricpower-20ce79",
+      "locationSet": {
+        "include": ["us-az.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Tucson Electric Power"
+        "operator": "Tucson Electric Power",
+        "operator:short": "TEP",
+        "operator:wikidata": "Q16897777"
       }
     },
     {
-      "displayName": "Turk Telekom",
-      "id": "turktelekom-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Türk Telekom",
+      "id": "turktelekom-deaf83",
+      "locationSet": {"include": ["tr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Turk Telekom"
+        "operator": "Türk Telekom",
+        "operator:wikidata": "Q263700"
       }
     },
     {
       "displayName": "Überlandwerk Fulda",
-      "id": "uberlandwerkfulda-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "uberlandwerkfulda-73535a",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Überlandwerk Fulda"
+        "operator": "Überlandwerk Fulda",
+        "operator:wikidata": "Q332669"
       }
     },
     {
       "displayName": "Überlandwerk Mittelbaden",
-      "id": "uberlandwerkmittelbaden-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "uberlandwerkmittelbaden-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "überlandwerk mittelbaden gmbh & co. kg"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Überlandwerk Mittelbaden"
-      }
-    },
-    {
-      "displayName": "Überlandwerk Mittelbaden GmbH & Co. KG",
-      "id": "uberlandwerkmittelbadengmbhandcokg-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Überlandwerk Mittelbaden GmbH & Co. KG"
-      }
-    },
-    {
-      "displayName": "UGG",
-      "id": "ugg-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "UGG"
+        "operator": "Überlandwerk Mittelbaden",
+        "operator:wikidata": "Q124480690"
       }
     },
     {
       "displayName": "UK Power Networks",
-      "id": "ukpowernetworks-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ukpowernetworks-5e7225",
+      "locationSet": {"include": ["gb-eng"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "UK Power Networks"
+        "operator": "UK Power Networks",
+        "operator:wikidata": "Q7864927"
       }
     },
     {
       "displayName": "United States Postal Service",
-      "id": "unitedstatespostalservice-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "unitedstatespostalservice-61c31b",
+      "locationSet": {"include": ["us"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "United States Postal Service"
+        "operator": "United States Postal Service",
+        "operator:short": "USPS",
+        "operator:wikidata": "Q668687"
       }
     },
     {
-      "displayName": "UPC",
-      "id": "upc-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Unsere Grüne Glasfaser",
+      "id": "unseregruneglasfaser-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "UPC"
+        "operator": "Unsere Grüne Glasfaser",
+        "operator:short": "UGG",
+        "operator:wikidata": "Q133567450"
       }
     },
     {
       "displayName": "Val d'Oise Fibre",
-      "id": "valdoisefibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "valdoisefibre-cb7246",
+      "locationSet": {
+        "include": ["fr-idf.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Val d'Oise Fibre"
@@ -3945,125 +4370,160 @@
     },
     {
       "displayName": "Val de Loire Fibre",
-      "id": "valdeloirefibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "valdeloirefibre-976432",
+      "locationSet": {
+        "include": ["fr-cvl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Val de Loire Fibre"
+        "operator": "Val de Loire Fibre",
+        "operator:wikidata": "Q131815691"
       }
     },
     {
       "displayName": "Vattenfall",
-      "id": "vattenfall-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vattenfall-7c868b",
+      "locationSet": {
+        "include": ["150"],
+        "exclude": ["de-be.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vattenfall"
+        "operator": "Vattenfall",
+        "operator:wikidata": "Q157675"
       }
     },
     {
-      "displayName": "Vattenfall Europe Berlin",
-      "id": "vattenfalleuropeberlin-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Vector",
+      "id": "vector-1317ce",
+      "locationSet": {"include": ["nz"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vattenfall Europe Berlin"
+        "operator": "Vector",
+        "operator:wikidata": "Q7917807"
       }
     },
     {
       "displayName": "Vejdirektoratet",
-      "id": "vejdirektoratet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vejdirektoratet-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vejdirektoratet"
+        "operator": "Vejdirektoratet",
+        "operator:wikidata": "Q1630101"
       }
     },
     {
       "displayName": "Verdo",
-      "id": "verdo-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "verdo-5ee844",
+      "locationSet": {
+        "include": ["dk-84.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Verdo"
+        "operator": "Verdo",
+        "operator:wikidata": "Q12343812"
       }
     },
     {
       "displayName": "Vereinigte Stadtwerke Netz",
-      "id": "vereinigtestadtwerkenetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vereinigtestadtwerkenetz-bb1de4",
+      "locationSet": {
+        "include": ["de-sh.geojson"]
+      },
+      "matchNames": [
+        "vereinigte stadtwerke netz gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vereinigte Stadtwerke Netz"
+        "operator": "Vereinigte Stadtwerke Netz",
+        "operator:short": "VS Netz",
+        "operator:wikidata": "Q124485962"
       }
     },
     {
-      "displayName": "Vereinigte Stadtwerke Netz GmbH",
-      "id": "vereinigtestadtwerkenetzgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Verkehrsbetriebe Karlsruhe",
+      "id": "verkehrsbetriebekarlsruhe-c31658",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "matchNames": [
+        "verkehrsbetriebe karlsruhe gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vereinigte Stadtwerke Netz GmbH"
-      }
-    },
-    {
-      "displayName": "Verkehrsbetriebe Karlsruhe GmbH",
-      "id": "verkehrsbetriebekarlsruhegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Verkehrsbetriebe Karlsruhe GmbH"
+        "operator": "Verkehrsbetriebe Karlsruhe",
+        "operator:wikidata": "Q644958"
       }
     },
     {
       "displayName": "Versorgungsbetriebe Hann. Münden",
-      "id": "versorgungsbetriebehannmunden-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "versorgungsbetriebehannmunden-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": [
+        "versorgungsbetriebe hann. münden gmbh"
+      ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Versorgungsbetriebe Hann. Münden"
-      }
-    },
-    {
-      "displayName": "Versorgungsbetriebe Hann. Münden GmbH",
-      "id": "versorgungsbetriebehannmundengmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Versorgungsbetriebe Hann. Münden GmbH"
+        "operator": "Versorgungsbetriebe Hann. Münden",
+        "operator:wikidata": "Q133567490"
       }
     },
     {
       "displayName": "Vevig",
-      "id": "vevig-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vevig-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vevig"
+        "operator": "Vevig",
+        "operator:wikidata": "Q117841623"
       }
     },
     {
       "displayName": "VicRoads",
-      "id": "vicroads-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vicroads-529e92",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "VicRoads"
+        "operator": "VicRoads",
+        "operator:wikidata": "Q1320887"
+      }
+    },
+    {
+      "displayName": "Ville de Pau",
+      "id": "villedepau-e6f0ae",
+      "locationSet": {
+        "include": ["fr-naq.geojson"]
+      },
+      "matchNames": ["pau"],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Ville de Pau",
+        "operator:wikidata": "Q115909876"
       }
     },
     {
       "displayName": "Ville de Vichy",
-      "id": "villedevichy-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "villedevichy-c9201b",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Ville de Vichy"
+        "operator": "Ville de Vichy",
+        "operator:wikidata": "Q115902978"
       }
     },
     {
       "displayName": "Virgin",
-      "id": "virgin-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "virgin-9ac957",
+      "locationSet": {"include": ["gb"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Virgin"
@@ -4083,53 +4543,80 @@
     },
     {
       "displayName": "Vissi",
-      "id": "vissi-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vissi-96e3a8",
+      "locationSet": {"include": ["no"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vissi"
+        "operator": "Vissi",
+        "operator:wikidata": "Q129204201"
       }
     },
     {
       "displayName": "Vodafone",
-      "id": "vodafone-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vodafone-f4c88f",
+      "locationSet": {
+        "include": ["150"],
+        "exclude": ["de", "ua"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vodafone"
+        "operator": "Vodafone",
+        "operator:wikidata": "Q122141"
+      }
+    },
+    {
+      "displayName": "Vodafone (Україна)",
+      "id": "vodafone-330999",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Vodafone",
+        "operator:wikidata": "Q846031"
+      }
+    },
+    {
+      "displayName": "Vodafone Deutschland",
+      "id": "vodafonedeutschland-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "kabel deutschland",
+        "vodafone kabel deutschland gmbh"
+      ],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Vodafone Deutschland",
+        "operator:wikidata": "Q1560372"
       }
     },
     {
       "displayName": "Vodafone GmbH",
-      "id": "vodafonegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vodafonegmbh-195e1e",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["vodafone"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vodafone GmbH"
-      }
-    },
-    {
-      "displayName": "Vodafone Kabel Deutschland GmbH",
-      "id": "vodafonekabeldeutschlandgmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "Vodafone Kabel Deutschland GmbH"
+        "operator": "Vodafone GmbH",
+        "operator:wikidata": "Q2529830"
       }
     },
     {
       "displayName": "Vorarlberger Energienetze GmbH",
-      "id": "vorarlbergerenergienetzegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vorarlbergerenergienetzegmbh-095133",
+      "locationSet": {
+        "include": ["at-8.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Vorarlberger Energienetze GmbH"
+        "operator": "Vorarlberger Energienetze GmbH",
+        "operator:wikidata": "Q113355023"
       }
     },
     {
       "displayName": "Vorarlberger Netze GmbH",
-      "id": "vorarlbergernetzegmbh-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vorarlbergernetzegmbh-095133",
+      "locationSet": {
+        "include": ["at-8.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Vorarlberger Netze GmbH"
@@ -4137,8 +4624,10 @@
     },
     {
       "displayName": "Vores Elnet",
-      "id": "voreselnet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "voreselnet-8cf1e1",
+      "locationSet": {
+        "include": ["dk-83.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "Vores Elnet"
@@ -4146,110 +4635,138 @@
     },
     {
       "displayName": "VSE NET",
-      "id": "vsenet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vsenet-367b86",
+      "locationSet": {
+        "include": ["de-sl.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "VSE NET"
+        "operator": "VSE NET",
+        "operator:wikidata": "Q130729016"
       }
     },
     {
       "displayName": "Východoslovenská distribučná",
-      "id": "vychodoslovenskadistribucna-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "vychodoslovenskadistribucna-ec39e1",
+      "locationSet": {"include": ["sk"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Východoslovenská distribučná"
+        "operator": "Východoslovenská distribučná",
+        "operator:short": "VSD",
+        "operator:wikidata": "Q96136456"
       }
     },
     {
       "displayName": "Warwickshire County Council",
-      "id": "warwickshirecountycouncil-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "warwickshirecountycouncil-5228b6",
+      "locationSet": {
+        "include": ["gb-west-midlands.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Warwickshire County Council"
+        "operator": "Warwickshire County Council",
+        "operator:wikidata": "Q17066348"
       }
     },
     {
       "displayName": "Washington State Department of Transportation",
-      "id": "washingtonstatedepartmentoftransportation-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "washingtonstatedepartmentoftransportation-a0f122",
+      "locationSet": {
+        "include": ["us-wa.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Washington State Department of Transportation"
+        "operator": "Washington State Department of Transportation",
+        "operator:short": "WSDOT",
+        "operator:wikidata": "Q834834"
       }
     },
     {
       "displayName": "Wasserverband Gifhorn",
-      "id": "wasserverbandgifhorn-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "wasserverbandgifhorn-8d06eb",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Wasserverband Gifhorn"
+        "operator": "Wasserverband Gifhorn",
+        "operator:wikidata": "Q133567476"
       }
     },
     {
       "displayName": "Wasserwerke Zug",
-      "id": "wasserwerkezug-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "wasserwerkezug-b2535b",
+      "locationSet": {
+        "include": ["ch-zg.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Wasserwerke Zug"
+        "operator": "Wasserwerke Zug",
+        "operator:wikidata": "Q2551975"
       }
     },
     {
       "displayName": "Waternet",
-      "id": "waternet-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "waternet-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Waternet"
+        "operator": "Waternet",
+        "operator:wikidata": "Q2137469"
       }
     },
     {
       "displayName": "Wessex Water",
-      "id": "wessexwater-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "wessexwater-3c8ecd",
+      "locationSet": {
+        "include": ["gb-south-west.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Wessex Water"
+        "operator": "Wessex Water",
+        "operator:wikidata": "Q7984154"
       }
     },
     {
       "displayName": "Western Power",
-      "id": "westernpower-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "westernpower-f06193",
+      "locationSet": {
+        "include": ["au-wa.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Western Power"
+        "operator": "Western Power",
+        "operator:wikidata": "Q7988180"
       }
     },
     {
       "displayName": "Westland Infra",
-      "id": "westlandinfra-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "westlandinfra-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Westland Infra"
+        "operator": "Westland Infra",
+        "operator:wikidata": "Q3051261"
       }
     },
     {
       "displayName": "Westnetz",
-      "id": "westnetz-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "westnetz-195e1e",
+      "locationSet": {"include": ["de"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Westnetz"
+        "operator": "Westnetz",
+        "operator:wikidata": "Q2807462"
       }
     },
     {
       "displayName": "Wiener Netze",
-      "id": "wienernetze-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "wienernetze-4935d6",
+      "locationSet": {"include": ["at"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Wiener Netze"
+        "operator": "Wiener Netze",
+        "operator:wikidata": "Q15854358"
       }
     },
     {
@@ -4265,17 +4782,21 @@
     },
     {
       "displayName": "Wuppertaler Stadtwerke",
-      "id": "wuppertalerstadtwerke-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "wuppertalerstadtwerke-75f58d",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Wuppertaler Stadtwerke"
+        "operator": "Wuppertaler Stadtwerke",
+        "operator:short": "WSW",
+        "operator:wikidata": "Q2537722"
       }
     },
     {
       "displayName": "XP Fibre",
-      "id": "xpfibre-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "xpfibre-ed5e6e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "XP Fibre"
@@ -4283,38 +4804,61 @@
     },
     {
       "displayName": "zentras",
-      "id": "zentras-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "zentras-46dd90",
+      "locationSet": {
+        "include": [
+          "ch-lu.geojson",
+          "ch-nw.geojson",
+          "ch-ow.geojson",
+          "ch-zg.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "zentras"
+        "operator": "zentras",
+        "operator:wikidata": "Q125668573"
       }
     },
     {
       "displayName": "Ziggo",
-      "id": "ziggo-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ziggo-af0f60",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Ziggo"
+        "operator": "Ziggo",
+        "operator:wikidata": "Q2382166"
       }
     },
     {
       "displayName": "ΟΤΕ",
-      "id": "387537-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "387537-fa3384",
+      "locationSet": {"include": ["gr"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ΟΤΕ"
+        "operator": "ΟΤΕ",
+        "operator:wikidata": "Q206678"
       }
     },
     {
       "displayName": "АО \"ÓZBEKTELEKOM\"",
-      "id": "9e7cd7-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "9e7cd7-0a0592",
+      "locationSet": {"include": ["uz"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "АО \"ÓZBEKTELEKOM\""
+      }
+    },
+    {
+      "displayName": "Белтелеком",
+      "id": "beltelecom-00ea5e",
+      "locationSet": {"include": ["by"]},
+      "matchNames": ["руп \"белтелеком\""],
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "Белтелеком",
+        "operator:be": "Белтелеком",
+        "operator:en": "Beltelecom",
+        "operator:wikidata": "Q4082979"
       }
     },
     {
@@ -4337,13 +4881,14 @@
       ],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Кіровоградобленерго"
+        "operator": "Кіровоградобленерго",
+        "operator:wikidata": "Q60986611"
       }
     },
     {
       "displayName": "КУП \"СМЭП\"",
-      "id": "70a231-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "70a231-00ea5e",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "КУП \"СМЭП\""
@@ -4351,26 +4896,18 @@
     },
     {
       "displayName": "ЛОЭСК",
-      "id": "c6dafd-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "c6dafd-5ffe69",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "ЛОЭСК"
-      }
-    },
-    {
-      "displayName": "ОАО «РЖД»",
-      "id": "5ea107-f91ac8",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "street_cabinet",
-        "operator": "ОАО «РЖД»"
+        "operator": "ЛОЭСК",
+        "operator:wikidata": "Q4258112"
       }
     },
     {
       "displayName": "ООО 'Мосэнергосбыт – Жуковский'",
-      "id": "f2ea4d-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "f2ea4d-5ffe69",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "ООО 'Мосэнергосбыт – Жуковский'"
@@ -4378,8 +4915,8 @@
     },
     {
       "displayName": "ПАО \"Россети\"",
-      "id": "3ff2a0-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "3ff2a0-5ffe69",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "ПАО \"Россети\""
@@ -4387,20 +4924,25 @@
     },
     {
       "displayName": "ПУ \"Пинскгаз\"",
-      "id": "ab2f8e-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "ab2f8e-00ea5e",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "ПУ \"Пинскгаз\""
       }
     },
     {
-      "displayName": "РУП \"Белтелеком\"",
-      "id": "f04d42-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Российские железные дороги",
+      "id": "russianrailways-5ffe69",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["оао «ржд»"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "РУП \"Белтелеком\""
+        "operator": "Российские железные дороги",
+        "operator:en": "Russian Railways",
+        "operator:ru": "Российские железные дороги",
+        "operator:short": "РЖД",
+        "operator:wikidata": "Q660770"
       }
     },
     {
@@ -4409,31 +4951,49 @@
       "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "Укртелеком"
+        "operator": "Укртелеком",
+        "operator:wikidata": "Q1505321"
       }
     },
     {
       "displayName": "УП \"МинГорСвет\"",
-      "id": "b9a90f-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "b9a90f-00ea5e",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "man_made": "street_cabinet",
         "operator": "УП \"МинГорСвет\""
       }
     },
     {
-      "displayName": "台灣電力公司",
-      "id": "34ba0b-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "displayName": "中国電力ネットワーク",
+      "id": "chugokuelectricpowertransmissionanddistributioncompany-09d945",
+      "locationSet": {"include": ["jp"]},
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "台灣電力公司"
+        "operator": "中国電力ネットワーク",
+        "operator:en": "Chugoku Electric Power Transmission & Distribution Company",
+        "operator:ja": "中国電力ネットワーク",
+        "operator:wikidata": "Q65093799"
+      }
+    },
+    {
+      "displayName": "台灣電力公司",
+      "id": "taiwanpowercompany-e22b12",
+      "locationSet": {"include": ["tw"]},
+      "tags": {
+        "man_made": "street_cabinet",
+        "operator": "台灣電力公司",
+        "operator:en": "Taiwan Power Company",
+        "operator:wikidata": "Q711691",
+        "operator:zh": "台灣電力公司"
       }
     },
     {
       "displayName": "大阪市建設局",
-      "id": "af02ed-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "af02ed-f257b7",
+      "locationSet": {
+        "include": ["jp-27.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "大阪市建設局"
@@ -4441,39 +5001,63 @@
     },
     {
       "displayName": "東京電力",
-      "id": "a13c22-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "tokyoelectricpowercompany-2ab6de",
+      "locationSet": {
+        "include": ["jp-13.geojson"]
+      },
+      "matchNames": ["東京電力株式会社"],
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "東京電力"
+        "operator": "東京電力",
+        "operator:en": "Tokyo Electric Power Company",
+        "operator:ja": "東京電力",
+        "operator:short": "東電",
+        "operator:wikidata": "Q333894"
       }
     },
     {
       "displayName": "東京電力パワーグリッド",
-      "id": "f11c21-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "f11c21-2ab6de",
+      "locationSet": {
+        "include": ["jp-13.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
         "operator": "東京電力パワーグリッド",
-        "operator:ja": "東京電力パワーグリッド"
+        "operator:ja": "東京電力パワーグリッド",
+        "operator:wikidata": "Q21032324"
       }
     },
     {
       "displayName": "関西電力",
-      "id": "aa8e89-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kansaielectricpowercompany-30b9d2",
+      "locationSet": {
+        "include": [
+          "jp-26.geojson",
+          "jp-27.geojson"
+        ]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "関西電力"
+        "operator": "関西電力",
+        "operator:en": "Kansai Electric Power Company",
+        "operator:ja": "関西電力",
+        "operator:short": "かんでん",
+        "operator:wikidata": "Q1365015"
       }
     },
     {
       "displayName": "関西電力送配電",
-      "id": "23a68b-f91ac8",
-      "locationSet": {"include": ["001"]},
+      "id": "kansaitransmissionanddistribution-f257b7",
+      "locationSet": {
+        "include": ["jp-27.geojson"]
+      },
       "tags": {
         "man_made": "street_cabinet",
-        "operator": "関西電力送配電"
+        "operator": "関西電力送配電",
+        "operator:en": "Kansai Transmission and Distribution",
+        "operator:ja": "関西電力送配電",
+        "operator:wikidata": "Q65556946"
       }
     }
   ]

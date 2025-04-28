@@ -21,6 +21,7 @@
         "^(bar )?(central|centrale|kafe|roma|sport)?$",
         "^(встреча|рандеву|жемчужина|виктория|бер[её]зка|лакомка|мечта|оазис|парус|сказка|зерно)$",
         "^caf[eé] de(s)? (la )?(place|sports|gare|mairie|poste|paris)$",
+        "^caffè centrale$",
         "^coffee (bean|break|corner|point)$",
         "^dolce vita$",
         "^lot 1$",
@@ -246,24 +247,16 @@
       }
     },
     {
-      "displayName": "Aroma",
-      "id": "aroma-6ea26d",
-      "locationSet": {"include": ["ca", "us"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "Aroma",
-        "brand:wikidata": "Q2909872",
-        "cuisine": "coffee_shop",
-        "name": "Aroma",
-        "takeaway": "yes"
-      }
-    },
-    {
       "displayName": "Aroma Espresso Bar",
-      "id": "aromaespressobar-1ae0cd",
+      "id": "aromaespressobar-872610",
       "locationSet": {
-        "include": ["ca", "kz", "ro", "ua", "us"]
+        "include": [
+          "ca-on.geojson",
+          "ua",
+          "us-fl.geojson"
+        ]
       },
+      "matchNames": ["aroma"],
       "tags": {
         "amenity": "cafe",
         "brand": "Aroma Espresso Bar",
@@ -545,9 +538,9 @@
     },
     {
       "displayName": "Blank Street Coffee",
-      "id": "blankstreetcoffee-db9177",
+      "id": "blankstreetcoffee-345870",
       "locationSet": {
-        "include": ["gb-eng", "us"]
+        "include": ["gb-eng", "gb-sct", "us"]
       },
       "matchNames": ["blank street"],
       "tags": {
@@ -961,18 +954,6 @@
       }
     },
     {
-      "displayName": "Caffè Centrale",
-      "id": "caffecentrale-e1ef51",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "Caffè Centrale",
-        "cuisine": "coffee_shop",
-        "name": "Caffè Centrale",
-        "takeaway": "yes"
-      }
-    },
-    {
       "displayName": "Caffè Nero",
       "id": "caffenero-0d98f2",
       "locationSet": {
@@ -1374,6 +1355,7 @@
       "tags": {
         "amenity": "cafe",
         "brand": "Coffee Berry",
+        "brand:wikidata": "Q115323784",
         "cuisine": "coffee_shop",
         "name": "Coffee Berry",
         "takeaway": "yes"
@@ -2040,25 +2022,28 @@
     },
     {
       "displayName": "Fresh Corner",
-      "id": "freshcorner-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "freshcorner-032abb",
+      "locationSet": {
+        "include": [
+          "ba",
+          "cz",
+          "hr",
+          "hu",
+          "me",
+          "pl",
+          "ro",
+          "rs",
+          "si",
+          "sk"
+        ]
+      },
+      "preserveTags": ["^cuisine$"],
       "tags": {
         "amenity": "cafe",
         "brand": "Fresh Corner",
+        "brand:wikidata": "Q129256375",
         "cuisine": "coffee_shop",
         "name": "Fresh Corner",
-        "takeaway": "yes"
-      }
-    },
-    {
-      "displayName": "Full",
-      "id": "full-e1ef51",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "Full",
-        "cuisine": "coffee_shop",
-        "name": "Full",
         "takeaway": "yes"
       }
     },
@@ -3541,8 +3526,11 @@
     },
     {
       "displayName": "Quickly",
-      "id": "quickly-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "quickly-fb11e8",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["tw"]
+      },
       "tags": {
         "amenity": "cafe",
         "brand": "Quickly",
@@ -4253,15 +4241,27 @@
     },
     {
       "displayName": "The Coffee",
-      "id": "thecoffee-f04833",
+      "id": "thecoffee-0a0956",
       "locationSet": {
         "include": [
+          "ae",
+          "am",
+          "at",
+          "au",
           "br",
+          "ca",
+          "cl",
           "co",
           "es",
           "fr",
+          "gt",
+          "it",
+          "kr",
+          "mx",
+          "my",
           "pe",
-          "pt"
+          "pt",
+          "th"
         ]
       },
       "tags": {
@@ -4640,8 +4640,8 @@
     },
     {
       "displayName": "Varka",
-      "id": "varka-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "varka-7035bb",
+      "locationSet": {"include": ["by"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Varka",
@@ -4680,8 +4680,8 @@
     },
     {
       "displayName": "Vivari",
-      "id": "vivari-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "vivari-4351d9",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Vivari",
@@ -4980,6 +4980,18 @@
       }
     },
     {
+      "displayName": "Дед Хо",
+      "id": "c531f4-1c12ef",
+      "locationSet": {"include": ["ru"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Дед Хо",
+        "cuisine": "vietnamese",
+        "name": "Дед Хо",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Кафетерија",
       "id": "kafeteria-e777fa",
       "locationSet": {"include": ["me", "rs"]},
@@ -5067,12 +5079,12 @@
     },
     {
       "displayName": "Лепим и варим",
-      "id": "ffda44-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "ffda44-9c7c7f",
+      "locationSet": {"include": ["kz", "ru"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Лепим и варим",
-        "cuisine": "coffee_shop",
+        "cuisine": "russian",
         "name": "Лепим и варим",
         "takeaway": "yes"
       }
@@ -5112,12 +5124,12 @@
     },
     {
       "displayName": "Мидийное место",
-      "id": "0648cc-e1ef51",
-      "locationSet": {"include": ["001"]},
+      "id": "0648cc-1c12ef",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Мидийное место",
-        "cuisine": "coffee_shop",
+        "cuisine": "seafood",
         "name": "Мидийное место",
         "takeaway": "yes"
       }
@@ -6475,10 +6487,10 @@
     },
     {
       "displayName": "吃茶三千",
-      "id": "chichasanchen-2851bb",
+      "id": "chichasanchen-f1b18f",
       "locationSet": {
         "include": ["cn", "tw"],
-        "exclude": ["hk"]
+        "exclude": ["hk", "mo"]
       },
       "tags": {
         "amenity": "cafe",

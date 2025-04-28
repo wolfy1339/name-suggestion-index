@@ -9,6 +9,7 @@
         "^no$"
       ],
       "named": [
+        "^dr chirugien dentiste$",
         "^szpital specjalistyczny nr 2 w bytomiu$"
       ]
     }
@@ -196,15 +197,19 @@
       }
     },
     {
-      "displayName": "HBK-Poliklinik gemeinnützige GmbH",
-      "id": "hbkpoliklinikgemeinnutzigegmbh-158874",
+      "displayName": "HBK-Poliklinik",
+      "id": "hbkpoliklinik-158874",
       "locationSet": {
         "include": ["de-sn.geojson"]
       },
+      "matchNames": [
+        "hbk-poliklinik gemeinnützige gmbh"
+      ],
       "tags": {
         "amenity": "doctors",
         "healthcare": "doctor",
-        "operator": "HBK-Poliklinik gemeinnützige GmbH"
+        "operator": "HBK-Poliklinik",
+        "operator:wikidata": "Q134069923"
       }
     },
     {
@@ -377,7 +382,19 @@
       "tags": {
         "amenity": "doctors",
         "healthcare": "doctor",
-        "operator": "Südblick Augenzentren"
+        "operator": "Südblick Augenzentren",
+        "operator:wikidata": "Q133566452"
+      }
+    },
+    {
+      "displayName": "UNsP Milosrdní bratia, spol. s r.o.",
+      "id": "unspmilosrdnibratiaspolsro-e75b42",
+      "locationSet": {"include": ["sk"]},
+      "note": "ISO 3166-2 SK-BL",
+      "tags": {
+        "amenity": "doctors",
+        "healthcare": "doctor",
+        "operator": "UNsP Milosrdní bratia, spol. s r.o."
       }
     },
     {

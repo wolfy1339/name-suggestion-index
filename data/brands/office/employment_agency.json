@@ -117,19 +117,6 @@
       }
     },
     {
-      "displayName": "France Travail",
-      "id": "francetravail-9e0ae6",
-      "locationSet": {"include": ["fr"]},
-      "matchNames": ["pôle emploi"],
-      "matchTags": ["office/government"],
-      "tags": {
-        "brand": "France Travail",
-        "brand:wikidata": "Q8901192",
-        "name": "France Travail",
-        "office": "employment_agency"
-      }
-    },
-    {
       "displayName": "Interaction",
       "id": "interaction-e5fc42",
       "locationSet": {"include": ["fx"]},
@@ -227,6 +214,16 @@
         "brand": "PeopleReady",
         "brand:wikidata": "Q122432694",
         "name": "PeopleReady",
+        "office": "employment_agency"
+      }
+    },
+    {
+      "displayName": "Powiatowy Urząd Pracy",
+      "id": "powiatowyurzadpracy-8f9418",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Powiatowy Urząd Pracy",
+        "name": "Powiatowy Urząd Pracy",
         "office": "employment_agency"
       }
     },

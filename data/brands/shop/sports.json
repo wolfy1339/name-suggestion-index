@@ -195,10 +195,17 @@
     },
     {
       "displayName": "Decathlon",
-      "id": "decathlon-330f9d",
+      "id": "decathlon-de6174",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["bg", "hk", "ru", "ua"]
+        "exclude": [
+          "bg",
+          "hk",
+          "ru",
+          "tw",
+          "ua",
+          "us"
+        ]
       },
       "tags": {
         "brand": "Decathlon",
@@ -391,10 +398,11 @@
     },
     {
       "displayName": "Head",
-      "id": "head-a8f48a",
-      "locationSet": {"include": ["001"]},
+      "id": "head-c4e29a",
+      "locationSet": {"include": ["cl"]},
       "tags": {
         "brand": "Head",
+        "brand:wikidata": "Q631894",
         "name": "Head",
         "shop": "sports"
       }
@@ -980,8 +988,11 @@
     },
     {
       "displayName": "Sports Authority",
-      "id": "sportsauthority-a8f48a",
-      "locationSet": {"include": ["001"]},
+      "id": "sportsauthority-cab947",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["jp"]
+      },
       "tags": {
         "brand": "Sports Authority",
         "brand:wikidata": "Q7579688",

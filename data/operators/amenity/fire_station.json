@@ -10,15 +10,15 @@
         "^пожежна частина$"
       ],
       "named": [
-        "^km psp|ochotnicza straż pożarna|^zosp rp$"
+        "^(km psp|ochotnicza straż pożarna|zosp rp)$"
       ]
     }
   },
   "items": [
     {
       "displayName": "1 пожарно-спасательный отряд",
-      "id": "7059de-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "7059de-ea0501",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "fire_station",
         "operator": "1 пожарно-спасательный отряд"
@@ -193,27 +193,22 @@
     },
     {
       "displayName": "Brandweer Westhoek",
-      "id": "brandweerwesthoek-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "brandweerwesthoek-600c98",
+      "locationSet": {
+        "include": ["be-vwv.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Brandweer Westhoek"
-      }
-    },
-    {
-      "displayName": "Brandweerzone Centrum",
-      "id": "brandweerzonecentrum-17028f",
-      "locationSet": {"include": ["be"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "Brandweerzone Centrum",
-        "operator:wikidata": "Q16684024"
+        "operator": "Brandweer Westhoek",
+        "operator:wikidata": "Q21051938"
       }
     },
     {
       "displayName": "Brandweerzone Midwest",
-      "id": "brandweerzonemidwest-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "brandweerzonemidwest-600c98",
+      "locationSet": {
+        "include": ["be-vwv.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Brandweerzone Midwest",
@@ -222,8 +217,10 @@
     },
     {
       "displayName": "Brandweerzone Rivierenland",
-      "id": "brandweerzonerivierenland-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "brandweerzonerivierenland-e61dbd",
+      "locationSet": {
+        "include": ["be-van.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Brandweerzone Rivierenland",
@@ -344,8 +341,10 @@
     },
     {
       "displayName": "Cape Breton Regional Municipality Fire Services",
-      "id": "capebretonregionalmunicipalityfireservices-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "capebretonregionalmunicipalityfireservices-d13411",
+      "locationSet": {
+        "include": ["ca-ns.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Cape Breton Regional Municipality Fire Services"
@@ -499,20 +498,16 @@
     },
     {
       "displayName": "Consorci Provincial de Bombers de València",
-      "id": "consorciprovincialdebombersdevalencia-c979cd",
-      "locationSet": {"include": ["es"]},
+      "id": "consorciprovincialdebombersdevalencia-3bae61",
+      "locationSet": {
+        "include": ["es-v.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Consorci Provincial de Bombers de València"
-      }
-    },
-    {
-      "displayName": "Consorcio Provincial de Bomberos de Valencia / Consorci Provincial de Bombers de València",
-      "id": "consorcioprovincialdebomberosdevalenciaconsorciprovincialdebombersdevalencia-c979cd",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "Consorcio Provincial de Bomberos de Valencia / Consorci Provincial de Bombers de València"
+        "operator": "Consorci Provincial de Bombers de València",
+        "operator:ca": "Consorci Provincial de Bombers de València",
+        "operator:es": "Consorcio Provincial de Bomberos de Valencia",
+        "operator:wikidata": "Q124644839"
       }
     },
     {
@@ -553,11 +548,15 @@
     },
     {
       "displayName": "Corpo de Bombeiros Militar do Estado de São Paulo",
-      "id": "corpodebombeirosmilitardoestadodesaopaulo-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "corpodebombeirosmilitardoestadodesaopaulo-ee4c4c",
+      "locationSet": {
+        "include": ["br-sp.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Corpo de Bombeiros Militar do Estado de São Paulo"
+        "operator": "Corpo de Bombeiros Militar do Estado de São Paulo",
+        "operator:short": "CBPMESP",
+        "operator:wikidata": "Q10260738"
       }
     },
     {
@@ -674,11 +673,14 @@
     },
     {
       "displayName": "Detroit Fire Department",
-      "id": "detroitfiredepartment-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "detroitfiredepartment-14eaf8",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Detroit Fire Department"
+        "operator": "Detroit Fire Department",
+        "operator:wikidata": "Q5265929"
       }
     },
     {
@@ -1096,9 +1098,25 @@
       }
     },
     {
+      "displayName": "Hulpverleningszone 1",
+      "id": "hulpverleningszone1-600c98",
+      "locationSet": {
+        "include": ["be-vwv.geojson"]
+      },
+      "matchNames": ["hulpverleningszone zone 1"],
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Hulpverleningszone 1",
+        "operator:wikidata": "Q16684022"
+      }
+    },
+    {
       "displayName": "Hulpverleningszone Centrum",
-      "id": "hulpverleningszonecentrum-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "hulpverleningszonecentrum-5f4af0",
+      "locationSet": {
+        "include": ["be-vov.geojson"]
+      },
+      "matchNames": ["brandweerzone centrum"],
       "tags": {
         "amenity": "fire_station",
         "operator": "Hulpverleningszone Centrum",
@@ -1107,8 +1125,10 @@
     },
     {
       "displayName": "Hulpverleningszone Fluvia",
-      "id": "hulpverleningszonefluvia-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "hulpverleningszonefluvia-600c98",
+      "locationSet": {
+        "include": ["be-vwv.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Hulpverleningszone Fluvia",
@@ -1117,8 +1137,10 @@
     },
     {
       "displayName": "Hulpverleningszone Rand",
-      "id": "hulpverleningszonerand-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "hulpverleningszonerand-e61dbd",
+      "locationSet": {
+        "include": ["be-van.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Hulpverleningszone Rand",
@@ -1127,22 +1149,14 @@
     },
     {
       "displayName": "Hulpverleningszone Taxandria",
-      "id": "hulpverleningszonetaxandria-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "hulpverleningszonetaxandria-e61dbd",
+      "locationSet": {
+        "include": ["be-van.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Hulpverleningszone Taxandria",
         "operator:wikidata": "Q16684060"
-      }
-    },
-    {
-      "displayName": "Hulpverleningszone Zone 1",
-      "id": "hulpverleningszonezone1-17028f",
-      "locationSet": {"include": ["be"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "Hulpverleningszone Zone 1",
-        "operator:wikidata": "Q16684022"
       }
     },
     {
@@ -1270,6 +1284,18 @@
         "amenity": "fire_station",
         "operator": "Landeshauptstadt Hannover",
         "operator:wikidata": "Q1715"
+      }
+    },
+    {
+      "displayName": "Landeshauptstadt München",
+      "id": "landeshauptstadtmunchen-1f87b3",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Landeshauptstadt München",
+        "operator:wikidata": "Q1361384"
       }
     },
     {
@@ -1762,8 +1788,8 @@
     },
     {
       "displayName": "Räddningstjänsten Fyrbodal",
-      "id": "raddningstjanstenfyrbodal-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "raddningstjanstenfyrbodal-89a3f3",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "fire_station",
         "operator": "Räddningstjänsten Fyrbodal"
@@ -1780,11 +1806,12 @@
     },
     {
       "displayName": "Räddningstjänsten Syd",
-      "id": "raddningstjanstensyd-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "raddningstjanstensyd-89a3f3",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Räddningstjänsten Syd"
+        "operator": "Räddningstjänsten Syd",
+        "operator:wikidata": "Q10658399"
       }
     },
     {
@@ -1798,6 +1825,18 @@
         "operator": "Rio Arriba County Fire Department",
         "operator:short": "RACFD",
         "operator:wikidata": "Q130273360"
+      }
+    },
+    {
+      "displayName": "Rochester Fire Department (New York)",
+      "id": "rochesterfiredepartment-606e7c",
+      "locationSet": {
+        "include": ["us-ny.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Rochester Fire Department",
+        "operator:wikidata": "Q133748042"
       }
     },
     {
@@ -2219,6 +2258,18 @@
         "amenity": "fire_station",
         "operator": "Santa Clara County Fire Department",
         "operator:wikidata": "Q20050604"
+      }
+    },
+    {
+      "displayName": "Santa Fe County Fire Department",
+      "id": "santafecountyfiredepartment-ee0f4a",
+      "locationSet": {
+        "include": ["us-nm.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Santa Fe County Fire Department",
+        "operator:short": "SFCFD"
       }
     },
     {
@@ -3320,15 +3371,6 @@
       }
     },
     {
-      "displayName": "SFCFD",
-      "id": "sfcfd-f24dcc",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "fire_station",
-        "operator": "SFCFD"
-      }
-    },
-    {
       "displayName": "Shropshire Fire and Rescue Service",
       "id": "shropshirefireandrescueservice-794a68",
       "locationSet": {
@@ -3366,11 +3408,12 @@
     },
     {
       "displayName": "Södra Älvsborgs Räddningstjänstförbund",
-      "id": "sodraalvsborgsraddningstjanstforbund-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "sodraalvsborgsraddningstjanstforbund-89a3f3",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Södra Älvsborgs Räddningstjänstförbund"
+        "operator": "Södra Älvsborgs Räddningstjänstförbund",
+        "operator:wikidata": "Q18333770"
       }
     },
     {
@@ -3506,11 +3549,14 @@
     },
     {
       "displayName": "Stadt Butzbach",
-      "id": "stadtbutzbach-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtbutzbach-8eb808",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "Stadt Butzbach"
+        "operator": "Stadt Butzbach",
+        "operator:wikidata": "Q569680"
       }
     },
     {
@@ -3893,11 +3939,12 @@
     },
     {
       "displayName": "Veiligheidsregio Utrecht",
-      "id": "veiligheidsregioutrecht-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "veiligheidsregioutrecht-0004ee",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "fire_station",
-        "operator": "Veiligheidsregio Utrecht"
+        "operator": "Veiligheidsregio Utrecht",
+        "operator:wikidata": "Q14513199"
       }
     },
     {
@@ -4066,6 +4113,18 @@
         "amenity": "fire_station",
         "operator": "Verbandsgemeinde Kelberg",
         "operator:wikidata": "Q519319"
+      }
+    },
+    {
+      "displayName": "Verbandsgemeinde Kirchberg",
+      "id": "verbandsgemeindekirchberg-83d42d",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "Verbandsgemeinde Kirchberg",
+        "operator:wikidata": "Q559333"
       }
     },
     {
@@ -4467,8 +4526,10 @@
     },
     {
       "displayName": "Zone de Secours Luxembourg",
-      "id": "zonedesecoursluxembourg-17028f",
-      "locationSet": {"include": ["be"]},
+      "id": "zonedesecoursluxembourg-1d5b26",
+      "locationSet": {
+        "include": ["be-wlx.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
         "operator": "Zone de Secours Luxembourg",
@@ -4524,21 +4585,27 @@
       }
     },
     {
-      "displayName": "МЧС",
-      "id": "609176-0b04d7",
-      "locationSet": {"include": ["by", "ru"]},
+      "displayName": "МНС Беларусі",
+      "id": "ba8d14-e7dafd",
+      "locationSet": {"include": ["by"]},
+      "matchNames": ["мчс"],
       "tags": {
         "amenity": "fire_station",
-        "operator": "МЧС"
+        "operator": "МНС Беларусі",
+        "operator:be": "МНС Беларусі",
+        "operator:ru": "МЧС Беларуси",
+        "operator:wikidata": "Q3315400"
       }
     },
     {
       "displayName": "МЧС России",
-      "id": "483d4b-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "483d4b-ea0501",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["мчс"],
       "tags": {
         "amenity": "fire_station",
-        "operator": "МЧС России"
+        "operator": "МЧС России",
+        "operator:wikidata": "Q2624171"
       }
     },
     {
@@ -4745,11 +4812,14 @@
     },
     {
       "displayName": "佐賀中部広域連合",
-      "id": "4ad5c7-f24dcc",
-      "locationSet": {"include": ["001"]},
+      "id": "4ad5c7-e2e749",
+      "locationSet": {
+        "include": ["jp-41.geojson"]
+      },
       "tags": {
         "amenity": "fire_station",
-        "operator": "佐賀中部広域連合"
+        "operator": "佐賀中部広域連合",
+        "operator:wikidata": "Q11384615"
       }
     },
     {

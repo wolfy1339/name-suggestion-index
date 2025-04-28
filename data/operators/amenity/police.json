@@ -322,8 +322,10 @@
     },
     {
       "displayName": "Delhi Police",
-      "id": "delhipolice-d0526a",
-      "locationSet": {"include": ["in"]},
+      "id": "delhipolice-230fee",
+      "locationSet": {
+        "include": ["in-dl.geojson"]
+      },
       "tags": {
         "amenity": "police",
         "operator": "Delhi Police",
@@ -752,8 +754,10 @@
     },
     {
       "displayName": "Jammu and Kashmir Police",
-      "id": "jammuandkashmirpolice-0bc1d6",
-      "locationSet": {"include": ["in", "pk"]},
+      "id": "jammuandkashmirpolice-29c3e5",
+      "locationSet": {
+        "include": ["in-jk.geojson"]
+      },
       "tags": {
         "amenity": "police",
         "operator": "Jammu and Kashmir Police",
@@ -848,8 +852,10 @@
     },
     {
       "displayName": "Kerala Police",
-      "id": "keralapolice-d0526a",
-      "locationSet": {"include": ["in"]},
+      "id": "keralapolice-c0bc16",
+      "locationSet": {
+        "include": ["in-kl.geojson"]
+      },
       "tags": {
         "amenity": "police",
         "operator": "Kerala Police",
@@ -1618,6 +1624,16 @@
       }
     },
     {
+      "displayName": "Oulun poliisilaitos",
+      "id": "oulunpoliisilaitos-4900fa",
+      "locationSet": {"include": ["fi"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Oulun poliisilaitos",
+        "operator:wikidata": "Q92422920"
+      }
+    },
+    {
       "displayName": "Peel Regional Police",
       "id": "peelregionalpolice-ecdb14",
       "locationSet": {
@@ -1753,6 +1769,18 @@
         "amenity": "police",
         "operator": "Polícia Civil do Estado de São Paulo",
         "operator:wikidata": "Q10350993"
+      }
+    },
+    {
+      "displayName": "Polícia Civil do Estado de Sergipe",
+      "id": "policiacivildoestadodesergipe-8453d9",
+      "locationSet": {
+        "include": ["br-se.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "Polícia Civil do Estado de Sergipe",
+        "operator:wikidata": "Q10350991"
       }
     },
     {
@@ -2781,8 +2809,10 @@
     },
     {
       "displayName": "Punjab Police (India)",
-      "id": "punjabpolice-d0526a",
-      "locationSet": {"include": ["in"]},
+      "id": "punjabpolice-8f76e8",
+      "locationSet": {
+        "include": ["in-pb.geojson"]
+      },
       "tags": {
         "amenity": "police",
         "operator": "Punjab Police",
@@ -2924,6 +2954,18 @@
         "amenity": "police",
         "operator": "Secretaria de Estado de Segurança Pública e Defesa Social",
         "operator:short": "SEGUP"
+      }
+    },
+    {
+      "displayName": "Secretaría de Seguridad Ciudadana",
+      "id": "secretariadeseguridadciudadana-d22912",
+      "locationSet": {
+        "include": ["mx-cmx.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "Secretaría de Seguridad Ciudadana",
+        "operator:wikidata": "Q6867469"
       }
     },
     {
@@ -3354,12 +3396,16 @@
     },
     {
       "displayName": "Zone de Police Bruxelles CAPITALE Ixelles – Politiezone Brussel HOOFDSTAD Elsene",
-      "id": "zonedepolicebruxellescapitaleixellespolitiezonebrusselhoofdstadelsene-36e2c8",
-      "locationSet": {"include": ["be"]},
+      "id": "zonedepolicebruxellescapitaleixellespolitiezonebrusselhoofdstadelsene-45bc05",
+      "locationSet": {
+        "include": ["be-bru.geojson"]
+      },
       "matchNames": ["pz 5339", "zp 5339"],
       "tags": {
         "amenity": "police",
         "operator": "Zone de Police Bruxelles CAPITALE Ixelles – Politiezone Brussel HOOFDSTAD Elsene",
+        "operator:fr": "Zone de Police Bruxelles CAPITALE Ixelles",
+        "operator:nl": "Politiezone Brussel HOOFDSTAD Elsene",
         "operator:wikidata": "Q2199865"
       }
     },

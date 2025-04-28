@@ -4,9 +4,9 @@
     "exclude": {
       "generic": [
         "^(commun(e|ity)|gemeinde)$",
-        "^(community centre)$",
         "^(government|municipalité)$",
         "^(自治会|町内会)$",
+        "^community centre$",
         "^evangelische kirche$",
         "^mairie$",
         "^scouts$"
@@ -86,13 +86,29 @@
     },
     {
       "displayName": "Ayuntamiento de Málaga",
-      "id": "ayuntamientodemalaga-1f7aba",
-      "locationSet": {"include": ["es"]},
+      "id": "ayuntamientodemalaga-b7b38c",
+      "locationSet": {
+        "include": ["es-ma.geojson"]
+      },
       "tags": {
         "amenity": "community_centre",
         "operator": "Ayuntamiento de Málaga",
         "operator:type": "government",
         "operator:wikidata": "Q5714892"
+      }
+    },
+    {
+      "displayName": "Baltimore City Department of Recreation & Parks",
+      "id": "baltimorecitydepartmentofrecreationandparks-78231e",
+      "locationSet": {
+        "include": ["us-md-baltimore.geojson"]
+      },
+      "tags": {
+        "amenity": "community_centre",
+        "operator": "Baltimore City Department of Recreation & Parks",
+        "operator:short": "BCRP",
+        "operator:type": "government",
+        "operator:wikidata": "Q110062922"
       }
     },
     {
@@ -211,15 +227,20 @@
       "tags": {
         "amenity": "community_centre",
         "operator": "City of Cape Town",
+        "operator:af": "Stad Kaapstad",
+        "operator:en": "City of Cape Town",
         "operator:type": "government",
-        "operator:wikidata": "Q1185115"
+        "operator:wikidata": "Q1185115",
+        "operator:xh": "IsiXeko saseKapa"
       }
     },
     {
-      "displayName": "City of Cleveland",
-      "id": "cityofcleveland-47f0c6",
+      "displayName": "City of Cleveland (Ohio)",
+      "id": "cityofcleveland-6cc217",
       "locationSet": {
-        "include": ["us-oh.geojson"]
+        "include": [
+          "us-oh-cuyahoga_county.geojson"
+        ]
       },
       "tags": {
         "amenity": "community_centre",
@@ -381,12 +402,12 @@
       }
     },
     {
-      "displayName": "Göteborgs Stad",
+      "displayName": "Göteborgs stad",
       "id": "goteborgsstad-57685d",
       "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "community_centre",
-        "operator": "Göteborgs Stad",
+        "operator": "Göteborgs stad",
         "operator:type": "government",
         "operator:wikidata": "Q52502"
       }
@@ -820,13 +841,14 @@
     },
     {
       "displayName": "つくば市",
-      "id": "13a16f-f93e45",
+      "id": "cityoftsukuba-f93e45",
       "locationSet": {
         "include": ["jp-08.geojson"]
       },
       "tags": {
         "amenity": "community_centre",
         "operator": "つくば市",
+        "operator:en": "City of Tsukuba",
         "operator:ja": "つくば市",
         "operator:type": "government",
         "operator:wikidata": "Q273863"

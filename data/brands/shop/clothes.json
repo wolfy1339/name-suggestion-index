@@ -53,6 +53,17 @@
       }
     },
     {
+      "displayName": "5.10.15",
+      "id": "51015-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "5.10.15",
+        "brand:wikidata": "Q128781018",
+        "name": "5.10.15",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "6IXTY8IGHT",
       "id": "6ixty8ight-7905dc",
       "locationSet": {
@@ -1761,6 +1772,18 @@
       }
     },
     {
+      "displayName": "Bytom",
+      "id": "bytom-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Bytom",
+        "brand:wikidata": "Q9386296",
+        "clothes": "suits",
+        "name": "Bytom",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "C&A",
       "id": "canda-3937bd",
       "locationSet": {"include": ["001"]},
@@ -1865,10 +1888,13 @@
     },
     {
       "displayName": "Camel Active",
-      "id": "camelactive-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "camelactive-1cce02",
+      "locationSet": {
+        "include": ["150", "cy", "ru"]
+      },
       "tags": {
         "brand": "Camel Active",
+        "brand:wikidata": "Q20057140",
         "name": "Camel Active",
         "shop": "clothes"
       }
@@ -1911,6 +1937,7 @@
       "locationSet": {
         "include": ["at", "de", "ee", "sk"]
       },
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "Camp David",
         "brand:wikidata": "Q50540636",
@@ -2140,8 +2167,8 @@
     },
     {
       "displayName": "Change",
-      "id": "change-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "change-b5590c",
+      "locationSet": {"include": ["150"]},
       "tags": {
         "brand": "Change",
         "name": "Change",
@@ -3332,8 +3359,8 @@
     },
     {
       "displayName": "Eclipse",
-      "id": "eclipse-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "eclipse-9e1367",
+      "locationSet": {"include": ["ca"]},
       "tags": {
         "brand": "Eclipse",
         "name": "Eclipse",
@@ -4493,8 +4520,8 @@
     },
     {
       "displayName": "Greenpoint",
-      "id": "greenpoint-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "greenpoint-196c99",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "brand": "Greenpoint",
         "name": "Greenpoint",
@@ -5115,10 +5142,11 @@
     },
     {
       "displayName": "Izac",
-      "id": "izac-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "izac-90f7b7",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Izac",
+        "brand:wikidata": "Q127514827",
         "name": "Izac",
         "shop": "clothes"
       }
@@ -5226,6 +5254,18 @@
         "brand": "Jacqui E",
         "brand:wikidata": "Q118383260",
         "name": "Jacqui E",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "JAM",
+      "id": "jam-bd328b",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["jam clothing"],
+      "tags": {
+        "brand": "JAM",
+        "brand:wikidata": "Q129814709",
+        "name": "JAM",
         "shop": "clothes"
       }
     },
@@ -5804,6 +5844,18 @@
       }
     },
     {
+      "displayName": "Kubenz",
+      "id": "kubenz-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Kubenz",
+        "brand:wikidata": "Q133730812",
+        "clothes": "suits",
+        "name": "Kubenz",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Kujten",
       "id": "kujten-928473",
       "locationSet": {
@@ -5985,8 +6037,11 @@
     },
     {
       "displayName": "LC Waikiki",
-      "id": "lcwaikiki-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "lcwaikiki-ca469e",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["ge"]
+      },
       "tags": {
         "brand": "LC Waikiki",
         "brand:wikidata": "Q3205965",
@@ -6067,8 +6122,8 @@
     },
     {
       "displayName": "Lee Wrangler",
-      "id": "leewrangler-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "leewrangler-196c99",
+      "locationSet": {"include": ["pl"]},
       "tags": {
         "brand": "Lee Wrangler",
         "name": "Lee Wrangler",
@@ -6398,14 +6453,28 @@
     },
     {
       "displayName": "Lululemon",
-      "id": "lululemon-211268",
+      "id": "lululemon-4bc474",
       "locationSet": {
         "include": [
+          "ae",
           "au",
           "ca",
+          "ch",
+          "cn",
           "de",
+          "dk",
+          "es",
+          "fr",
           "gb",
+          "ie",
+          "jp",
+          "kr",
+          "kw",
+          "nl",
+          "no",
           "nz",
+          "sa",
+          "se",
           "us"
         ]
       },
@@ -6520,10 +6589,11 @@
     },
     {
       "displayName": "Maison 123",
-      "id": "maison123-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "maison123-f2b18a",
+      "locationSet": {"include": ["be", "fx"]},
       "tags": {
         "brand": "Maison 123",
+        "brand:wikidata": "Q128033893",
         "name": "Maison 123",
         "shop": "clothes"
       }
@@ -7943,10 +8013,11 @@
     },
     {
       "displayName": "OPEN32",
-      "id": "open32-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "open32-91c4cd",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "brand": "OPEN32",
+        "brand:wikidata": "Q131523005",
         "name": "OPEN32",
         "shop": "clothes"
       }
@@ -8922,10 +8993,11 @@
     },
     {
       "displayName": "Raymond",
-      "id": "raymond-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "raymond-f8e8b1",
+      "locationSet": {"include": ["in"]},
       "tags": {
         "brand": "Raymond",
+        "brand:wikidata": "Q3537018",
         "name": "Raymond",
         "shop": "clothes"
       }
@@ -9028,10 +9100,11 @@
     },
     {
       "displayName": "Replay",
-      "id": "replay-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "replay-b5590c",
+      "locationSet": {"include": ["150"]},
       "tags": {
         "brand": "Replay",
+        "brand:wikidata": "Q1654538",
         "name": "Replay",
         "shop": "clothes"
       }
@@ -9337,10 +9410,13 @@
     },
     {
       "displayName": "Salsa",
-      "id": "salsa-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "salsa-dfc082",
+      "locationSet": {
+        "include": ["de", "es", "fx", "pt"]
+      },
       "tags": {
         "brand": "Salsa",
+        "brand:wikidata": "Q110709358",
         "name": "Salsa",
         "shop": "clothes"
       }
@@ -9606,6 +9682,26 @@
         "brand:wikidata": "Q62521738",
         "clothes": "babies;children",
         "name": "Sergent Major",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Sézane",
+      "id": "sezane-bfb742",
+      "locationSet": {
+        "include": [
+          "ch",
+          "de",
+          "es",
+          "fr",
+          "gb",
+          "us"
+        ]
+      },
+      "tags": {
+        "brand": "Sézane",
+        "brand:wikidata": "Q86682767",
+        "name": "Sézane",
         "shop": "clothes"
       }
     },
@@ -11315,8 +11411,8 @@
     },
     {
       "displayName": "Vilet",
-      "id": "vilet-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "vilet-7b6907",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Vilet",
         "name": "Vilet",
@@ -11761,6 +11857,17 @@
         "brand:wikidata": "Q113502525",
         "clothes": "workwear",
         "name": "Work World",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "worldbox",
+      "id": "worldbox-196c99",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "worldbox",
+        "brand:wikidata": "Q133589392",
+        "name": "worldbox",
         "shop": "clothes"
       }
     },
@@ -12243,6 +12350,7 @@
       "locationSet": {"include": ["ge"]},
       "tags": {
         "brand": "ელსი ვაიკიკი",
+        "brand:en": "LC Waikiki",
         "brand:ka": "ელსი ვაიკიკი",
         "brand:wikidata": "Q3205965",
         "name": "ელსი ვაიკიკი",
@@ -12285,8 +12393,17 @@
     },
     {
       "displayName": "ردتاغ",
-      "id": "95270f-3937bd",
-      "locationSet": {"include": ["001"]},
+      "id": "95270f-c3d0a3",
+      "locationSet": {
+        "include": [
+          "ae",
+          "bh",
+          "kw",
+          "om",
+          "qa",
+          "sa"
+        ]
+      },
       "tags": {
         "brand": "ردتاغ",
         "name": "ردتاغ",

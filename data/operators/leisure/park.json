@@ -3,6 +3,7 @@
     "path": "operators/leisure/park",
     "exclude": {
       "generic": [
+        "^(resident welfare association|rwa)$",
         "^ayuntamiento$",
         "^city$",
         "^commune$",
@@ -10,12 +11,11 @@
         "^gover(no|ment)$",
         "^hoa$",
         "^mairie$",
-        "^municipal(|ity|idad)$",
+        "^municipal(ity|idad)?$",
         "^municipio$",
         "^p[uú]blic(o)?$",
         "^park$",
-        "^prefeitura (municipal)?$",
-        "^prefeitura$",
+        "^prefeitura( municipal)?$",
         "^recreation and parks$",
         "^shared$",
         "^walter$"
@@ -210,9 +210,9 @@
     },
     {
       "displayName": "Austin Parks and Recreation Department",
-      "id": "austinparksandrecreationdepartment-8bfd34",
+      "id": "austinparksandrecreationdepartment-24ea52",
       "locationSet": {
-        "include": ["us-tx.geojson"]
+        "include": ["us-tx-austin.geojson"]
       },
       "matchNames": [
         "city of austin",
@@ -227,20 +227,24 @@
     },
     {
       "displayName": "Ayuntamiento de Algeciras",
-      "id": "ayuntamientodealgeciras-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "ayuntamientodealgeciras-e4902f",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "leisure": "park",
-        "operator": "Ayuntamiento de Algeciras"
+        "operator": "Ayuntamiento de Algeciras",
+        "operator:type": "government",
+        "operator:wikidata": "Q5714792"
       }
     },
     {
       "displayName": "Ayuntamiento de Barbastro",
-      "id": "ayuntamientodebarbastro-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "ayuntamientodebarbastro-e4902f",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "leisure": "park",
-        "operator": "Ayuntamiento de Barbastro"
+        "operator": "Ayuntamiento de Barbastro",
+        "operator:type": "government",
+        "operator:wikidata": "Q48020044"
       }
     },
     {
@@ -256,11 +260,12 @@
     },
     {
       "displayName": "Ayuntamiento de la Villa de Los Barrios",
-      "id": "ayuntamientodelavilladelosbarrios-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "ayuntamientodelavilladelosbarrios-e4902f",
+      "locationSet": {"include": ["es"]},
       "tags": {
         "leisure": "park",
-        "operator": "Ayuntamiento de la Villa de Los Barrios"
+        "operator": "Ayuntamiento de la Villa de Los Barrios",
+        "operator:type": "government"
       }
     },
     {
@@ -276,8 +281,10 @@
     },
     {
       "displayName": "Ayuntamiento de Málaga",
-      "id": "ayuntamientodemalaga-e4902f",
-      "locationSet": {"include": ["es"]},
+      "id": "ayuntamientodemalaga-5098b8",
+      "locationSet": {
+        "include": ["es-ma.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "Ayuntamiento de Málaga",
@@ -310,6 +317,23 @@
         "operator": "Bainbridge Island Metro Park & Recreation District",
         "operator:type": "public",
         "operator:wikidata": "Q110062887"
+      }
+    },
+    {
+      "displayName": "Baltimore City Department of Recreation & Parks",
+      "id": "baltimorecitydepartmentofrecreationandparks-1dd8f5",
+      "locationSet": {
+        "include": ["us-md-baltimore.geojson"]
+      },
+      "matchNames": [
+        "baltimore city recreation and parks"
+      ],
+      "tags": {
+        "leisure": "park",
+        "operator": "Baltimore City Department of Recreation & Parks",
+        "operator:short": "BCRP",
+        "operator:type": "government",
+        "operator:wikidata": "Q110062922"
       }
     },
     {
@@ -366,8 +390,10 @@
     },
     {
       "displayName": "BBMP",
-      "id": "bruhatbengalurumahanagarapalike-d31221",
-      "locationSet": {"include": ["in"]},
+      "id": "bruhatbengalurumahanagarapalike-8ba62f",
+      "locationSet": {
+        "include": ["in-ka.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "ಬೃಹತ್ ಬೆಂಗಳೂರು ಮಹಾನಗರ ಪಾಲಿಕೆ",
@@ -376,23 +402,6 @@
         "operator:short": "BBMP",
         "operator:type": "government",
         "operator:wikidata": "Q4978693"
-      }
-    },
-    {
-      "displayName": "BCRP",
-      "id": "baltimorecitydepartmentofrecreationandparks-1dd8f5",
-      "locationSet": {
-        "include": ["us-md-baltimore.geojson"]
-      },
-      "matchNames": [
-        "baltimore city recreation and parks"
-      ],
-      "tags": {
-        "leisure": "park",
-        "operator": "Baltimore City Department of Recreation & Parks",
-        "operator:short": "BCRP",
-        "operator:type": "government",
-        "operator:wikidata": "Q110062922"
       }
     },
     {
@@ -422,11 +431,14 @@
     },
     {
       "displayName": "Berwyn Park District",
-      "id": "berwynparkdistrict-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "berwynparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Berwyn Park District"
+        "operator": "Berwyn Park District",
+        "operator:type": "public"
       }
     },
     {
@@ -526,6 +538,18 @@
       }
     },
     {
+      "displayName": "Bridgeland",
+      "id": "bridgeland-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Bridgeland",
+        "operator:wikidata": "Q4966516"
+      }
+    },
+    {
       "displayName": "Brisbane City Council",
       "id": "brisbanecitycouncil-f88a26",
       "locationSet": {
@@ -540,8 +564,10 @@
     },
     {
       "displayName": "Bristol City Council",
-      "id": "bristolcitycouncil-0421ca",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "bristolcitycouncil-2e053b",
+      "locationSet": {
+        "include": ["gb-bst.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "Bristol City Council",
@@ -551,11 +577,17 @@
     },
     {
       "displayName": "Bruxelles Environnement - Leefmilieu Brussel",
-      "id": "bruxellesenvironnementleefmilieubrussel-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "bruxellesenvironnementleefmilieubrussel-042b23",
+      "locationSet": {
+        "include": ["be-bru.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Bruxelles Environnement - Leefmilieu Brussel"
+        "operator": "Bruxelles Environnement - Leefmilieu Brussel",
+        "operator:fr": "Bruxelles Environnement",
+        "operator:nl": "Leefmilieu Brussel",
+        "operator:type": "government",
+        "operator:wikidata": "Q2927109"
       }
     },
     {
@@ -750,6 +782,19 @@
       }
     },
     {
+      "displayName": "Champaign Park District",
+      "id": "champaignparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Champaign Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q5069913"
+      }
+    },
+    {
       "displayName": "Chehalem Park and Recreation District",
       "id": "chehalemparkandrecreationdistrict-9db284",
       "locationSet": {
@@ -826,11 +871,15 @@
     },
     {
       "displayName": "City of Allentown",
-      "id": "cityofallentown-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofallentown-dc67ca",
+      "locationSet": {
+        "include": ["us-pa.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Allentown"
+        "operator": "City of Allentown",
+        "operator:type": "government",
+        "operator:wikidata": "Q142811"
       }
     },
     {
@@ -848,11 +897,15 @@
     },
     {
       "displayName": "City of Alpena",
-      "id": "cityofalpena-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofalpena-b9c410",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Alpena"
+        "operator": "City of Alpena",
+        "operator:type": "government",
+        "operator:wikidata": "Q1012455"
       }
     },
     {
@@ -896,11 +949,14 @@
     },
     {
       "displayName": "City of Annapolis Recreation & Parks",
-      "id": "cityofannapolisrecreationandparks-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofannapolisrecreationandparks-fb928d",
+      "locationSet": {
+        "include": ["us-md.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Annapolis Recreation & Parks"
+        "operator": "City of Annapolis Recreation & Parks",
+        "operator:type": "government"
       }
     },
     {
@@ -1346,9 +1402,11 @@
     },
     {
       "displayName": "City of Cleveland (Ohio)",
-      "id": "cityofcleveland-c0c15b",
+      "id": "cityofcleveland-2e3b06",
       "locationSet": {
-        "include": ["us-oh.geojson"]
+        "include": [
+          "us-oh-cuyahoga_county.geojson"
+        ]
       },
       "tags": {
         "leisure": "park",
@@ -1381,6 +1439,19 @@
         "operator": "City of Coldwater",
         "operator:type": "government",
         "operator:wikidata": "Q1107962"
+      }
+    },
+    {
+      "displayName": "City of Columbia (Missouri)",
+      "id": "cityofcolumbia-5e2224",
+      "locationSet": {
+        "include": ["us-mo.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Columbia",
+        "operator:type": "government",
+        "operator:wikidata": "Q59670"
       }
     },
     {
@@ -1424,11 +1495,15 @@
     },
     {
       "displayName": "City of Dallas",
-      "id": "cityofdallas-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofdallas-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Dallas"
+        "operator": "City of Dallas",
+        "operator:type": "government",
+        "operator:wikidata": "Q16557"
       }
     },
     {
@@ -1511,11 +1586,15 @@
     },
     {
       "displayName": "City of Dubuque",
-      "id": "cityofdubuque-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofdubuque-5303d3",
+      "locationSet": {
+        "include": ["us-ia.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Dubuque"
+        "operator": "City of Dubuque",
+        "operator:type": "government",
+        "operator:wikidata": "Q493794"
       }
     },
     {
@@ -1650,11 +1729,15 @@
     },
     {
       "displayName": "City of Flower Mound",
-      "id": "cityofflowermound-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofflowermound-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Flower Mound"
+        "operator": "City of Flower Mound",
+        "operator:type": "government",
+        "operator:wikidata": "Q976183"
       }
     },
     {
@@ -1711,11 +1794,15 @@
     },
     {
       "displayName": "City of Gillette",
-      "id": "cityofgillette-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofgillette-cea54e",
+      "locationSet": {
+        "include": ["us-wy.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Gillette"
+        "operator": "City of Gillette",
+        "operator:type": "government",
+        "operator:wikidata": "Q919040"
       }
     },
     {
@@ -1982,6 +2069,19 @@
       }
     },
     {
+      "displayName": "City of Ithaca",
+      "id": "cityofithaca-932a36",
+      "locationSet": {
+        "include": ["us-ny.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Ithaca",
+        "operator:type": "government",
+        "operator:wikidata": "Q217346"
+      }
+    },
+    {
       "displayName": "City of Jacksonville",
       "id": "cityofjacksonville-38b713",
       "locationSet": {
@@ -2218,27 +2318,32 @@
       }
     },
     {
-      "displayName": "City of Los Angeles",
-      "id": "cityoflosangeles-c970c6",
+      "displayName": "City of Lorain",
+      "id": "cityoflorain-c0c15b",
+      "locationSet": {
+        "include": ["us-oh.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Lorain",
+        "operator:type": "government",
+        "operator:wikidata": "Q609698"
+      }
+    },
+    {
+      "displayName": "City of Los Angeles Department of Recreation and Parks",
+      "id": "cityoflosangelesdepartmentofrecreationandparks-c970c6",
       "locationSet": {
         "include": [
           "us-ca-los_angeles_county.geojson"
         ]
       },
+      "matchNames": ["city of los angeles"],
       "tags": {
         "leisure": "park",
-        "operator": "City of Los Angeles",
+        "operator": "City of Los Angeles Department of Recreation and Parks",
         "operator:type": "government",
-        "operator:wikidata": "Q65"
-      }
-    },
-    {
-      "displayName": "City of Los Angeles Department of Recreation and Parks",
-      "id": "cityoflosangelesdepartmentofrecreationandparks-15b72d",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "leisure": "park",
-        "operator": "City of Los Angeles Department of Recreation and Parks"
+        "operator:wikidata": "Q96375067"
       }
     },
     {
@@ -2372,12 +2477,29 @@
       }
     },
     {
-      "displayName": "City of Milford",
-      "id": "cityofmilford-15b72d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "City of Milford (Connecticut)",
+      "id": "cityofmilford-e713eb",
+      "locationSet": {
+        "include": ["us-ct.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Milford"
+        "operator": "City of Milford",
+        "operator:type": "government",
+        "operator:wikidata": "Q755798"
+      }
+    },
+    {
+      "displayName": "City of Milford (Iowa)",
+      "id": "cityofmilford-5303d3",
+      "locationSet": {
+        "include": ["us-ia.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Milford",
+        "operator:type": "government",
+        "operator:wikidata": "Q1928296"
       }
     },
     {
@@ -2824,11 +2946,15 @@
     },
     {
       "displayName": "City of Ryde",
-      "id": "cityofryde-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofryde-11d7e5",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "City of Ryde"
+        "operator": "City of Ryde",
+        "operator:type": "government",
+        "operator:wikidata": "Q1006309"
       }
     },
     {
@@ -2842,6 +2968,19 @@
         "operator": "City of Salem",
         "operator:type": "government",
         "operator:wikidata": "Q43919"
+      }
+    },
+    {
+      "displayName": "City of Salisbury (Maryland)",
+      "id": "cityofsalisbury-fb928d",
+      "locationSet": {
+        "include": ["us-md.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Salisbury",
+        "operator:type": "government",
+        "operator:wikidata": "Q755566"
       }
     },
     {
@@ -3355,6 +3494,19 @@
       }
     },
     {
+      "displayName": "City of Windsor",
+      "id": "cityofwindsor-62b82e",
+      "locationSet": {
+        "include": ["ca-on.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Windsor",
+        "operator:type": "government",
+        "operator:wikidata": "Q182625"
+      }
+    },
+    {
       "displayName": "City of Winnipeg",
       "id": "cityofwinnipeg-3d8c8b",
       "locationSet": {
@@ -3460,6 +3612,17 @@
       }
     },
     {
+      "displayName": "Cobscook Shores",
+      "id": "cobscookshores-82e140",
+      "locationSet": {
+        "include": ["us-me.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Cobscook Shores"
+      }
+    },
+    {
       "displayName": "Colorado Parks and Wildlife",
       "id": "coloradoparksandwildlife-0900ba",
       "locationSet": {
@@ -3522,7 +3685,7 @@
       "tags": {
         "leisure": "park",
         "operator": "Cork City Council",
-        "operator:type": "council",
+        "operator:type": "government",
         "operator:wikidata": "Q5170762"
       }
     },
@@ -3579,8 +3742,10 @@
     },
     {
       "displayName": "Cuttack Development Authority",
-      "id": "cuttackdevelopmentauthority-d31221",
-      "locationSet": {"include": ["in"]},
+      "id": "cuttackdevelopmentauthority-301483",
+      "locationSet": {
+        "include": ["in-od.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "Cuttack Development Authority",
@@ -3590,12 +3755,18 @@
       }
     },
     {
-      "displayName": "Daybreak Community Assocation",
-      "id": "daybreakcommunityassocation-15b72d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Daybreak Community Association",
+      "id": "daybreakcommunityassociation-535432",
+      "locationSet": {
+        "include": ["us-ut.geojson"]
+      },
+      "matchNames": [
+        "daybreak community assocation"
+      ],
       "tags": {
         "leisure": "park",
-        "operator": "Daybreak Community Assocation"
+        "operator": "Daybreak Community Association",
+        "operator:type": "association"
       }
     },
     {
@@ -3612,11 +3783,15 @@
     },
     {
       "displayName": "Delhi Development Authority",
-      "id": "delhidevelopmentauthority-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "delhidevelopmentauthority-4ef437",
+      "locationSet": {
+        "include": ["in-dl.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Delhi Development Authority"
+        "operator": "Delhi Development Authority",
+        "operator:type": "government",
+        "operator:wikidata": "Q3635076"
       }
     },
     {
@@ -3708,7 +3883,9 @@
       "tags": {
         "leisure": "park",
         "operator": "Dublin City Council",
-        "operator:type": "council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
         "operator:wikidata": "Q4810766"
       }
     },
@@ -3881,11 +4058,14 @@
     },
     {
       "displayName": "Foothills Park & Recreation District",
-      "id": "foothillsparkandrecreationdistrict-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "foothillsparkandrecreationdistrict-0900ba",
+      "locationSet": {
+        "include": ["us-co.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Foothills Park & Recreation District"
+        "operator": "Foothills Park & Recreation District",
+        "operator:type": "public"
       }
     },
     {
@@ -3947,17 +4127,18 @@
       "tags": {
         "leisure": "park",
         "operator": "Galway City Council",
-        "operator:type": "council",
+        "operator:type": "government",
         "operator:wikidata": "Q5519477"
       }
     },
     {
       "displayName": "GAMEA",
-      "id": "gamea-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "gamea-14104f",
+      "locationSet": {"include": ["bo"]},
       "tags": {
         "leisure": "park",
-        "operator": "GAMEA"
+        "operator": "GAMEA",
+        "operator:type": "government"
       }
     },
     {
@@ -4031,16 +4212,6 @@
         "operator": "Georgia State Parks & Historic Sites",
         "operator:type": "public",
         "operator:wikidata": "Q72926688"
-      }
-    },
-    {
-      "displayName": "GHMC",
-      "id": "ghmc-d31221",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "leisure": "park",
-        "operator": "GHMC",
-        "operator:type": "government"
       }
     },
     {
@@ -4129,6 +4300,20 @@
         "operator": "Great Parks of Hamilton County",
         "operator:type": "public",
         "operator:wikidata": "Q19863721"
+      }
+    },
+    {
+      "displayName": "Greater Hyderabad Municipal Corporation",
+      "id": "greaterhyderabadmunicipalcorporation-53203d",
+      "locationSet": {
+        "include": ["in-ts.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Greater Hyderabad Municipal Corporation",
+        "operator:short": "GHMC",
+        "operator:type": "government",
+        "operator:wikidata": "Q5259597"
       }
     },
     {
@@ -4445,11 +4630,15 @@
     },
     {
       "displayName": "Ipswich City Council",
-      "id": "ipswichcitycouncil-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "ipswichcitycouncil-f88a26",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Ipswich City Council"
+        "operator": "Ipswich City Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q85372071"
       }
     },
     {
@@ -4609,11 +4798,14 @@
     },
     {
       "displayName": "Jurupa Area Recreation & Park District",
-      "id": "jurupaarearecreationandparkdistrict-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "jurupaarearecreationandparkdistrict-dc1787",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Jurupa Area Recreation & Park District"
+        "operator": "Jurupa Area Recreation & Park District",
+        "operator:type": "public"
       }
     },
     {
@@ -4673,6 +4865,17 @@
       }
     },
     {
+      "displayName": "Kauniaisten kaupunki",
+      "id": "kauniaistenkaupunki-b3609d",
+      "locationSet": {"include": ["fi"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "Kauniaisten kaupunki",
+        "operator:type": "government",
+        "operator:wikidata": "Q208287"
+      }
+    },
+    {
       "displayName": "Kentucky Department of Parks",
       "id": "kentuckydepartmentofparks-9af01b",
       "locationSet": {
@@ -4714,8 +4917,10 @@
     },
     {
       "displayName": "KMC",
-      "id": "kolkatamunicipalcorporation-d31221",
-      "locationSet": {"include": ["in"]},
+      "id": "kolkatamunicipalcorporation-463ec0",
+      "locationSet": {
+        "include": ["in-wb.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "কলকাতা পৌরসংস্থা",
@@ -4896,11 +5101,13 @@
     },
     {
       "displayName": "Lohjan kaupunki",
-      "id": "lohjankaupunki-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "lohjankaupunki-b3609d",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "leisure": "park",
-        "operator": "Lohjan kaupunki"
+        "operator": "Lohjan kaupunki",
+        "operator:type": "government",
+        "operator:wikidata": "Q214777"
       }
     },
     {
@@ -5075,12 +5282,17 @@
       }
     },
     {
-      "displayName": "Manningham Council",
-      "id": "manninghamcouncil-15b72d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Manningham City Council",
+      "id": "manninghamcitycouncil-3b6b12",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
+      "matchNames": ["manningham council"],
       "tags": {
         "leisure": "park",
-        "operator": "Manningham Council"
+        "operator": "Manningham City Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477783"
       }
     },
     {
@@ -5182,16 +5394,6 @@
       }
     },
     {
-      "displayName": "MCD",
-      "id": "mcd-d31221",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "leisure": "park",
-        "operator": "MCD",
-        "operator:type": "government"
-      }
-    },
-    {
       "displayName": "MDWFP",
       "id": "mississippidepartmentofwildlifefisheriesandparks-97a1c6",
       "locationSet": {
@@ -5203,6 +5405,19 @@
         "operator:short": "MDWFP",
         "operator:type": "government",
         "operator:wikidata": "Q6879141"
+      }
+    },
+    {
+      "displayName": "Medway Council",
+      "id": "medwaycouncil-4c36e5",
+      "locationSet": {
+        "include": ["gb-south-east-coast.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Medway Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q16997526"
       }
     },
     {
@@ -5383,11 +5598,15 @@
     },
     {
       "displayName": "Monroe County Department of Parks",
-      "id": "monroecountydepartmentofparks-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "monroecountydepartmentofparks-932a36",
+      "locationSet": {
+        "include": ["us-ny.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Monroe County Department of Parks"
+        "operator": "Monroe County Department of Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q128796753"
       }
     },
     {
@@ -5444,6 +5663,25 @@
         "leisure": "park",
         "operator": "Mount Prospect Park District",
         "operator:type": "public"
+      }
+    },
+    {
+      "displayName": "Municipal Corporation of Delhi",
+      "id": "municipalcorporationofdelhi-4ef437",
+      "locationSet": {
+        "include": ["in-dl.geojson"]
+      },
+      "matchNames": [
+        "sdmc",
+        "south delhi municipal corporation",
+        "south delhi municipal corporation (s.d.m.c.)"
+      ],
+      "tags": {
+        "leisure": "park",
+        "operator": "Municipal Corporation of Delhi",
+        "operator:short": "MCD",
+        "operator:type": "government",
+        "operator:wikidata": "Q1192117"
       }
     },
     {
@@ -5539,11 +5777,15 @@
     },
     {
       "displayName": "Municipalidad de San Martín de los Andes",
-      "id": "municipalidaddesanmartindelosandes-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "municipalidaddesanmartindelosandes-c3e953",
+      "locationSet": {
+        "include": ["ar-q.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Municipalidad de San Martín de los Andes"
+        "operator": "Municipalidad de San Martín de los Andes",
+        "operator:type": "government",
+        "operator:wikidata": "Q1019152"
       }
     },
     {
@@ -5561,11 +5803,13 @@
     },
     {
       "displayName": "Municipalidad de Vitacura",
-      "id": "municipalidaddevitacura-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "municipalidaddevitacura-c22377",
+      "locationSet": {"include": ["cl"]},
       "tags": {
         "leisure": "park",
-        "operator": "Municipalidad de Vitacura"
+        "operator": "Municipalidad de Vitacura",
+        "operator:type": "government",
+        "operator:wikidata": "Q201036"
       }
     },
     {
@@ -5594,11 +5838,15 @@
     },
     {
       "displayName": "Municipality of Clarington",
-      "id": "municipalityofclarington-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "municipalityofclarington-62b82e",
+      "locationSet": {
+        "include": ["ca-on.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Municipality of Clarington"
+        "operator": "Municipality of Clarington",
+        "operator:type": "government",
+        "operator:wikidata": "Q4438"
       }
     },
     {
@@ -5614,11 +5862,14 @@
     },
     {
       "displayName": "Murray City Parks and Recreation",
-      "id": "murraycityparksandrecreation-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "murraycityparksandrecreation-535432",
+      "locationSet": {
+        "include": ["us-ut.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Murray City Parks and Recreation"
+        "operator": "Murray City Parks and Recreation",
+        "operator:type": "government"
       }
     },
     {
@@ -6323,11 +6574,13 @@
     },
     {
       "displayName": "Porvoon kaupunki",
-      "id": "porvoonkaupunki-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "porvoonkaupunki-b3609d",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "leisure": "park",
-        "operator": "Porvoon kaupunki"
+        "operator": "Porvoon kaupunki",
+        "operator:type": "government",
+        "operator:wikidata": "Q193367"
       }
     },
     {
@@ -6395,11 +6648,15 @@
     },
     {
       "displayName": "Prefeitura do Natal",
-      "id": "prefeituradonatal-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "prefeituradonatal-563abd",
+      "locationSet": {
+        "include": ["br-rn.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Prefeitura do Natal"
+        "operator": "Prefeitura do Natal",
+        "operator:type": "government",
+        "operator:wikidata": "Q56449990"
       }
     },
     {
@@ -6545,16 +6802,6 @@
       }
     },
     {
-      "displayName": "RWA",
-      "id": "rwa-d31221",
-      "locationSet": {"include": ["in"]},
-      "tags": {
-        "leisure": "park",
-        "operator": "RWA",
-        "operator:type": "government"
-      }
-    },
-    {
       "displayName": "Saint Paul Department of Parks and Recreation",
       "id": "saintpauldepartmentofparksandrecreation-853554",
       "locationSet": {
@@ -6607,27 +6854,29 @@
       }
     },
     {
-      "displayName": "SDMC",
-      "id": "southdelhimunicipalcorporation-d31221",
-      "locationSet": {"include": ["in"]},
-      "matchNames": [
-        "south delhi municipal corporation (s.d.m.c.)"
-      ],
+      "displayName": "Scenic Rim Regional Council",
+      "id": "scenicrimregionalcouncil-f88a26",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "South Delhi Municipal Corporation",
-        "operator:short": "SDMC",
+        "operator": "Scenic Rim Regional Council",
         "operator:type": "government",
-        "operator:wikidata": "Q17083576"
+        "operator:wikidata": "Q85371991"
       }
     },
     {
       "displayName": "Seattle Parks and Recreation",
-      "id": "seattleparksandrecreation-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "seattleparksandrecreation-6c188f",
+      "locationSet": {
+        "include": ["us-wa.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Seattle Parks and Recreation"
+        "operator": "Seattle Parks and Recreation",
+        "operator:type": "government",
+        "operator:wikidata": "Q7442147"
       }
     },
     {
@@ -6808,11 +7057,13 @@
     },
     {
       "displayName": "Staatsbosbeheer",
-      "id": "staatsbosbeheer-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "staatsbosbeheer-f64b66",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "leisure": "park",
-        "operator": "Staatsbosbeheer"
+        "operator": "Staatsbosbeheer",
+        "operator:type": "government",
+        "operator:wikidata": "Q7510564"
       }
     },
     {
@@ -6921,11 +7172,14 @@
     },
     {
       "displayName": "Sunrise Recreation & Park District",
-      "id": "sunriserecreationandparkdistrict-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "sunriserecreationandparkdistrict-dc1787",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Sunrise Recreation & Park District"
+        "operator": "Sunrise Recreation & Park District",
+        "operator:type": "public"
       }
     },
     {
@@ -6999,12 +7253,18 @@
       }
     },
     {
-      "displayName": "The New Town at St. Charles",
-      "id": "thenewtownatstcharles-15b72d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "The New Town at Saint Charles",
+      "id": "thenewtownatsaintcharles-5e2224",
+      "locationSet": {
+        "include": ["us-mo.geojson"]
+      },
+      "matchNames": [
+        "the new town at st. charles"
+      ],
       "tags": {
         "leisure": "park",
-        "operator": "The New Town at St. Charles"
+        "operator": "The New Town at Saint Charles",
+        "operator:type": "private"
       }
     },
     {
@@ -7079,11 +7339,14 @@
     },
     {
       "displayName": "Tower Hamlets Council",
-      "id": "towerhamletscouncil-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "towerhamletscouncil-777334",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Tower Hamlets Council"
+        "operator": "Tower Hamlets Council",
+        "operator:type": "government"
       }
     },
     {
@@ -7270,11 +7533,15 @@
     },
     {
       "displayName": "Town of Perinton",
-      "id": "townofperinton-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "townofperinton-932a36",
+      "locationSet": {
+        "include": ["us-ny.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Town of Perinton"
+        "operator": "Town of Perinton",
+        "operator:type": "government",
+        "operator:wikidata": "Q3709653"
       }
     },
     {
@@ -7589,11 +7856,15 @@
     },
     {
       "displayName": "Ville de Nice",
-      "id": "villedenice-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "villedenice-ac0c18",
+      "locationSet": {
+        "include": ["fr-pac.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Ville de Nice"
+        "operator": "Ville de Nice",
+        "operator:type": "government",
+        "operator:wikidata": "Q86698706"
       }
     },
     {
@@ -7706,11 +7977,15 @@
     },
     {
       "displayName": "Warrington Borough Council",
-      "id": "warringtonboroughcouncil-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "warringtonboroughcouncil-331094",
+      "locationSet": {
+        "include": ["gb-north-west.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Warrington Borough Council"
+        "operator": "Warrington Borough Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q17033474"
       }
     },
     {
@@ -7850,11 +8125,15 @@
     },
     {
       "displayName": "Westtown Township",
-      "id": "westtowntownship-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "westtowntownship-dc67ca",
+      "locationSet": {
+        "include": ["us-pa.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Westtown Township"
+        "operator": "Westtown Township",
+        "operator:type": "government",
+        "operator:wikidata": "Q7989737"
       }
     },
     {
@@ -8018,11 +8297,15 @@
     },
     {
       "displayName": "Yarra Ranges Council",
-      "id": "yarrarangescouncil-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "yarrarangescouncil-3b6b12",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "Yarra Ranges Council"
+        "operator": "Yarra Ranges Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q132705412"
       }
     },
     {
@@ -8203,11 +8486,15 @@
     },
     {
       "displayName": "北上市",
-      "id": "934851-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "934851-6a9384",
+      "locationSet": {
+        "include": ["jp-03.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "北上市"
+        "operator": "北上市",
+        "operator:type": "government",
+        "operator:wikidata": "Q695917"
       }
     },
     {
@@ -8440,16 +8727,6 @@
       }
     },
     {
-      "displayName": "東京都青梅市",
-      "id": "6551d5-1b6974",
-      "locationSet": {"include": ["jp"]},
-      "tags": {
-        "leisure": "park",
-        "operator": "東京都青梅市",
-        "operator:type": "government"
-      }
-    },
-    {
       "displayName": "板橋区",
       "id": "77db3d-1b6974",
       "locationSet": {"include": ["jp"]},
@@ -8471,11 +8748,15 @@
     },
     {
       "displayName": "横浜市",
-      "id": "991a0c-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "991a0c-25e0dd",
+      "locationSet": {
+        "include": ["jp-14.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "横浜市"
+        "operator": "横浜市",
+        "operator:type": "government",
+        "operator:wikidata": "Q38283"
       }
     },
     {
@@ -8532,11 +8813,15 @@
     },
     {
       "displayName": "相模原市",
-      "id": "765f57-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "765f57-25e0dd",
+      "locationSet": {
+        "include": ["jp-14.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "相模原市"
+        "operator": "相模原市",
+        "operator:type": "government",
+        "operator:wikidata": "Q209779"
       }
     },
     {
@@ -8571,11 +8856,15 @@
     },
     {
       "displayName": "苫小牧市",
-      "id": "448be1-15b72d",
-      "locationSet": {"include": ["001"]},
+      "id": "448be1-946143",
+      "locationSet": {
+        "include": ["jp-01.geojson"]
+      },
       "tags": {
         "leisure": "park",
-        "operator": "苫小牧市"
+        "operator": "苫小牧市",
+        "operator:type": "government",
+        "operator:wikidata": "Q390413"
       }
     },
     {
@@ -8610,12 +8899,16 @@
     },
     {
       "displayName": "青梅市",
-      "id": "98f747-1b6974",
-      "locationSet": {"include": ["jp"]},
+      "id": "98f747-b6a790",
+      "locationSet": {
+        "include": ["jp-13.geojson"]
+      },
+      "matchNames": ["東京都青梅市"],
       "tags": {
         "leisure": "park",
         "operator": "青梅市",
-        "operator:type": "government"
+        "operator:type": "government",
+        "operator:wikidata": "Q237683"
       }
     },
     {

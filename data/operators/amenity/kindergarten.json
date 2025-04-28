@@ -3,12 +3,11 @@
     "path": "operators/amenity/kindergarten",
     "exclude": {
       "generic": [
+        "^(evangelische|katholische) kirche(ngemeinde)?$",
         "^(幼儿园|托儿所)$",
         "^association$",
         "^county government$",
-        "^evangelische kirche(|ngemeinde)$",
         "^gmina$",
-        "^katholische kirche(|ngemeinde)$",
         "^kindergar(d|t)en$",
         "^montessori$",
         "^民間$"
@@ -83,11 +82,26 @@
     },
     {
       "displayName": "Arbeiterwohlfahrt Kreisverband Düren e. V.",
-      "id": "arbeiterwohlfahrtkreisverbanddurenev-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "arbeiterwohlfahrtkreisverbanddurenev-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Arbeiterwohlfahrt Kreisverband Düren e. V."
+        "operator": "Arbeiterwohlfahrt Kreisverband Düren e. V.",
+        "operator:type": "charitable"
+      }
+    },
+    {
+      "displayName": "Arbeiterwohlfahrt Region Hannover e.V.",
+      "id": "arbeiterwohlfahrtregionhannoverev-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Arbeiterwohlfahrt Region Hannover e.V.",
+        "operator:type": "charitable"
       }
     },
     {
@@ -112,20 +126,23 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "AWO Familienglobus",
-        "operator:type": "private",
+        "operator:type": "charitable",
         "operator:wikidata": "Q130138619"
       }
     },
     {
-      "displayName": "AWO Regionalverband Rhein-Erft & Euskirchen e.V.",
-      "id": "aworegionalverbandrheinerftandeuskirchenev-76bfc3",
+      "displayName": "AWO Regionalverband Rhein-Erft & Euskirchen",
+      "id": "aworegionalverbandrheinerftandeuskirchen-76bfc3",
       "locationSet": {
         "include": ["de-nw.geojson"]
       },
+      "matchNames": [
+        "awo regionalverband rhein-erft & euskirchen e.v."
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "AWO Regionalverband Rhein-Erft & Euskirchen e.V.",
-        "operator:type": "ngo",
+        "operator": "AWO Regionalverband Rhein-Erft & Euskirchen",
+        "operator:type": "charitable",
         "operator:wikidata": "Q130139109"
       }
     },
@@ -136,7 +153,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "AWO Soziale Dienste gemeinnützige GmbH",
-        "operator:type": "private"
+        "operator:type": "charitable"
       }
     },
     {
@@ -148,7 +165,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "AWO Unterbezirk Dortmund",
-        "operator:type": "private"
+        "operator:type": "charitable"
       }
     },
     {
@@ -161,7 +178,7 @@
         "amenity": "kindergarten",
         "operator": "Bayerisches Rotes Kreuz",
         "operator:short": "BRK",
-        "operator:type": "ngo",
+        "operator:type": "charitable",
         "operator:wikidata": "Q812433"
       }
     },
@@ -188,15 +205,19 @@
       }
     },
     {
-      "displayName": "BKJ Betreungseinrichtungen für Kinder und Jugendliche der Stadt Eschweiler / AÖR",
-      "id": "bkjbetreungseinrichtungenfurkinderundjugendlichederstadteschweileraor-76bfc3",
+      "displayName": "BKJ Eschweiler",
+      "id": "bkjeschweiler-76bfc3",
       "locationSet": {
         "include": ["de-nw.geojson"]
       },
+      "matchNames": [
+        "bkj betreungseinrichtungen für kinder und jugendliche der stadt eschweiler / aör"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "BKJ Betreungseinrichtungen für Kinder und Jugendliche der Stadt Eschweiler / AÖR",
-        "operator:type": "private"
+        "operator": "BKJ Eschweiler",
+        "operator:type": "public",
+        "operator:wikidata": "Q133799884"
       }
     },
     {
@@ -214,16 +235,31 @@
       }
     },
     {
-      "displayName": "Caritasverband Dortmund e.V.",
-      "id": "caritasverbanddortmundev-76bfc3",
+      "displayName": "Caritasverband Dortmund",
+      "id": "caritasverbanddortmund-76bfc3",
       "locationSet": {
         "include": ["de-nw.geojson"]
       },
+      "matchNames": [
+        "caritasverband dortmund e.v."
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Caritasverband Dortmund e.V.",
-        "operator:type": "charitable",
+        "operator": "Caritasverband Dortmund",
+        "operator:type": "religious",
         "operator:wikidata": "Q130140255"
+      }
+    },
+    {
+      "displayName": "Caritasverband Hannover e.V.",
+      "id": "caritasverbandhannoverev-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Caritasverband Hannover e.V.",
+        "operator:type": "religious"
       }
     },
     {
@@ -297,45 +333,77 @@
       }
     },
     {
-      "displayName": "Denk mit! Kinderbetreuungseinrichtungen GmbH & Co. KG",
-      "id": "denkmitkinderbetreuungseinrichtungengmbhandcokg-fd062c",
+      "displayName": "Denk mit! Kinderbetreuungseinrichtungen",
+      "id": "denkmitkinderbetreuungseinrichtungen-fd062c",
       "locationSet": {
         "include": ["de-by.geojson"]
       },
+      "matchNames": [
+        "denk mit! kinderbetreuungseinrichtungen gmbh & co. kg"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Denk mit! Kinderbetreuungseinrichtungen GmbH & Co. KG",
+        "operator": "Denk mit! Kinderbetreuungseinrichtungen",
         "operator:type": "private",
         "operator:wikidata": "Q130141041"
       }
     },
     {
-      "displayName": "Deutscher Kinderschutzbund Ortsverband Essen e.V.",
-      "id": "deutscherkinderschutzbundortsverbandessenev-747d0f",
-      "locationSet": {"include": ["de"]},
+      "displayName": "Deutscher Kinderschutzbund Ortsverband Essen",
+      "id": "deutscherkinderschutzbundortsverbandessen-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": [
+        "deutscher kinderschutzbund ortsverband essen e.v."
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Deutscher Kinderschutzbund Ortsverband Essen e.V.",
-        "operator:type": "private"
+        "operator": "Deutscher Kinderschutzbund Ortsverband Essen",
+        "operator:type": "charitable",
+        "operator:wikidata": "Q133799977"
+      }
+    },
+    {
+      "displayName": "Deutsches Rotes Kreuz Region Hannover e.V.",
+      "id": "deutschesroteskreuzregionhannoverev-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Deutsches Rotes Kreuz Region Hannover e.V.",
+        "operator:type": "charitable",
+        "operator:wikidata": "Q104537423"
       }
     },
     {
       "displayName": "Diakoniewerk Essen",
-      "id": "diakoniewerkessen-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "diakoniewerkessen-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Diakoniewerk Essen"
+        "operator": "Diakoniewerk Essen",
+        "operator:type": "religious",
+        "operator:wikidata": "Q1208293"
       }
     },
     {
-      "displayName": "Diakonisches Werk – Stadtmission Bayreuth e. V.",
-      "id": "diakonischeswerkstadtmissionbayreuthev-747d0f",
-      "locationSet": {"include": ["de"]},
+      "displayName": "Diakonisches Werk – Stadtmission Bayreuth",
+      "id": "diakonischeswerkstadtmissionbayreuth-fd062c",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "matchNames": [
+        "diakonisches werk – stadtmission bayreuth e. v."
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Diakonisches Werk – Stadtmission Bayreuth e. V.",
-        "operator:type": "private"
+        "operator": "Diakonisches Werk – Stadtmission Bayreuth",
+        "operator:type": "religious",
+        "operator:wikidata": "Q133800075"
       }
     },
     {
@@ -347,6 +415,18 @@
         "operator": "Dirección General de Educación Inicial y Primaria",
         "operator:type": "government",
         "operator:wikidata": "Q5783994"
+      }
+    },
+    {
+      "displayName": "DRK-Kreisverband Städteregion Aachen e.V.",
+      "id": "drkkreisverbandstadteregionaachenev-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "DRK-Kreisverband Städteregion Aachen e.V.",
+        "operator:type": "charitable"
       }
     },
     {
@@ -426,6 +506,18 @@
       }
     },
     {
+      "displayName": "Evangelisch-lutherischer Kirchenkreis Hannover",
+      "id": "evangelischlutherischerkirchenkreishannover-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Evangelisch-lutherischer Kirchenkreis Hannover",
+        "operator:type": "religious"
+      }
+    },
+    {
       "displayName": "Evangelischer Kirchenkreis Dortmund",
       "id": "evangelischerkirchenkreisdortmund-76bfc3",
       "locationSet": {
@@ -461,7 +553,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Evangelischer Kirchenkreisverband für Kindertageseinrichtungen Berlin Mitte-Nord",
-        "operator:type": "private",
+        "operator:type": "religious",
         "operator:wikidata": "Q130405005"
       }
     },
@@ -541,6 +633,19 @@
       }
     },
     {
+      "displayName": "Gesamtverband der Katholischen Kirchengemeinden in der Region Hannover",
+      "id": "gesamtverbandderkatholischenkirchengemeindeninderregionhannover-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Gesamtverband der Katholischen Kirchengemeinden in der Region Hannover",
+        "operator:type": "religious",
+        "operator:wikidata": "Q110728711"
+      }
+    },
+    {
       "displayName": "Gmina Lublin",
       "id": "gminalublin-6b0035",
       "locationSet": {"include": ["pl"]},
@@ -605,14 +710,15 @@
       }
     },
     {
-      "displayName": "INA.KINDER.GARTEN gGmbH",
-      "id": "inakindergartenggmbh-4ea051",
+      "displayName": "INA.KINDER.GARTEN",
+      "id": "inakindergarten-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": ["ina.kinder.garten ggmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "INA.KINDER.GARTEN gGmbH",
+        "operator": "INA.KINDER.GARTEN",
         "operator:type": "private",
         "operator:wikidata": "Q130141833"
       }
@@ -653,11 +759,12 @@
     },
     {
       "displayName": "Javna Predškolska Ustanova “Đina Vrbica”",
-      "id": "javnapredskolskaustanovadinavrbica-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "javnapredskolskaustanovadinavrbica-b4099e",
+      "locationSet": {"include": ["me"]},
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Javna Predškolska Ustanova “Đina Vrbica”"
+        "operator": "Javna Predškolska Ustanova “Đina Vrbica”",
+        "operator:type": "public"
       }
     },
     {
@@ -696,7 +803,7 @@
         "amenity": "kindergarten",
         "operator": "Jugend- und Sozialwerk",
         "operator:short": "JuS",
-        "operator:type": "ngo",
+        "operator:type": "private",
         "operator:wikidata": "Q31837620"
       }
     },
@@ -707,7 +814,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Jugendamt Landeshauptstadt Düsseldorf, Willi-Becker-Allee 7, 40227 Düsseldorf",
-        "operator:type": "private"
+        "operator:type": "government"
       }
     },
     {
@@ -717,7 +824,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Jugendamt Stadt Essen",
-        "operator:type": "private"
+        "operator:type": "government"
       }
     },
     {
@@ -731,7 +838,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "JUL",
-        "operator:type": "ngo",
+        "operator:type": "private",
         "operator:wikidata": "Q129851119"
       }
     },
@@ -774,7 +881,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Katholische Gesamtkirchengemeinde Ravensburg",
-        "operator:type": "private"
+        "operator:type": "religious"
       }
     },
     {
@@ -820,14 +927,15 @@
       }
     },
     {
-      "displayName": "Kinder im Kiez GmbH",
-      "id": "kinderimkiezgmbh-4ea051",
+      "displayName": "Kinder im Kiez",
+      "id": "kinderimkiez-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": ["kinder im kiez gmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Kinder im Kiez GmbH",
+        "operator": "Kinder im Kiez",
         "operator:type": "private",
         "operator:wikidata": "Q130142390"
       }
@@ -906,12 +1014,19 @@
       }
     },
     {
-      "displayName": "Kindertagesbetreuung Kreismäuse AöR",
-      "id": "kindertagesbetreuungkreismauseaor-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Kindertagesbetreuung Kreismäuse",
+      "id": "kindertagesbetreuungkreismause-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": [
+        "kindertagesbetreuung kreismäuse aör"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Kindertagesbetreuung Kreismäuse AöR"
+        "operator": "Kindertagesbetreuung Kreismäuse",
+        "operator:type": "public",
+        "operator:wikidata": "Q133778634"
       }
     },
     {
@@ -964,12 +1079,15 @@
       }
     },
     {
-      "displayName": "Kinderzentren Kunterbunt gGmbH",
-      "id": "kinderzentrenkunterbuntggmbh-747d0f",
+      "displayName": "Kinderzentren Kunterbunt",
+      "id": "kinderzentrenkunterbunt-747d0f",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "kinderzentren kunterbunt ggmbh"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Kinderzentren Kunterbunt gGmbH",
+        "operator": "Kinderzentren Kunterbunt",
         "operator:type": "private",
         "operator:wikidata": "Q130144000"
       }
@@ -1016,19 +1134,20 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Kitaverband Diepholz",
-        "operator:type": "private",
+        "operator:type": "religious",
         "operator:wikidata": "Q129849272"
       }
     },
     {
-      "displayName": "Klax Berlin gGmbH",
-      "id": "klaxberlinggmbh-4ea051",
+      "displayName": "Klax Berlin",
+      "id": "klaxberlin-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": ["klax berlin ggmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Klax Berlin gGmbH",
+        "operator": "Klax Berlin",
         "operator:type": "private",
         "operator:wikidata": "Q130144334"
       }
@@ -1099,6 +1218,19 @@
         "operator": "Land Niederösterreich",
         "operator:type": "government",
         "operator:wikidata": "Q33121933"
+      }
+    },
+    {
+      "displayName": "Landeshauptstadt Hannover",
+      "id": "landeshauptstadthannover-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Landeshauptstadt Hannover",
+        "operator:type": "government",
+        "operator:wikidata": "Q1715"
       }
     },
     {
@@ -1174,6 +1306,18 @@
       }
     },
     {
+      "displayName": "Maschseekinder gGmbH",
+      "id": "maschseekinderggmbh-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Maschseekinder gGmbH",
+        "operator:type": "private_non_profit"
+      }
+    },
+    {
       "displayName": "Mokotów",
       "id": "mokotow-6b0035",
       "locationSet": {"include": ["pl"]},
@@ -1184,23 +1328,33 @@
       }
     },
     {
-      "displayName": "Mumm-Familienservice gGmbH",
-      "id": "mummfamilienserviceggmbh-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Mumm-Familienservice",
+      "id": "mummfamilienservice-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": [
+        "mumm-familienservice ggmbh"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Mumm-Familienservice gGmbH"
+        "operator": "Mumm-Familienservice",
+        "operator:type": "private",
+        "operator:wikidata": "Q133800083"
       }
     },
     {
-      "displayName": "Nachbarschaftsheim Schöneberg e.V.",
-      "id": "nachbarschaftsheimschonebergev-4ea051",
+      "displayName": "Nachbarschaftsheim Schöneberg",
+      "id": "nachbarschaftsheimschoneberg-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": [
+        "nachbarschaftsheim schöneberg e.v."
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Nachbarschaftsheim Schöneberg e.V.",
+        "operator": "Nachbarschaftsheim Schöneberg",
         "operator:type": "charitable",
         "operator:wikidata": "Q130145053"
       }
@@ -1271,22 +1425,25 @@
     },
     {
       "displayName": "Örebro kommun",
-      "id": "orebrokommun-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "orebrokommun-b6a588",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Örebro kommun"
+        "operator": "Örebro kommun",
+        "operator:type": "government",
+        "operator:wikidata": "Q297718"
       }
     },
     {
-      "displayName": "Orte für Kinder GmbH",
-      "id": "ortefurkindergmbh-4ea051",
+      "displayName": "Orte für Kinder",
+      "id": "ortefurkinder-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": ["orte für kinder gmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Orte für Kinder GmbH",
+        "operator": "Orte für Kinder",
         "operator:type": "private",
         "operator:wikidata": "Q130145367"
       }
@@ -1315,6 +1472,18 @@
       }
     },
     {
+      "displayName": "Paritätischer Hannover gGmbH",
+      "id": "paritatischerhannoverggmbh-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Paritätischer Hannover gGmbH",
+        "operator:type": "charitable"
+      }
+    },
+    {
       "displayName": "Partou",
       "id": "partou-1b10f3",
       "locationSet": {"include": ["nl"]},
@@ -1325,14 +1494,17 @@
       }
     },
     {
-      "displayName": "Pfefferwerk Stadtkultur gGmbH",
-      "id": "pfefferwerkstadtkulturggmbh-4ea051",
+      "displayName": "Pfefferwerk Stadtkultur",
+      "id": "pfefferwerkstadtkultur-4ea051",
       "locationSet": {
         "include": ["de-be.geojson"]
       },
+      "matchNames": [
+        "pfefferwerk stadtkultur ggmbh"
+      ],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Pfefferwerk Stadtkultur gGmbH",
+        "operator": "Pfefferwerk Stadtkultur",
         "operator:type": "private",
         "operator:wikidata": "Q130145579"
       }
@@ -1360,14 +1532,25 @@
       }
     },
     {
-      "displayName": "Postillion e.V.",
-      "id": "postillionev-df1e7e",
+      "displayName": "pme Familienservice GmbH",
+      "id": "pmefamilienservicegmbh-747d0f",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "pme Familienservice GmbH",
+        "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Postillion",
+      "id": "postillion-df1e7e",
       "locationSet": {
         "include": ["de-bw.geojson"]
       },
+      "matchNames": ["postillion e.v."],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Postillion e.V.",
+        "operator": "Postillion",
         "operator:type": "private",
         "operator:wikidata": "Q130146073"
       }
@@ -1392,6 +1575,20 @@
         "operator": "Praga-Południe",
         "operator:type": "government",
         "operator:wikidata": "Q2107492"
+      }
+    },
+    {
+      "displayName": "Prefeitura do Rio de Janeiro",
+      "id": "prefeituradoriodejaneiro-53a359",
+      "locationSet": {
+        "include": ["br-rj.geojson"]
+      },
+      "matchNames": ["prefeitura do rio"],
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Prefeitura do Rio de Janeiro",
+        "operator:type": "government",
+        "operator:wikidata": "Q53930899"
       }
     },
     {
@@ -1462,12 +1659,17 @@
       }
     },
     {
-      "displayName": "profinos gGmbH",
-      "id": "profinosggmbh-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Profinos",
+      "id": "profinos-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "matchNames": ["profinos ggmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "profinos gGmbH"
+        "operator": "Profinos",
+        "operator:type": "religious",
+        "operator:wikidata": "Q133800099"
       }
     },
     {
@@ -1478,6 +1680,17 @@
         "amenity": "kindergarten",
         "operator": "QRMSHBM",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Reykjavíkurborg",
+      "id": "reykjavikurborg-a012b0",
+      "locationSet": {"include": ["is"]},
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Reykjavíkurborg",
+        "operator:type": "government",
+        "operator:wikidata": "Q1675663"
       }
     },
     {
@@ -1549,11 +1762,13 @@
     },
     {
       "displayName": "Skövde kommun",
-      "id": "skovdekommun-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "skovdekommun-b6a588",
+      "locationSet": {"include": ["se"]},
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Skövde kommun"
+        "operator": "Skövde kommun",
+        "operator:type": "government",
+        "operator:wikidata": "Q501452"
       }
     },
     {
@@ -1659,11 +1874,15 @@
     },
     {
       "displayName": "Stadt Hanau",
-      "id": "stadthanau-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "stadthanau-17b2fe",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Stadt Hanau"
+        "operator": "Stadt Hanau",
+        "operator:type": "government",
+        "operator:wikidata": "Q3802"
       }
     },
     {
@@ -1758,11 +1977,15 @@
     },
     {
       "displayName": "Stadt Metzingen",
-      "id": "stadtmetzingen-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtmetzingen-df1e7e",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Stadt Metzingen"
+        "operator": "Stadt Metzingen",
+        "operator:type": "government",
+        "operator:wikidata": "Q82881"
       }
     },
     {
@@ -1964,11 +2187,13 @@
     },
     {
       "displayName": "Tampereen kaupunki",
-      "id": "tampereenkaupunki-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "tampereenkaupunki-f5d7fd",
+      "locationSet": {"include": ["fi"]},
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Tampereen kaupunki"
+        "operator": "Tampereen kaupunki",
+        "operator:type": "government",
+        "operator:wikidata": "Q40840"
       }
     },
     {
@@ -1983,12 +2208,15 @@
       }
     },
     {
-      "displayName": "Terminal for Kids gGmbH",
-      "id": "terminalforkidsggmbh-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Terminal for Kids",
+      "id": "terminalforkids-747d0f",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["terminal for kids ggmbh"],
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Terminal for Kids gGmbH"
+        "operator": "Terminal for Kids",
+        "operator:type": "private",
+        "operator:wikidata": "Q133800155"
       }
     },
     {
@@ -2008,7 +2236,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Trägergemeinschaft TfK im Ev. KK Gütersloh",
-        "operator:type": "private"
+        "operator:type": "religious"
       }
     },
     {
@@ -2127,7 +2355,7 @@
       "tags": {
         "amenity": "kindergarten",
         "operator": "Volkssolidarität Leipziger Land/Muldental e.V.",
-        "operator:type": "private"
+        "operator:type": "charitable"
       }
     },
     {
@@ -2172,21 +2400,38 @@
       }
     },
     {
-      "displayName": "Δήμος Κοζάνης",
-      "id": "d63e83-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Zweckverband Katholische Tageseinrichtungen für Kinder im Bistum Essen",
+      "id": "zweckverbandkatholischetageseinrichtungenfurkinderimbistumessen-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Δήμος Κοζάνης"
+        "operator": "Zweckverband Katholische Tageseinrichtungen für Kinder im Bistum Essen",
+        "operator:type": "religious"
+      }
+    },
+    {
+      "displayName": "Δήμος Κοζάνης",
+      "id": "d63e83-e2f441",
+      "locationSet": {"include": ["gr"]},
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Δήμος Κοζάνης",
+        "operator:type": "government",
+        "operator:wikidata": "Q3560056"
       }
     },
     {
       "displayName": "Διεύθυνση Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης",
-      "id": "5fd828-0ff93d",
-      "locationSet": {"include": ["001"]},
+      "id": "5fd828-461a37",
+      "locationSet": {
+        "include": ["gr-b.geojson"]
+      },
       "tags": {
         "amenity": "kindergarten",
-        "operator": "Διεύθυνση Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης"
+        "operator": "Διεύθυνση Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης",
+        "operator:type": "government"
       }
     },
     {
@@ -2274,6 +2519,26 @@
       }
     },
     {
+      "displayName": "ბათუმის საბავშვო ბაღების გაერთიანება",
+      "id": "76bdc0-4599e1",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "ბათუმის საბავშვო ბაღების გაერთიანება",
+        "operator:type": "association"
+      }
+    },
+    {
+      "displayName": "რუსთავის საბავშვო ბაგა–ბაღების გაერთიანება",
+      "id": "9cb403-4599e1",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "რუსთავის საბავშვო ბაგა–ბაღების გაერთიანება",
+        "operator:type": "association"
+      }
+    },
+    {
       "displayName": "那覇市",
       "id": "030961-07edfd",
       "locationSet": {"include": ["jp"]},
@@ -2281,6 +2546,19 @@
         "amenity": "kindergarten",
         "operator": "那覇市",
         "operator:type": "government"
+      }
+    },
+    {
+      "displayName": "飯田市",
+      "id": "05b6da-87494a",
+      "locationSet": {
+        "include": ["jp-20.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "飯田市",
+        "operator:type": "government",
+        "operator:wikidata": "Q841129"
       }
     }
   ]

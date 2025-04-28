@@ -70,8 +70,8 @@
     },
     {
       "displayName": "Boston Primary School",
-      "id": "bostonprimaryschool-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "bostonprimaryschool-bb90fc",
+      "locationSet": {"include": ["za"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Boston Primary School"
@@ -150,11 +150,14 @@
     },
     {
       "displayName": "City of Alpena",
-      "id": "cityofalpena-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "cityofalpena-fce86c",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "City of Alpena"
+        "operator": "City of Alpena",
+        "operator:wikidata": "Q1012455"
       }
     },
     {
@@ -195,8 +198,8 @@
     },
     {
       "displayName": "Club ou Gestionnaire du site non renséigné",
-      "id": "clubougestionnairedusitenonrenseigne-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "clubougestionnairedusitenonrenseigne-0ed13b",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Club ou Gestionnaire du site non renséigné"
@@ -259,10 +262,17 @@
     },
     {
       "displayName": "Decathlon",
-      "id": "decathlon-31fbc1",
+      "id": "decathlon-5bc672",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["bg", "hk", "ru", "ua"]
+        "exclude": [
+          "bg",
+          "hk",
+          "ru",
+          "tw",
+          "ua",
+          "us"
+        ]
       },
       "tags": {
         "leisure": "pitch",
@@ -332,6 +342,17 @@
       }
     },
     {
+      "displayName": "Fichtner Mainwaring Park",
+      "id": "fichtnermainwaringpark-da3f44",
+      "locationSet": {
+        "include": ["us-or.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Fichtner Mainwaring Park"
+      }
+    },
+    {
       "displayName": "Florida Tennis Center",
       "id": "floridatenniscenter-82f98a",
       "locationSet": {
@@ -393,8 +414,8 @@
     },
     {
       "displayName": "Hrvatski akademski teniski klub Mladost",
-      "id": "hrvatskiakademskiteniskiklubmladost-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "hrvatskiakademskiteniskiklubmladost-dca74c",
+      "locationSet": {"include": ["hr"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Hrvatski akademski teniski klub Mladost"
@@ -571,6 +592,18 @@
       }
     },
     {
+      "displayName": "Missouri Department of Conservation",
+      "id": "missouridepartmentofconservation-da9cf4",
+      "locationSet": {
+        "include": ["us-mo.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Missouri Department of Conservation",
+        "operator:wikidata": "Q6879553"
+      }
+    },
+    {
       "displayName": "MMCB",
       "id": "magistratmestaceskebudejovice-1f8777",
       "locationSet": {
@@ -605,6 +638,15 @@
       }
     },
     {
+      "displayName": "Muuramen kunta / liikuntatoimi",
+      "id": "muuramenkuntaliikuntatoimi-8c67a7",
+      "locationSet": {"include": ["fi"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Muuramen kunta / liikuntatoimi"
+      }
+    },
+    {
       "displayName": "Newport City Council",
       "id": "newportcitycouncil-1a17df",
       "locationSet": {"include": ["gb-wls"]},
@@ -626,11 +668,14 @@
     },
     {
       "displayName": "Noonday Creek Park",
-      "id": "noondaycreekpark-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "noondaycreekpark-80b0d4",
+      "locationSet": {
+        "include": ["us-ga.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Noonday Creek Park"
+        "operator": "Noonday Creek Park",
+        "operator:wikidata": "Q7049756"
       }
     },
     {
@@ -782,8 +827,8 @@
     },
     {
       "displayName": "Servicio Departamental de Deporte Cochabamba",
-      "id": "serviciodepartamentaldedeportecochabamba-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "serviciodepartamentaldedeportecochabamba-4754ec",
+      "locationSet": {"include": ["bo"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Servicio Departamental de Deporte Cochabamba"
@@ -791,8 +836,10 @@
     },
     {
       "displayName": "Sharp Recrean",
-      "id": "sharprecrean-d34695",
-      "locationSet": {"include": ["be"]},
+      "id": "sharprecrean-b5831f",
+      "locationSet": {
+        "include": ["be-vov.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
         "operator": "Sharp Recrean"
@@ -842,11 +889,14 @@
     },
     {
       "displayName": "Springfield Park District",
-      "id": "springfieldparkdistrict-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "springfieldparkdistrict-c70cfb",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Springfield Park District"
+        "operator": "Springfield Park District",
+        "operator:wikidata": "Q23073350"
       }
     },
     {
@@ -896,11 +946,14 @@
     },
     {
       "displayName": "Stadt Karlsruhe",
-      "id": "stadtkarlsruhe-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "stadtkarlsruhe-54bad5",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Stadt Karlsruhe"
+        "operator": "Stadt Karlsruhe",
+        "operator:wikidata": "Q1040"
       }
     },
     {
@@ -1052,11 +1105,14 @@
     },
     {
       "displayName": "Turngemeinde Schweinfurt 1848 e.V.",
-      "id": "turngemeindeschweinfurt1848ev-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "turngemeindeschweinfurt1848ev-d293c1",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Turngemeinde Schweinfurt 1848 e.V."
+        "operator": "Turngemeinde Schweinfurt 1848 e.V.",
+        "operator:wikidata": "Q15851735"
       }
     },
     {
@@ -1137,8 +1193,8 @@
     },
     {
       "displayName": "桃園市立桃園高級中等學校",
-      "id": "296ea1-2afa8b",
-      "locationSet": {"include": ["001"]},
+      "id": "296ea1-fd3831",
+      "locationSet": {"include": ["tw"]},
       "tags": {
         "leisure": "pitch",
         "operator": "桃園市立桃園高級中等學校"

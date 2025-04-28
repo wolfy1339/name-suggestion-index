@@ -28,8 +28,10 @@
     },
     {
       "displayName": "Ajuntament de València",
-      "id": "ajuntamentdevalencia-3746d4",
-      "locationSet": {"include": ["es"]},
+      "id": "ajuntamentdevalencia-55e102",
+      "locationSet": {
+        "include": ["es-v.geojson"]
+      },
       "tags": {
         "amenity": "library",
         "operator": "Ajuntament de València",
@@ -85,9 +87,9 @@
     },
     {
       "displayName": "Austin Public Library",
-      "id": "austinpubliclibrary-24a277",
+      "id": "austinpubliclibrary-d6c1f4",
       "locationSet": {
-        "include": ["us-tx.geojson"]
+        "include": ["us-tx-austin.geojson"]
       },
       "tags": {
         "amenity": "library",
@@ -98,8 +100,10 @@
     },
     {
       "displayName": "Ayuntamiento de Málaga",
-      "id": "ayuntamientodemalaga-3746d4",
-      "locationSet": {"include": ["es"]},
+      "id": "ayuntamientodemalaga-b732f6",
+      "locationSet": {
+        "include": ["es-ma.geojson"]
+      },
       "tags": {
         "amenity": "library",
         "operator": "Ayuntamiento de Málaga",
@@ -554,6 +558,19 @@
       }
     },
     {
+      "displayName": "Bristol City Council",
+      "id": "bristolcitycouncil-8b0fb3",
+      "locationSet": {
+        "include": ["gb-bst.geojson"]
+      },
+      "tags": {
+        "amenity": "library",
+        "operator": "Bristol City Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q16953796"
+      }
+    },
+    {
       "displayName": "Brooklyn Public Library",
       "id": "brooklynpubliclibrary-df14d6",
       "locationSet": {
@@ -791,9 +808,11 @@
     },
     {
       "displayName": "Cleveland Public Library",
-      "id": "clevelandpubliclibrary-f8d891",
+      "id": "clevelandpubliclibrary-b425fb",
       "locationSet": {
-        "include": ["us-oh.geojson"]
+        "include": [
+          "us-oh-cuyahoga_county.geojson"
+        ]
       },
       "tags": {
         "amenity": "library",
@@ -975,8 +994,10 @@
     },
     {
       "displayName": "Directorate of Public Libraries",
-      "id": "directorateofpubliclibraries-f6bcdd",
-      "locationSet": {"include": ["in"]},
+      "id": "directorateofpubliclibraries-6abb8b",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
       "tags": {
         "amenity": "library",
         "operator": "Directorate of Public Libraries",
@@ -1156,19 +1177,6 @@
         "operator": "Free Library of Philadelphia",
         "operator:type": "public",
         "operator:wikidata": "Q3087288"
-      }
-    },
-    {
-      "displayName": "Freie Universität Berlin",
-      "id": "freieuniversitatberlin-8a11d2",
-      "locationSet": {
-        "include": ["de-be.geojson"]
-      },
-      "tags": {
-        "amenity": "library",
-        "operator": "Freie Universität Berlin",
-        "operator:type": "university",
-        "operator:wikidata": "Q2496344"
       }
     },
     {
@@ -2501,8 +2509,10 @@
     },
     {
       "displayName": "Universidad de Málaga",
-      "id": "universidaddemalaga-3746d4",
-      "locationSet": {"include": ["es"]},
+      "id": "universidaddemalaga-b732f6",
+      "locationSet": {
+        "include": ["es-ma.geojson"]
+      },
       "tags": {
         "amenity": "library",
         "operator": "Universidad de Málaga",
@@ -2626,6 +2636,7 @@
       },
       "matchNames": [
         "freie universität",
+        "freie universität berlin",
         "fu",
         "fu berlin"
       ],

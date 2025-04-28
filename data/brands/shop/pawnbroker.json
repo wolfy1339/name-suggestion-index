@@ -201,7 +201,10 @@
     {
       "displayName": "Loombard",
       "id": "loombard-aaadfd",
+      "issues": [10868],
       "locationSet": {"include": ["pl"]},
+      "matchNames": ["loombard"],
+      "note": "match name required to work around generic name regex",
       "tags": {
         "brand": "Loombard",
         "brand:wikidata": "Q113227799",
@@ -288,8 +291,8 @@
     },
     {
       "displayName": "Sunlight",
-      "id": "sunlight-07d800",
-      "locationSet": {"include": ["001"]},
+      "id": "sunlight-a9abeb",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Sunlight",
         "name": "Sunlight",
@@ -378,8 +381,8 @@
     },
     {
       "displayName": "Золотой стандарт",
-      "id": "ae5a17-07d800",
-      "locationSet": {"include": ["001"]},
+      "id": "ae5a17-a9abeb",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Золотой стандарт",
         "name": "Золотой стандарт",

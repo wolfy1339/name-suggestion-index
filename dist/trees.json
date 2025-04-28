@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "version": "6.0.20250318",
-    "generated": "2025-03-18T20:46:27.899Z",
+    "version": "6.0.20250427",
+    "generated": "2025-04-27T03:21:19.689Z",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/dist/trees.json",
-    "hash": "9210565cbb374db80ab586f4e5d845ff"
+    "hash": "a8784c7057df5f691f76f44d78a40eb7"
   },
   "trees": {
     "brands": {

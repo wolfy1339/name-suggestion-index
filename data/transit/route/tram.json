@@ -65,18 +65,6 @@
       }
     },
     {
-      "displayName": "Bydgoszcz",
-      "id": "bydgoszcz-ba1938",
-      "locationSet": {"include": ["pl"]},
-      "tags": {
-        "network": "Bydgoszcz",
-        "network:wikidata": "Q16618278",
-        "operator": "MZK Bydgoszcz",
-        "operator:wikidata": "Q11780317",
-        "route": "tram"
-      }
-    },
-    {
       "displayName": "Carris",
       "id": "carris-c1cfbc",
       "locationSet": {
@@ -243,11 +231,32 @@
     },
     {
       "displayName": "IBXL",
-      "id": "ibxl-c3736a",
-      "locationSet": {"include": ["be"]},
+      "id": "ibxl-99fcaa",
+      "locationSet": {
+        "include": [
+          "be-bru.geojson",
+          "be-vbr.geojson"
+        ]
+      },
       "tags": {
         "network": "IBXL",
         "network:wikidata": "Q114957008",
+        "route": "tram"
+      }
+    },
+    {
+      "displayName": "IDPK",
+      "id": "integrovanadopravaplzenskehokraje-520188",
+      "locationSet": {
+        "include": ["cz-32.geojson"]
+      },
+      "tags": {
+        "network": "Integrovaná doprava Plzeňského kraje",
+        "network:short": "IDPK",
+        "network:wikidata": "Q12021682",
+        "operator": "Plzeňské městské dopravní podniky",
+        "operator:short": "PMDP",
+        "operator:wikidata": "Q2099900",
         "route": "tram"
       }
     },
@@ -409,8 +418,10 @@
     },
     {
       "displayName": "Metrovalencia",
-      "id": "metrovalencia-1ff616",
-      "locationSet": {"include": ["es"]},
+      "id": "metrovalencia-43910c",
+      "locationSet": {
+        "include": ["es-v.geojson"]
+      },
       "tags": {
         "network": "Metrovalencia",
         "network:wikidata": "Q511171",
@@ -493,22 +504,36 @@
       }
     },
     {
-      "displayName": "Nordhessischer VerkehrsVerbund",
-      "id": "nordhessischerverkehrsverbund-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "displayName": "Nahverkehr Mainfranken",
+      "id": "nahverkehrmainfranken-52e12a",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "matchNames": [
+        "verkehrsunternehmens-verbund mainfranken",
+        "verkehrsverbund mainfranken",
+        "vvm"
+      ],
       "tags": {
-        "network": "Nordhessischer VerkehrsVerbund",
+        "network": "Nahverkehr Mainfranken",
+        "network:guid": "DE-BY-NVM",
+        "network:short": "NVM",
+        "network:wikidata": "Q131385745",
+        "operator": "Würzburger Straßenbahn",
+        "operator:short": "WSB",
+        "operator:wikidata": "Q99495010",
         "route": "tram"
       }
     },
     {
-      "displayName": "NVV",
-      "id": "nvv-d7e496",
+      "displayName": "Nordhessischer VerkehrsVerbund",
+      "id": "nordhessischerverkehrsverbund-d7e496",
       "locationSet": {
         "include": ["de-he.geojson"]
       },
       "tags": {
-        "network": "NVV",
+        "network": "Nordhessischer VerkehrsVerbund",
+        "network:short": "NVV",
         "network:wikidata": "Q1998056",
         "route": "tram"
       }
@@ -671,8 +696,8 @@
     },
     {
       "displayName": "RU:SAR:Саратов:трамваи",
-      "id": "9ba77b-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "id": "9ba77b-f97856",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "RU:SAR:Саратов:трамваи",
         "route": "tram"
@@ -1022,23 +1047,6 @@
       }
     },
     {
-      "displayName": "Verkehrsverbund Mainfranken",
-      "id": "verkehrsverbundmainfranken-52e12a",
-      "locationSet": {
-        "include": ["de-by.geojson"]
-      },
-      "matchNames": [
-        "verkehrsunternehmens-verbund mainfranken"
-      ],
-      "tags": {
-        "network": "Verkehrsverbund Mainfranken",
-        "network:short": "VVM",
-        "network:wikidata": "Q2516466",
-        "operator": "Würzburger Straßenbahn GmbH",
-        "route": "tram"
-      }
-    },
-    {
       "displayName": "Verkehrsverbund Mittelsachsen",
       "id": "verkehrsverbundmittelsachsen-789f3b",
       "locationSet": {
@@ -1096,10 +1104,21 @@
     },
     {
       "displayName": "Verkehrsverbund Rhein-Neckar",
-      "id": "verkehrsverbundrheinneckar-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "id": "verkehrsverbundrheinneckar-035e59",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-he.geojson",
+          "de-rp.geojson"
+        ]
+      },
       "tags": {
         "network": "Verkehrsverbund Rhein-Neckar",
+        "network:short": "VRN",
+        "network:wikidata": "Q1553051",
+        "operator": "Rhein-Neckar-Verkehr",
+        "operator:short": "RNV",
+        "operator:wikidata": "Q1650863",
         "route": "tram"
       }
     },
@@ -1138,10 +1157,17 @@
     },
     {
       "displayName": "Verkehrsverbund Warnow",
-      "id": "verkehrsverbundwarnow-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "id": "verkehrsverbundwarnow-a3952f",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
       "tags": {
         "network": "Verkehrsverbund Warnow",
+        "network:short": "VVW",
+        "network:wikidata": "Q2516492",
+        "operator": "Rostocker Straßenbahn AG",
+        "operator:short": "RSAG",
+        "operator:wikidata": "Q6718062",
         "route": "tram"
       }
     },
@@ -1157,25 +1183,6 @@
         "operator": "Wiener Linien",
         "operator:short": "WL",
         "operator:wikidata": "Q668849",
-        "route": "tram"
-      }
-    },
-    {
-      "displayName": "VRN",
-      "id": "vrn-035e59",
-      "locationSet": {
-        "include": [
-          "de-bw.geojson",
-          "de-he.geojson",
-          "de-rp.geojson"
-        ]
-      },
-      "tags": {
-        "network": "VRN",
-        "network:wikidata": "Q1553051",
-        "operator": "Rhein-Neckar-Verkehr",
-        "operator:short": "RNV",
-        "operator:wikidata": "Q1650863",
         "route": "tram"
       }
     },
@@ -1227,24 +1234,11 @@
       }
     },
     {
-      "displayName": "VVW",
-      "id": "vvw-a3952f",
-      "locationSet": {
-        "include": ["de-mv.geojson"]
-      },
-      "tags": {
-        "network": "VVW",
-        "network:wikidata": "Q2516492",
-        "operator": "Rostocker Straßenbahn AG",
-        "operator:short": "RSAG",
-        "operator:wikidata": "Q6718062",
-        "route": "tram"
-      }
-    },
-    {
       "displayName": "WBTC",
-      "id": "wbtc-2d0dc7",
-      "locationSet": {"include": ["in"]},
+      "id": "wbtc-52d4d1",
+      "locationSet": {
+        "include": ["in-wb.geojson"]
+      },
       "matchNames": [
         "calcutta tramways company",
         "ctc"
@@ -1318,11 +1312,15 @@
       }
     },
     {
-      "displayName": "ZDMIKP Bydgoszcz",
-      "id": "zdmikpbydgoszcz-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "displayName": "ZDMiKP Bydgoszcz",
+      "id": "zdmikpbydgoszcz-ba1938",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": ["bydgoszcz"],
       "tags": {
-        "network": "ZDMIKP Bydgoszcz",
+        "network": "ZDMiKP Bydgoszcz",
+        "network:wikidata": "Q16618278",
+        "operator": "MZK Bydgoszcz",
+        "operator:wikidata": "Q11780317",
         "route": "tram"
       }
     },
@@ -1539,10 +1537,11 @@
     },
     {
       "displayName": "Омский трамвай",
-      "id": "560843-2e09b9",
-      "locationSet": {"include": ["001"]},
+      "id": "560843-f97856",
+      "locationSet": {"include": ["ru"]},
       "tags": {
         "network": "Омский трамвай",
+        "network:wikidata": "Q3537061",
         "route": "tram"
       }
     },

@@ -635,8 +635,10 @@
     },
     {
       "displayName": "Partago cv",
-      "id": "partagocv-0e1988",
-      "locationSet": {"include": ["be"]},
+      "id": "partagocv-173b8a",
+      "locationSet": {
+        "include": ["be-vov.geojson"]
+      },
       "tags": {
         "amenity": "car_sharing",
         "operator": "Partago cv",
@@ -860,6 +862,25 @@
         "operator": "Sunfleet",
         "operator:type": "private",
         "operator:wikidata": "Q19978726"
+      }
+    },
+    {
+      "displayName": "SWU Stadtwerke Ulm/Neu-Ulm",
+      "id": "swustadtwerkeulmneuulm-d19c1e",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-by.geojson"
+        ]
+      },
+      "matchNames": [
+        "swu stadtwerke ulm/neu-ulm gmbh"
+      ],
+      "tags": {
+        "amenity": "car_sharing",
+        "operator": "SWU Stadtwerke Ulm/Neu-Ulm",
+        "operator:type": "public",
+        "operator:wikidata": "Q2328644"
       }
     },
     {

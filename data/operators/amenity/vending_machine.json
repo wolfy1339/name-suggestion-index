@@ -61,6 +61,19 @@
       }
     },
     {
+      "displayName": "CapMetro",
+      "id": "capmetro-8fcf5c",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "CapMetro",
+        "operator:wikidata": "Q587830",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
       "displayName": "Mennica Polska (ZTM Warszawa)",
       "id": "mennicapolska-a736eb",
       "locationSet": {"include": ["pl"]},
@@ -114,6 +127,19 @@
       }
     },
     {
+      "displayName": "Metra",
+      "id": "metra-342c43",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "Metra",
+        "operator:wikidata": "Q1814208",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
       "displayName": "Pharmaself24",
       "id": "pharmaself24-44db7a",
       "locationSet": {
@@ -147,13 +173,35 @@
       }
     },
     {
-      "displayName": "Rīgas Satiksme",
+      "displayName": "Rhein-Neckar-Verkehr",
+      "id": "rheinneckarverkehrgmbh-1d057f",
+      "locationSet": {
+        "include": [
+          "de-bw.geojson",
+          "de-he.geojson",
+          "de-rp.geojson"
+        ]
+      },
+      "matchNames": ["rnv", "vrn"],
+      "tags": {
+        "amenity": "vending_machine",
+        "currency:EUR": "yes",
+        "operator": "Rhein-Neckar-Verkehr GmbH",
+        "operator:wikidata": "Q1650863",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
+      "displayName": "Rīgas satiksme",
       "id": "rigassatiksme-3c36b4",
       "locationSet": {"include": ["lv"]},
       "matchNames": ["e-talon"],
       "tags": {
         "amenity": "vending_machine",
-        "operator": "Rīgas Satiksme",
+        "operator": "Rīgas satiksme",
         "operator:wikidata": "Q2280274",
         "vending": "public_transport_tickets"
       }
@@ -211,7 +259,7 @@
       }
     },
     {
-      "displayName": "Translink",
+      "displayName": "Translink (Queensland)",
       "id": "translink-b39439",
       "locationSet": {
         "include": ["au-qld.geojson"]

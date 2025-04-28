@@ -690,10 +690,11 @@
     },
     {
       "displayName": "McOptic",
-      "id": "mcoptic-4fd8bc",
-      "locationSet": {"include": ["001"]},
+      "id": "mcoptic-fac47f",
+      "locationSet": {"include": ["ch"]},
       "tags": {
         "brand": "McOptic",
+        "brand:wikidata": "Q1915328",
         "name": "McOptic",
         "shop": "optician"
       }
@@ -1376,12 +1377,13 @@
       }
     },
     {
-      "displayName": "Visionlab",
-      "id": "visionlab-4fd8bc",
-      "locationSet": {"include": ["001"]},
+      "displayName": "VisionLab",
+      "id": "visionlab-c883cc",
+      "locationSet": {"include": ["es", "pt"]},
       "tags": {
-        "brand": "Visionlab",
-        "name": "Visionlab",
+        "brand": "VisionLab",
+        "brand:wikidata": "Q127604273",
+        "name": "VisionLab",
         "shop": "optician"
       }
     },

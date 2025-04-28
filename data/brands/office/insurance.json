@@ -5,7 +5,7 @@
     "exclude": {
       "generic": [
         "^assurance$",
-        "^insurance$",
+        "^insurance( agency)?$",
         "^ubezpieczenia$",
         "^автострахование$",
         "^ほけんの窓口$"
@@ -39,10 +39,11 @@
     },
     {
       "displayName": "Abeille Assurances",
-      "id": "abeilleassurances-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "abeilleassurances-8c2e7e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Abeille Assurances",
+        "brand:wikidata": "Q117012137",
         "name": "Abeille Assurances",
         "office": "insurance"
       }
@@ -409,7 +410,6 @@
       "tags": {
         "brand": "ARAG",
         "brand:wikidata": "Q296380",
-        "insurance": "health",
         "name": "ARAG",
         "office": "insurance"
       }
@@ -728,17 +728,6 @@
       }
     },
     {
-      "displayName": "Catalana Occidente",
-      "id": "catalanaoccidente-38d127",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "brand": "Catalana Occidente",
-        "brand:wikidata": "Q5936881",
-        "name": "Catalana Occidente",
-        "office": "insurance"
-      }
-    },
-    {
       "displayName": "Cathay Century Insurance",
       "id": "cathaycenturyinsurance-6809cb",
       "locationSet": {"include": ["tw"]},
@@ -778,6 +767,18 @@
       }
     },
     {
+      "displayName": "Co-operators",
+      "id": "cooperators-0c8028",
+      "locationSet": {"include": ["ca"]},
+      "matchNames": ["the co-operators"],
+      "tags": {
+        "brand": "Co-operators",
+        "brand:wikidata": "Q3520320",
+        "name": "Co-operators",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Comparion Insurance Agency",
       "id": "comparioninsuranceagency-6b1e37",
       "locationSet": {"include": ["us"]},
@@ -790,10 +791,13 @@
     },
     {
       "displayName": "Concordia",
-      "id": "concordia-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "concordia-788bac",
+      "locationSet": {
+        "include": ["be", "ch", "de"]
+      },
       "tags": {
         "brand": "Concordia",
+        "brand:wikidata": "Q126478569",
         "name": "Concordia",
         "office": "insurance"
       }
@@ -1019,6 +1023,17 @@
         "brand": "Ergo",
         "brand:wikidata": "Q541909",
         "name": "Ergo",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Ergo Hestia",
+      "id": "ergohestia-313da8",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Ergo Hestia",
+        "brand:wikidata": "Q9254522",
+        "name": "Ergo Hestia",
         "office": "insurance"
       }
     },
@@ -2023,6 +2038,24 @@
       }
     },
     {
+      "displayName": "Occident",
+      "id": "occident-38d127",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "catalana occident",
+        "catalana occidente",
+        "norte hispania",
+        "plus ultra",
+        "seguros bilbao"
+      ],
+      "tags": {
+        "brand": "Occident",
+        "brand:wikidata": "Q124218333",
+        "name": "Occident",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Old Mutual Insure",
       "id": "oldmutualinsure-170662",
       "locationSet": {
@@ -2075,8 +2108,8 @@
     },
     {
       "displayName": "Prévoir Assurances",
-      "id": "prevoirassurances-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "prevoirassurances-8c2e7e",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Prévoir Assurances",
         "name": "Prévoir Assurances",
@@ -2410,17 +2443,6 @@
       }
     },
     {
-      "displayName": "The Co-operators",
-      "id": "thecooperators-0c8028",
-      "locationSet": {"include": ["ca"]},
-      "tags": {
-        "brand": "The Co-operators",
-        "brand:wikidata": "Q3520320",
-        "name": "The Co-operators",
-        "office": "insurance"
-      }
-    },
-    {
       "displayName": "The Hartford",
       "id": "thehartford-6b1e37",
       "locationSet": {"include": ["us"]},
@@ -2668,11 +2690,23 @@
       }
     },
     {
+      "displayName": "Western Financial Group",
+      "id": "westernfinancialgroup-0c8028",
+      "locationSet": {"include": ["ca"]},
+      "tags": {
+        "brand": "Western Financial Group",
+        "brand:wikidata": "Q126901302",
+        "name": "Western Financial Group",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Westland Insurance",
-      "id": "westlandinsurance-b9b33f",
-      "locationSet": {"include": ["001"]},
+      "id": "westlandinsurance-0c8028",
+      "locationSet": {"include": ["ca"]},
       "tags": {
         "brand": "Westland Insurance",
+        "brand:wikidata": "Q127388610",
         "name": "Westland Insurance",
         "office": "insurance"
       }
